@@ -1,0 +1,44 @@
+TRAVEL EXPLORER PWA V6 — INSTALLAZIONE
+
+FILE DA SOSTITUIRE
+- index.html
+
+FILE NUOVI NELLA CARTELLA PRINCIPALE
+- manifest.json
+- service-worker.js
+- pwa-register.js
+- offline.html
+
+CARTELLA NUOVA
+icons/
+- icon-192.png
+- icon-512.png
+- maskable-512.png
+- apple-touch-icon.png
+- favicon-64.png
+
+ASSET ESISTENTE
+assets/mauritius-hero.png
+
+TEST SU PC
+1. Avvia sempre con Live Server.
+2. Apri http://127.0.0.1:5500/
+3. Fai Ctrl+F5.
+4. Dopo qualche secondo il browser dovrebbe mostrare l'installazione PWA.
+5. In Chrome/Edge puoi anche cercare l'icona 'Installa' nella barra indirizzi.
+6. DevTools > Application > Manifest per verificare il manifest.
+7. DevTools > Application > Service Workers per verificare il service worker.
+
+TEST OFFLINE
+1. Visita almeno una volta Home, Mappa, Itinerario, Budget, Documenti, Checklist e Diario.
+2. DevTools > Network > Offline.
+3. Ricarica la Home e prova ad aprire le sezioni.
+4. Meteo live e mappe non ancora viste richiedono rete; i contenuti editoriali e i moduli principali restano disponibili.
+
+IPHONE
+Per l'installazione vera sul telefono la pagina deve essere servita via HTTPS (GitHub Pages va bene).
+Safari > Condividi > Aggiungi alla schermata Home.
+
+ANDROID
+Chrome > menu > Installa app / Aggiungi a schermata Home.
+Se disponibile, comparirà anche il pulsante 'Installa Travel Explorer' nella Home.
