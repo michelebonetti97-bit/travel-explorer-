@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mappa | Travel Explorer</title>
+
+    <!-- CSS principale -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Leaflet -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
+</head>
+
+<body class="map-page">
+
+    <!-- =================================================
+         HEADER
+    ================================================== -->
+
+    <header class="map-header">
+
+        <a href="index.html" class="back-button">
+            ←
+        </a>
+
+        <div>
+            <div class="map-header-title">
+                Mauritius
+            </div>
+
+            <div class="map-header-subtitle">
+                Explorer
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- =================================================
+         FILTRI MAPPA
+    ================================================== -->
+
+    <div class="map-filters">
+
+        <button
+            class="filter-button active"
+            data-filter="all"
+        >
+            Tutto
+        </button>
+
+
+        <button
+            class="filter-button"
+            data-filter="place"
+        >
+            📍 Luoghi
+        </button>
+
+
+        <button
+            class="filter-button"
+            data-filter="beach"
+        >
+            🏖️ Spiagge
+        </button>
+
+
+        <button
+            class="filter-button"
+            data-filter="nature"
+        >
+            🌿 Natura
+        </button>
+
+
+        <button
+            class="filter-button"
+            data-filter="culture"
+        >
+            🛕 Cultura
+        </button>
+
+
+        <button
+            class="filter-button"
+            data-filter="geology"
+        >
+            🌋 Geologia
+        </button>
+
+
+        <button
+            class="filter-button"
+            data-filter="food"
+        >
+            🍛 Food
+        </button>
+
+
+        <button
+            class="filter-button"
+            data-filter="adventure"
+        >
+            🧗 Attività
+        </button>
+
+    </div>
+
+
+    <!-- =================================================
+         MAPPA
+    ================================================== -->
+
+    <main id="map"></main>
+
+
+    <!-- Leaflet -->
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+    </script>
+
+
+    <!-- Travel Explorer -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

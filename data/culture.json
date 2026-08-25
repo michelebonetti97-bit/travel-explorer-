@@ -1,0 +1,6337 @@
+[
+  {
+    "id": "aapravasi-ghat",
+    "type": "culture",
+    "name": "Aapravasi Ghat World Heritage Site",
+    "area": "Port Louis",
+    "coordinates": {
+      "lat": -20.158639,
+      "lon": 57.503167
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "unesco",
+      "museo",
+      "memoria"
+    ],
+    "tags": [
+      "indentured-labour",
+      "unesco",
+      "migrazioni",
+      "colonialismo",
+      "imperdibile"
+    ],
+    "description": "Sito UNESCO sul waterfront di Port Louis che conserva parte dell'antico deposito d'immigrazione attraverso cui passarono centinaia di migliaia di lavoratori a contratto.",
+    "why_go": "È uno dei luoghi più importanti per capire come si è formata la società mauriziana moderna e il ruolo dell'isola nella storia globale del lavoro a contratto.",
+    "history": "Dal 1834 Mauritius fu scelta dall'amministrazione britannica come primo grande laboratorio del sistema di lavoro a contratto successivo all'abolizione della schiavitù. Tra il 1834 e il 1920 quasi mezzo milione di lavoratori a contratto, soprattutto provenienti dall'India, transitarono da Aapravasi Ghat.",
+    "interest": {
+      "nature": 1,
+      "culture": 5,
+      "history": 5,
+      "geology": 0,
+      "food": 1,
+      "photography": 4,
+      "adventure": 1,
+      "relax": 2,
+      "sea": 1
+    },
+    "practical": {
+      "opening": "09:00",
+      "closing": "16:00",
+      "hours_note": "Lunedì-venerdì 09:00-16:00; sabato 09:00-12:00. Chiuso domenica e festivi.",
+      "duration": "circa 1 ora",
+      "duration_min": 45,
+      "duration_recommended": 60,
+      "duration_max": 90,
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": false,
+      "access_notes": "Ingresso gratuito. Facile da combinare a piedi con Postal Museum, Intercontinental Slavery Museum e Central Market."
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 3,
+      "best_for": [
+        "storia",
+        "UNESCO",
+        "migrazioni",
+        "Port Louis"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 0
+    },
+    "conditions": {
+      "best_time_of_day": "mattina",
+      "wind_sensitivity": 1,
+      "rain_sensitivity": 1,
+      "crowd_sensitivity": 2
+    },
+    "photography": {
+      "score": 4,
+      "best_time": "mattina",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "non pertinente al tipo di visita"
+    },
+    "reviews": {
+      "rating": 4.4,
+      "scale": 5,
+      "review_count": 1059,
+      "summary": "I visitatori apprezzano soprattutto il valore storico, il percorso interpretativo chiaro e la possibilità di comprendere una parte essenziale della storia mauriziana. È un sito relativamente compatto e poco spettacolare dal punto di vista scenografico, ma viene spesso giudicato molto più interessante quando si dedica tempo ai pannelli e alle testimonianze.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "intercontinental-slavery-museum",
+      "mauritius-postal-museum",
+      "blue-penny-museum"
+    ],
+    "food_nearby": [
+      "port-louis-central-market-food"
+    ],
+    "activities": [],
+    "links": {
+      "official": "https://aapravasi.govmu.org/aapravasi/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Aapravasi_Ghat",
+      "unesco": "https://whc.unesco.org/en/list/1227/",
+      "science": "",
+      "reviews": "https://www.tripadvisor.co.uk/Attraction_Review-g293817-d1536385-Reviews-Aapravasi_Ghat-Port_Louis.html",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "Aapravasi Ghat Trust Fund",
+        "checked_at": "2026-08-18"
+      },
+      {
+        "type": "unesco",
+        "title": "UNESCO World Heritage Centre",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Priorità molto alta nella giornata di Port Louis.",
+    "priority": {
+      "level": "must-see",
+      "score": 4,
+      "label": "Imperdibile"
+    },
+    "very_local": false
+  },
+  {
+    "id": "intercontinental-slavery-museum",
+    "type": "culture",
+    "name": "Intercontinental Slavery Museum",
+    "area": "Port Louis",
+    "coordinates": {
+      "lat": -20.15904,
+      "lon": 57.50217
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "museo",
+      "schiavitu",
+      "memoria"
+    ],
+    "tags": [
+      "slavery",
+      "memoria",
+      "colonialismo",
+      "resistenza",
+      "port-louis"
+    ],
+    "description": "Museo dedicato alla storia, alla memoria e alle eredità della schiavitù, ospitato nell'ex Military Hospital sul waterfront di Port Louis.",
+    "why_go": "Completa perfettamente Aapravasi Ghat: insieme permettono di leggere due sistemi di lavoro e due grandi capitoli della storia sociale dell'isola.",
+    "history": "Il museo nasce dalle raccomandazioni della Truth and Justice Commission e occupa l'ex Military Hospital di Port Louis, edificio storico legato anche al lavoro degli schiavi durante il periodo coloniale.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 5,
+      "geology": 0,
+      "food": 0,
+      "photography": 3,
+      "adventure": 0,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "opening": "09:30",
+      "closing": "16:00",
+      "hours_note": "Lunedì-venerdì 09:30-16:00 secondo gli orari pubblicati; verificare eventuali variazioni prima della visita.",
+      "duration": "1-1,5 ore",
+      "duration_min": 45,
+      "duration_recommended": 75,
+      "duration_max": 120,
+      "ticket": null,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": false,
+      "access_notes": "A pochi minuti a piedi da Aapravasi Ghat."
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 2,
+      "best_for": [
+        "storia sociale",
+        "memoria",
+        "colonialismo",
+        "giornata culturale"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 0
+    },
+    "conditions": {
+      "best_time_of_day": "mattina o primo pomeriggio",
+      "wind_sensitivity": 0,
+      "rain_sensitivity": 0,
+      "crowd_sensitivity": 1
+    },
+    "photography": {
+      "score": 3,
+      "best_time": "esterno al mattino",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "non pertinente"
+    },
+    "reviews": {
+      "rating": 3.6,
+      "scale": 5,
+      "review_count": 96,
+      "summary": "Le recensioni disponibili apprezzano soprattutto il tema, il valore della memoria e l'impostazione riflessiva delle esposizioni. Alcuni visitatori segnalano un allestimento ancora essenziale e una quantità di contenuti inferiore rispetto a musei più grandi; per chi è interessato alla storia sociale di Mauritius il valore della visita è comunque elevato.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "aapravasi-ghat",
+      "mauritius-postal-museum"
+    ],
+    "food_nearby": [
+      "port-louis-central-market-food"
+    ],
+    "activities": [],
+    "links": {
+      "official": "https://ismmauritiusltd.govmu.org/ism/",
+      "wikipedia": "",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "government",
+        "title": "Intercontinental Slavery Museum Mauritius",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false
+  },
+  {
+    "id": "blue-penny-museum",
+    "type": "culture",
+    "name": "Blue Penny Museum",
+    "area": "Port Louis - Caudan Waterfront",
+    "coordinates": {
+      "lat": -20.160928,
+      "lon": 57.497513
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "museo",
+      "arte",
+      "filatelia"
+    ],
+    "tags": [
+      "blue-penny",
+      "red-penny",
+      "francobolli",
+      "cartografia",
+      "port-louis"
+    ],
+    "description": "Museo di arte e storia mauriziana al Caudan Waterfront, famoso per i rarissimi francobolli Mauritius Post Office e per collezioni dedicate alla navigazione, alla storia coloniale e alla città di Port Louis.",
+    "why_go": "È una visita compatta ma molto ben costruita, utile per collegare storia coloniale, cartografia, cultura materiale e una delle storie filateliche più famose al mondo.",
+    "history": "Le collezioni raccontano l'età delle esplorazioni, la storia coloniale dell'isola, Port Louis e la nascita dei servizi postali mauriziani. I francobolli originali Post Office sono esposti alla luce solo per brevi intervalli per limitarne il deterioramento.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 5,
+      "geology": 0,
+      "food": 0,
+      "photography": 3,
+      "adventure": 0,
+      "relax": 4,
+      "sea": 0
+    },
+    "practical": {
+      "opening": "09:30",
+      "closing": "16:00",
+      "hours_note": "Lunedì-sabato 09:30-16:00. Chiuso domenica e festivi. I francobolli originali sono visibili per 10 minuti al quarto d'ora di ogni ora di apertura.",
+      "duration": "45-90 minuti",
+      "duration_min": 45,
+      "duration_recommended": 75,
+      "duration_max": 120,
+      "ticket": 325,
+      "ticket_type": "adulto non residente",
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "access_notes": "Fotografia consentita nel museo eccetto nella sala dei francobolli."
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 5,
+      "touristic_score": 4,
+      "best_for": [
+        "storia",
+        "arte",
+        "filatelia",
+        "giornata piovosa"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 0
+    },
+    "conditions": {
+      "best_time_of_day": "qualsiasi durante l'apertura",
+      "wind_sensitivity": 0,
+      "rain_sensitivity": 0,
+      "crowd_sensitivity": 2
+    },
+    "photography": {
+      "score": 3,
+      "best_time": "interno",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "non pertinente"
+    },
+    "reviews": {
+      "rating": 4.2,
+      "scale": 5,
+      "review_count": 1057,
+      "summary": "Le recensioni apprezzano l'atmosfera tranquilla, la qualità dell'allestimento, le mappe storiche e soprattutto la sala dedicata ai celebri francobolli. Il museo è relativamente piccolo e alcuni visitatori lo considerano costoso rispetto alla durata, ma per chi ama storia, arte o filatelia è spesso uno dei musei più apprezzati di Port Louis.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "caudan-arts-centre",
+      "aapravasi-ghat",
+      "mauritius-postal-museum"
+    ],
+    "food_nearby": [],
+    "activities": [],
+    "links": {
+      "official": "https://bluepenny.museum/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Blue_Penny_Museum",
+      "unesco": "",
+      "science": "",
+      "reviews": "https://www.tripadvisor.com/Attraction_Review-g293817-d477336-Reviews-Blue_Penny_Museum-Port_Louis.html",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "Blue Penny Museum",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Programmare l'orario in modo da vedere l'esposizione temporizzata dei francobolli originali.",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false
+  },
+  {
+    "id": "fort-adelaide",
+    "type": "culture",
+    "name": "Fort Adelaide - Citadelle",
+    "area": "Port Louis",
+    "coordinates": {
+      "lat": -20.16374,
+      "lon": 57.51033
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "fortificazione",
+      "viewpoint",
+      "fotografia"
+    ],
+    "tags": [
+      "citadelle",
+      "britannici",
+      "panorama",
+      "port-louis",
+      "forte"
+    ],
+    "description": "Fortezza britannica dominante Port Louis, oggi soprattutto apprezzata come punto panoramico sulla capitale, sul porto e sui rilievi circostanti.",
+    "why_go": "Vale soprattutto per leggere la città dall'alto: porto, tessuto urbano e anfiteatro montuoso risultano molto più chiari da qui.",
+    "history": "La fortificazione appartiene alla fase coloniale britannica ed era parte del sistema difensivo e di controllo della capitale.",
+    "interest": {
+      "nature": 2,
+      "culture": 4,
+      "history": 4,
+      "geology": 2,
+      "food": 0,
+      "photography": 5,
+      "adventure": 1,
+      "relax": 3,
+      "sea": 2
+    },
+    "practical": {
+      "opening": "09:00",
+      "closing": "16:00",
+      "hours_note": "Orari pubblicati: lunedì-venerdì 09:00-16:00, sabato 09:00-12:00.",
+      "duration": "30-60 minuti",
+      "duration_min": 25,
+      "duration_recommended": 45,
+      "duration_max": 75,
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "access_notes": "Accesso in salita; utile arrivare in auto e proseguire poi verso il centro."
+    },
+    "experience": {
+      "authenticity": 3,
+      "local_score": 4,
+      "touristic_score": 4,
+      "best_for": [
+        "panorama",
+        "fotografia",
+        "storia militare",
+        "orientamento urbano"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 2
+    },
+    "conditions": {
+      "best_time_of_day": "mattina",
+      "wind_sensitivity": 2,
+      "rain_sensitivity": 3,
+      "crowd_sensitivity": 2
+    },
+    "photography": {
+      "score": 5,
+      "best_time": "mattina",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "da verificare"
+    },
+    "reviews": {
+      "rating": 4.2,
+      "scale": 5,
+      "review_count": 3031,
+      "summary": "Il punto di forza quasi unanimemente citato è il panorama su Port Louis e sul porto. La visita è breve e semplice; alcuni visitatori trovano limitati i contenuti storici e le esposizioni interne, quindi il forte funziona meglio come belvedere storico che come museo tradizionale.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "st-louis-cathedral",
+      "port-louis-chinatown"
+    ],
+    "food_nearby": [
+      "port-louis-central-market-food"
+    ],
+    "activities": [],
+    "links": {
+      "official": "https://mauritiusnow.com/mauritius-map/port-louis-in-mauritius/",
+      "wikipedia": "",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "official-tourism",
+        "title": "Mauritius Now",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false
+  },
+  {
+    "id": "jummah-mosque-port-louis",
+    "type": "culture",
+    "name": "Jummah Mosque",
+    "area": "Port Louis",
+    "coordinates": {
+      "lat": -20.159649,
+      "lon": 57.505073
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "moschea",
+      "architettura",
+      "storia"
+    ],
+    "tags": [
+      "islam",
+      "royal-road",
+      "port-louis",
+      "multiculturalita"
+    ],
+    "description": "Importante moschea nel cuore commerciale di Port Louis, inserita nel tessuto multiculturale della capitale.",
+    "why_go": "In pochi isolati Port Louis permette di passare da moschea a pagoda, cattedrale e tempio tamil: questo è uno dei punti migliori per percepire concretamente la pluralità religiosa dell'isola.",
+    "history": "La moschea si sviluppò a partire dalla comunità musulmana mercantile di Port Louis nel XIX secolo e presenta un'architettura nata dall'incontro tra influenze islamiche, indiane e locali.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 4,
+      "geology": 0,
+      "food": 2,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "opening": null,
+      "closing": null,
+      "hours_note": "Luogo di culto attivo: gli orari di visita possono dipendere dalle preghiere.",
+      "duration": "20-40 minuti",
+      "duration_min": 15,
+      "duration_recommended": 30,
+      "duration_max": 45,
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": false,
+      "access_notes": "Vestirsi in modo rispettoso, evitare di disturbare durante la preghiera e seguire le indicazioni presenti sul posto."
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 2,
+      "best_for": [
+        "architettura religiosa",
+        "multiculturalità",
+        "fotografia urbana"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 0
+    },
+    "conditions": {
+      "best_time_of_day": "mattina fuori dagli orari di preghiera",
+      "wind_sensitivity": 0,
+      "rain_sensitivity": 1,
+      "crowd_sensitivity": 4
+    },
+    "photography": {
+      "score": 4,
+      "best_time": "mattina",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "non pertinente"
+    },
+    "reviews": {
+      "rating": 4.0,
+      "scale": 5,
+      "review_count": 90,
+      "summary": "Le recensioni disponibili sottolineano soprattutto l'architettura, l'atmosfera raccolta e la posizione nel cuore della città. Essendo un luogo di culto attivo, l'esperienza dipende molto dal momento della giornata e dall'accessibilità durante le funzioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "port-louis-chinatown",
+      "aapravasi-ghat"
+    ],
+    "food_nearby": [
+      "port-louis-central-market-food"
+    ],
+    "activities": [],
+    "links": {
+      "official": "https://mauritiusnow.com/mauritius-map/port-louis-in-mauritius/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jummah_Mosque_(Mauritius)",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "official-tourism",
+        "title": "Mauritius Now - Port Louis",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": true
+  },
+  {
+    "id": "kwan-tee-pagoda",
+    "type": "culture",
+    "name": "Kwan Tee Pagoda",
+    "area": "Port Louis",
+    "coordinates": {
+      "lat": -20.16157,
+      "lon": 57.49208
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "pagoda",
+      "cinese",
+      "architettura"
+    ],
+    "tags": [
+      "kwan-tee",
+      "sino-mauritian",
+      "pagoda",
+      "spiritualita"
+    ],
+    "description": "Pagoda storica della comunità sino-mauriziana, immersa in un piccolo spazio verde nei pressi del waterfront di Port Louis.",
+    "why_go": "È una sosta breve ma molto efficace per capire quanto la cultura cinese sia radicata nella storia commerciale e religiosa di Mauritius.",
+    "history": "Il tempio è legato alla storica comunità cinese di Port Louis e alla devozione per Kwan Tee, figura associata a lealtà, giustizia e prosperità.",
+    "interest": {
+      "nature": 2,
+      "culture": 5,
+      "history": 4,
+      "geology": 0,
+      "food": 1,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 4,
+      "sea": 1
+    },
+    "practical": {
+      "opening": null,
+      "closing": null,
+      "hours_note": "Luogo di culto attivo; verificare eventuali cerimonie o limitazioni.",
+      "duration": "20-40 minuti",
+      "duration_min": 15,
+      "duration_recommended": 30,
+      "duration_max": 45,
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": null,
+      "access_notes": "Visita rispettosa e silenziosa; seguire le indicazioni del tempio."
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 2,
+      "best_for": [
+        "religioni",
+        "cultura cinese",
+        "fotografia",
+        "sosta tranquilla"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 0
+    },
+    "conditions": {
+      "best_time_of_day": "mattina",
+      "wind_sensitivity": 0,
+      "rain_sensitivity": 1,
+      "crowd_sensitivity": 1
+    },
+    "photography": {
+      "score": 4,
+      "best_time": "mattina",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "non pertinente"
+    },
+    "reviews": {
+      "summary": "Le recensioni e i racconti di visita descrivono soprattutto un luogo piccolo, pacifico e poco affollato, apprezzato per l'atmosfera, i dettagli decorativi e il contrasto con il traffico della capitale. È più una sosta culturale contemplativa che una grande attrazione.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "blue-penny-museum",
+      "caudan-arts-centre"
+    ],
+    "food_nearby": [],
+    "activities": [],
+    "links": {
+      "official": "https://www.kwanteepagoda.org/",
+      "wikipedia": "",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "Kwan Tee Pagoda",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "",
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true
+  },
+  {
+    "id": "sockalingum-meenatchee-ammen-kovil",
+    "type": "culture",
+    "name": "Sockalingum Meenatchee Ammen Kovil",
+    "area": "Port Louis",
+    "coordinates": {
+      "lat": -20.14968,
+      "lon": 57.51949
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "tempio",
+      "induismo",
+      "architettura"
+    ],
+    "tags": [
+      "tamil",
+      "kovil",
+      "dravidico",
+      "port-louis"
+    ],
+    "description": "Grande tempio tamil di Port Louis, riconoscibile per le facciate riccamente decorate e la forte presenza di sculture policrome.",
+    "why_go": "È uno dei luoghi più immediati per osservare la componente tamil della cultura mauriziana e un linguaggio architettonico molto diverso dagli altri edifici religiosi della capitale.",
+    "history": "Il tempio testimonia la presenza e la continuità della comunità tamil a Mauritius e l'importanza delle tradizioni religiose dell'India meridionale nell'isola.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 4,
+      "geology": 0,
+      "food": 0,
+      "photography": 5,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "opening": null,
+      "closing": null,
+      "hours_note": "Luogo di culto attivo: verificare sul posto gli orari adatti ai visitatori.",
+      "duration": "30-45 minuti",
+      "duration_min": 20,
+      "duration_recommended": 35,
+      "duration_max": 60,
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "access_notes": "Abbigliamento rispettoso; togliere le scarpe quando richiesto e non interferire con le cerimonie."
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 2,
+      "best_for": [
+        "induismo",
+        "arte religiosa",
+        "fotografia",
+        "cultura tamil"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 0
+    },
+    "conditions": {
+      "best_time_of_day": "mattina",
+      "wind_sensitivity": 0,
+      "rain_sensitivity": 1,
+      "crowd_sensitivity": 3
+    },
+    "photography": {
+      "score": 5,
+      "best_time": "mattina",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "non pertinente"
+    },
+    "reviews": {
+      "rating": 4.6,
+      "scale": 5,
+      "review_count": 617,
+      "summary": "I visitatori apprezzano soprattutto i colori, la ricchezza delle sculture, l'architettura e l'atmosfera spirituale. È un luogo di culto reale e non costruito per i turisti: questo ne aumenta l'autenticità, ma richiede maggiore attenzione alle regole e ai momenti di preghiera.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "pere-laval-shrine"
+    ],
+    "food_nearby": [],
+    "activities": [],
+    "links": {
+      "official": "https://mauritiusnow.com/mauritius-map/port-louis-in-mauritius/",
+      "wikipedia": "",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "official-tourism",
+        "title": "Mauritius Now - Port Louis",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": true
+  },
+  {
+    "id": "st-louis-cathedral",
+    "type": "culture",
+    "name": "St Louis Cathedral",
+    "area": "Port Louis",
+    "coordinates": {
+      "lat": -20.164523,
+      "lon": 57.506471
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "cattedrale",
+      "storia",
+      "architettura"
+    ],
+    "tags": [
+      "cattolicesimo",
+      "port-louis",
+      "coloniale",
+      "cattedrale"
+    ],
+    "description": "Cattedrale cattolica nel centro di Port Louis, sede della diocesi e risultato di una lunga successione di costruzioni, cicloni e ricostruzioni.",
+    "why_go": "È una tappa rapida ma utile nel mosaico religioso della capitale e si combina bene con Fort Adelaide e il centro storico.",
+    "history": "Sul sito si sono succedute diverse chiese a partire dal XVIII secolo. L'edificio attuale deriva in larga parte dalla ricostruzione realizzata tra il 1930 e il 1933, dopo ripetuti danni e problemi strutturali delle costruzioni precedenti.",
+    "interest": {
+      "nature": 0,
+      "culture": 4,
+      "history": 4,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "opening": "06:00",
+      "closing": "17:30",
+      "hours_note": "Orari indicativi del luogo di culto: lunedì-venerdì 06:00-17:30; sabato fino alle 18:30; domenica 06:00-13:00.",
+      "duration": "20-40 minuti",
+      "duration_min": 15,
+      "duration_recommended": 30,
+      "duration_max": 45,
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": false,
+      "access_notes": "Evitare di visitare in modo invasivo durante le funzioni."
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 4,
+      "touristic_score": 2,
+      "best_for": [
+        "architettura",
+        "religioni",
+        "storia urbana"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 0
+    },
+    "conditions": {
+      "best_time_of_day": "mattina",
+      "wind_sensitivity": 0,
+      "rain_sensitivity": 0,
+      "crowd_sensitivity": 3
+    },
+    "photography": {
+      "score": 4,
+      "best_time": "mattina",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "non pertinente"
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 640,
+      "summary": "Le recensioni apprezzano il carattere storico, l'interno sobrio e la posizione centrale. La visita è generalmente breve e viene percepita come una piacevole tappa culturale più che come un'attrazione da sola mezza giornata.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "fort-adelaide",
+      "port-louis-chinatown"
+    ],
+    "food_nearby": [
+      "port-louis-central-market-food"
+    ],
+    "activities": [],
+    "links": {
+      "official": "https://mauritiusnow.com/mauritius-map/port-louis-in-mauritius/",
+      "wikipedia": "https://en.wikipedia.org/wiki/St._Louis_Cathedral,_Port-Louis",
+      "unesco": "",
+      "science": "",
+      "reviews": "https://www.tripadvisor.co.uk/Attraction_Review-g293817-d8145930-Reviews-St_Louis_Cathedral-Port_Louis.html",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "business",
+        "title": "Current local listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "",
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true
+  },
+  {
+    "id": "pere-laval-shrine",
+    "type": "culture",
+    "name": "Père Laval Shrine",
+    "area": "Sainte-Croix - Port Louis",
+    "coordinates": {
+      "lat": -20.14812,
+      "lon": 57.52919
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "pellegrinaggio",
+      "storia",
+      "memoria"
+    ],
+    "tags": [
+      "pere-laval",
+      "cattolicesimo",
+      "pellegrinaggio",
+      "mauritius"
+    ],
+    "description": "Santuario e luogo di pellegrinaggio dedicato al beato Jacques-Désiré Laval, missionario profondamente legato alla storia sociale e religiosa di Mauritius.",
+    "why_go": "È meno 'monumento' e più luogo vissuto: permette di osservare una devozione che attraversa comunità diverse ed è ancora molto presente nell'identità mauriziana.",
+    "history": "Jacques-Désiré Laval, vissuto tra il 1803 e il 1864, fu medico e poi sacerdote missionario a Mauritius, dedicandosi in particolare ai poveri e agli ex schiavi. Fu beatificato nel 1979 e il suo santuario è meta di un grande pellegrinaggio annuale attorno al 9 settembre.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 5,
+      "geology": 0,
+      "food": 0,
+      "photography": 3,
+      "adventure": 0,
+      "relax": 4,
+      "sea": 0
+    },
+    "practical": {
+      "opening": "08:00",
+      "closing": "18:00",
+      "hours_note": "Orario corrente indicato 08:00-18:00 tutti i giorni; funzioni e pellegrinaggi possono modificare l'accessibilità.",
+      "duration": "30-60 minuti",
+      "duration_min": 25,
+      "duration_recommended": 45,
+      "duration_max": 75,
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "access_notes": "Luogo sacro attivo: abbigliamento rispettoso e comportamento discreto."
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "religione vissuta",
+        "storia sociale",
+        "pellegrinaggio"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 0
+    },
+    "conditions": {
+      "best_time_of_day": "mattina",
+      "wind_sensitivity": 0,
+      "rain_sensitivity": 0,
+      "crowd_sensitivity": 5
+    },
+    "photography": {
+      "score": 3,
+      "best_time": "mattina",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "non pertinente"
+    },
+    "reviews": {
+      "rating": 4.8,
+      "scale": 5,
+      "review_count": 137,
+      "summary": "Le recensioni descrivono il santuario come un luogo molto sentito, tranquillo e spiritualmente intenso. Sono apprezzati il piccolo museo, la storia personale di Père Laval e l'atmosfera di pellegrinaggio; il valore della visita è soprattutto culturale e umano, più che architettonico.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "sockalingum-meenatchee-ammen-kovil"
+    ],
+    "food_nearby": [],
+    "activities": [],
+    "links": {
+      "official": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jacques-D%C3%A9sir%C3%A9_Laval",
+      "unesco": "",
+      "science": "",
+      "reviews": "https://www.tripadvisor.co.uk/Attraction_Review-g293817-d11655005-Reviews-Pere_Laval_Church-Port_Louis.html",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "business",
+        "title": "Current local listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "La grande festa cade il 9 settembre; durante il viaggio del 13-20 settembre l'afflusso principale sarà già passato.",
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true
+  },
+  {
+    "id": "port-louis-chinatown",
+    "type": "culture",
+    "name": "Chinatown Port Louis",
+    "area": "Port Louis",
+    "coordinates": {
+      "lat": -20.1608,
+      "lon": 57.5064
+    },
+    "categories": [
+      "cultura",
+      "quartiere",
+      "storia",
+      "cinese",
+      "street-art"
+    ],
+    "tags": [
+      "chinatown",
+      "hakka",
+      "street-art",
+      "food",
+      "urban"
+    ],
+    "description": "Quartiere storico sino-mauriziano di Port Louis, fatto di botteghe, insegne, ristoranti, piccoli templi, street art e attività commerciali multigenerazionali.",
+    "why_go": "È il modo migliore per leggere la componente cinese dell'identità mauriziana senza entrare necessariamente in un museo.",
+    "history": "La comunità cinese, e in particolare gruppi hakka e cantonesi, ha avuto un ruolo importante nella storia commerciale di Port Louis. Il quartiere conserva attività familiari e riferimenti culturali stratificati.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 4,
+      "geology": 0,
+      "food": 5,
+      "photography": 5,
+      "adventure": 1,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "opening": null,
+      "closing": null,
+      "hours_note": "Quartiere aperto; botteghe e ristoranti hanno orari propri.",
+      "duration": "1-2 ore",
+      "duration_min": 45,
+      "duration_recommended": 90,
+      "duration_max": 150,
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": false,
+      "access_notes": "Da esplorare a piedi. Traffico e marciapiedi possono rendere la passeggiata meno rilassata nelle ore di punta."
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 3,
+      "best_for": [
+        "vita urbana",
+        "street food",
+        "fotografia",
+        "cultura cinese"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 0
+    },
+    "conditions": {
+      "best_time_of_day": "tarda mattina o pranzo",
+      "wind_sensitivity": 0,
+      "rain_sensitivity": 2,
+      "crowd_sensitivity": 4
+    },
+    "photography": {
+      "score": 5,
+      "best_time": "mattina e tardo pomeriggio",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "non pertinente"
+    },
+    "reviews": {
+      "summary": "Le impressioni dei visitatori premiano soprattutto il carattere locale, le insegne, la street art e la componente gastronomica. Non è un quartiere monumentale né perfettamente 'turistico': traffico, caos e negozi chiusi in alcuni momenti fanno parte dell'esperienza urbana.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "jummah-mosque-port-louis",
+      "st-louis-cathedral",
+      "aapravasi-ghat"
+    ],
+    "food_nearby": [
+      "port-louis-central-market-food"
+    ],
+    "activities": [],
+    "links": {
+      "official": "https://mauritiusnow.com/mauritius-map/port-louis-in-mauritius/",
+      "wikipedia": "",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "official-tourism",
+        "title": "Mauritius Now - Port Louis",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate riferite al cuore del quartiere, non a un singolo edificio.",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": true
+  },
+  {
+    "id": "mauritius-postal-museum",
+    "type": "culture",
+    "name": "Mauritius Postal Museum",
+    "area": "Port Louis Waterfront",
+    "coordinates": {
+      "lat": -20.159885,
+      "lon": 57.501642
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "museo",
+      "posta",
+      "architettura"
+    ],
+    "tags": [
+      "postal-history",
+      "general-post-office",
+      "port-louis"
+    ],
+    "description": "Museo ospitato nello storico General Post Office, dedicato allo sviluppo delle comunicazioni e dei servizi postali mauriziani.",
+    "why_go": "È un museo di nicchia ma molto facile da inserire nel percorso a piedi del waterfront e completa bene il Blue Penny Museum.",
+    "history": "Il General Post Office fu costruito nella seconda metà del XIX secolo e rappresenta un esempio importante di architettura pubblica coloniale. Il museo racconta l'evoluzione del sistema postale dell'isola.",
+    "interest": {
+      "nature": 0,
+      "culture": 4,
+      "history": 4,
+      "geology": 0,
+      "food": 0,
+      "photography": 3,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "opening": "08:30",
+      "closing": "16:30",
+      "hours_note": "Lunedì-venerdì 08:30-16:30; sabato 08:30-12:15.",
+      "duration": "30-60 minuti",
+      "duration_min": 25,
+      "duration_recommended": 45,
+      "duration_max": 75,
+      "ticket": null,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": false,
+      "access_notes": "I celebri francobolli Blue/Red Penny originali sono conservati al Blue Penny Museum, non qui."
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 4,
+      "touristic_score": 2,
+      "best_for": [
+        "storia postale",
+        "architettura",
+        "visita breve"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 0
+    },
+    "conditions": {
+      "best_time_of_day": "mattina",
+      "wind_sensitivity": 0,
+      "rain_sensitivity": 0,
+      "crowd_sensitivity": 1
+    },
+    "photography": {
+      "score": 3,
+      "best_time": "esterno al mattino",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "non pertinente"
+    },
+    "reviews": {
+      "rating": 4.2,
+      "scale": 5,
+      "review_count": 316,
+      "summary": "Le recensioni lo considerano un museo piccolo e specializzato, interessante per chi ama storia, filatelia e vecchi edifici pubblici. Non richiede molto tempo e viene apprezzato soprattutto come complemento al percorso storico del waterfront.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "aapravasi-ghat",
+      "intercontinental-slavery-museum",
+      "blue-penny-museum"
+    ],
+    "food_nearby": [
+      "port-louis-central-market-food"
+    ],
+    "activities": [],
+    "links": {
+      "official": "",
+      "wikipedia": "",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "business",
+        "title": "Current local listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "",
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": false
+  },
+  {
+    "id": "natural-history-museum-port-louis",
+    "type": "culture",
+    "name": "Natural History Museum Port Louis",
+    "area": "Port Louis",
+    "coordinates": {
+      "lat": -20.162917,
+      "lon": 57.502217
+    },
+    "categories": [
+      "cultura",
+      "museo",
+      "storia-naturale",
+      "dodo",
+      "scienza"
+    ],
+    "tags": [
+      "dodo",
+      "fauna",
+      "museo",
+      "biodiversita",
+      "scienza"
+    ],
+    "description": "Museo di storia naturale dedicato alla fauna mauriziana, alla vita marina, agli insetti, alle tartarughe giganti e naturalmente al dodo.",
+    "why_go": "Per chi è interessato alla storia naturale dell'isola è una tappa rapida e utile, soprattutto prima o dopo le riserve naturalistiche.",
+    "history": "È considerato il museo più antico di Mauritius e fa parte del Mauritius Institute. Le sue collezioni documentano biodiversità, specie estinte e storia scientifica dell'arcipelago.",
+    "interest": {
+      "nature": 5,
+      "culture": 3,
+      "history": 3,
+      "geology": 2,
+      "food": 0,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 2
+    },
+    "practical": {
+      "opening": "09:00",
+      "closing": "16:00",
+      "hours_note": "Lun, mar, gio, ven 09:00-16:00; mer 11:00-16:00; sab 09:00-12:00.",
+      "duration": "45-75 minuti",
+      "duration_min": 30,
+      "duration_recommended": 60,
+      "duration_max": 90,
+      "ticket": null,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": false,
+      "access_notes": ""
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 4,
+      "touristic_score": 2,
+      "best_for": [
+        "dodo",
+        "biodiversità",
+        "scienza",
+        "giornata piovosa"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 2
+    },
+    "conditions": {
+      "best_time_of_day": "mattina",
+      "wind_sensitivity": 0,
+      "rain_sensitivity": 0,
+      "crowd_sensitivity": 1
+    },
+    "photography": {
+      "score": 2,
+      "best_time": "interno",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "non pertinente"
+    },
+    "reviews": {
+      "rating": 4.3,
+      "scale": 5,
+      "review_count": 445,
+      "summary": "Il dodo e le collezioni di fauna sono gli elementi più apprezzati. Il museo viene spesso descritto come interessante e accessibile, ma con un'impostazione più tradizionale rispetto ai musei scientifici moderni. È particolarmente adatto a una visita breve.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "st-louis-cathedral",
+      "blue-penny-museum"
+    ],
+    "food_nearby": [
+      "port-louis-central-market-food"
+    ],
+    "activities": [],
+    "links": {
+      "official": "https://mauritiusmuseums.govmu.org/",
+      "wikipedia": "",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "government",
+        "title": "Mauritius Museums Council",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false
+  },
+  {
+    "id": "caudan-arts-centre",
+    "type": "culture",
+    "name": "Caudan Arts Centre",
+    "area": "Port Louis - Caudan",
+    "coordinates": {
+      "lat": -20.161965,
+      "lon": 57.498194
+    },
+    "categories": [
+      "cultura",
+      "arte",
+      "teatro",
+      "musica",
+      "contemporaneo"
+    ],
+    "tags": [
+      "performing-arts",
+      "teatro",
+      "concerti",
+      "mostre"
+    ],
+    "description": "Centro culturale contemporaneo al Caudan Waterfront con teatro, musica, spettacoli ed esposizioni.",
+    "why_go": "Non è una visita fissa come un museo: ha senso soprattutto se il programma durante il soggiorno offre uno spettacolo, una mostra o un evento interessante.",
+    "history": "Il centro rappresenta una delle principali infrastrutture culturali contemporanee della capitale.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 2,
+      "geology": 0,
+      "food": 2,
+      "photography": 3,
+      "adventure": 0,
+      "relax": 4,
+      "sea": 0
+    },
+    "practical": {
+      "opening": null,
+      "closing": null,
+      "hours_note": "Orari dipendenti da spettacoli, mostre ed eventi.",
+      "duration": "variabile",
+      "duration_min": 30,
+      "duration_recommended": 120,
+      "duration_max": 240,
+      "ticket": null,
+      "currency": "MUR",
+      "reservation_required": true,
+      "parking": true,
+      "access_notes": "Controllare il programma online prima della giornata a Port Louis."
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 4,
+      "touristic_score": 2,
+      "best_for": [
+        "teatro",
+        "musica",
+        "arte contemporanea",
+        "sera"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 0
+    },
+    "conditions": {
+      "best_time_of_day": "in base all'evento",
+      "wind_sensitivity": 0,
+      "rain_sensitivity": 0,
+      "crowd_sensitivity": 3
+    },
+    "photography": {
+      "score": 3,
+      "best_time": "in base all'evento",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "non pertinente"
+    },
+    "reviews": {
+      "rating": 4.6,
+      "scale": 5,
+      "review_count": 1085,
+      "summary": "Le recensioni apprezzano la qualità della sala, l'acustica, l'organizzazione e il livello degli spettacoli. Il valore della visita dipende inevitabilmente dal programma in calendario, quindi va trattato come opzione serale o culturale dinamica.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "blue-penny-museum"
+    ],
+    "food_nearby": [],
+    "activities": [],
+    "links": {
+      "official": "https://caudanartscentre.com/",
+      "wikipedia": "",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "official-tourism",
+        "title": "Mauritius Now - Port Louis",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "",
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": false
+  },
+  {
+    "id": "maheswarnath-mandir",
+    "type": "culture",
+    "name": "Maheswarnath Mandir - Triolet Temple",
+    "area": "Nord - Triolet",
+    "coordinates": {
+      "lat": -20.042482,
+      "lon": 57.55239
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "tempio",
+      "induismo",
+      "storia"
+    ],
+    "tags": [
+      "shiva",
+      "triolet",
+      "hindu",
+      "tempio",
+      "imperdibile"
+    ],
+    "description": "Grande complesso templare induista a Triolet, dedicato principalmente a Shiva e circondato da santuari minori.",
+    "why_go": "È uno dei templi più importanti da inserire nella giornata del nord e offre un'esperienza molto più culturale rispetto a limitarsi alle sole spiagge.",
+    "history": "Il tempio fu fondato nel 1888 da Pandit Sanjbunlall Ramsoondur ed è indicato dall'ente turistico mauriziano come il più grande tempio hindu dell'isola.",
+    "interest": {
+      "nature": 1,
+      "culture": 5,
+      "history": 5,
+      "geology": 0,
+      "food": 0,
+      "photography": 5,
+      "adventure": 0,
+      "relax": 4,
+      "sea": 0
+    },
+    "practical": {
+      "opening": null,
+      "closing": null,
+      "hours_note": "Tempio attivo: verificare sul posto gli orari di visita e le funzioni.",
+      "duration": "45-75 minuti",
+      "duration_min": 30,
+      "duration_recommended": 60,
+      "duration_max": 90,
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "access_notes": "Togliere le scarpe dove richiesto, vestire in modo rispettoso e non interrompere le preghiere."
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 2,
+      "best_for": [
+        "induismo",
+        "architettura religiosa",
+        "storia",
+        "fotografia"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 0
+    },
+    "conditions": {
+      "best_time_of_day": "mattina",
+      "wind_sensitivity": 0,
+      "rain_sensitivity": 1,
+      "crowd_sensitivity": 3
+    },
+    "photography": {
+      "score": 5,
+      "best_time": "mattina",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "non pertinente"
+    },
+    "reviews": {
+      "summary": "Le recensioni accessibili descrivono un luogo tranquillo e spirituale, apprezzato per l'architettura e per il fatto di essere un tempio realmente vissuto. Alcuni visitatori trovano alcune aree semplici o bisognose di manutenzione, ma il valore culturale resta alto.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "notre-dame-auxiliatrice-cap-malheureux",
+      "laventure-du-sucre"
+    ],
+    "food_nearby": [],
+    "activities": [],
+    "links": {
+      "official": "https://mauritiusnow.com/mauritius-map/north-mauritius/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Maheswarnath_Mandir",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "official-tourism",
+        "title": "Mauritius Now - North",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "",
+    "priority": {
+      "level": "must-see",
+      "score": 4,
+      "label": "Imperdibile"
+    },
+    "very_local": true
+  },
+  {
+    "id": "chateau-de-labourdonnais",
+    "type": "culture",
+    "name": "Château de Labourdonnais",
+    "area": "Nord - Mapou",
+    "coordinates": {
+      "lat": -20.07173,
+      "lon": 57.61755
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "museo",
+      "casa-coloniale",
+      "giardini"
+    ],
+    "tags": [
+      "chateau",
+      "coloniale",
+      "rum",
+      "giardini",
+      "degustazione"
+    ],
+    "description": "Dimora storica ottocentesca restaurata, circondata da giardini e inserita in una tenuta agricola con prodotti locali e degustazioni.",
+    "why_go": "È una delle migliori visite per capire la vita delle grandi tenute coloniali e il rapporto tra casa padronale, agricoltura e produzione locale.",
+    "history": "Il château fu costruito nella metà del XIX secolo e rappresenta uno degli esempi meglio conservati di grande residenza coloniale mauriziana.",
+    "interest": {
+      "nature": 4,
+      "culture": 5,
+      "history": 5,
+      "geology": 1,
+      "food": 4,
+      "photography": 5,
+      "adventure": 1,
+      "relax": 5,
+      "sea": 0
+    },
+    "practical": {
+      "opening": "09:00",
+      "closing": "17:00",
+      "hours_note": "Aperto tutti i giorni 09:00-17:00; ultimo ingresso indicato alle 15:45.",
+      "duration": "1,5-2 ore",
+      "duration_min": 60,
+      "duration_recommended": 90,
+      "duration_max": 150,
+      "ticket": null,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "access_notes": "Le visite guidate hanno orari specifici; la visita classica è più flessibile."
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 4,
+      "touristic_score": 4,
+      "best_for": [
+        "storia",
+        "architettura",
+        "giardini",
+        "degustazione"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 1
+    },
+    "conditions": {
+      "best_time_of_day": "mattina",
+      "wind_sensitivity": 1,
+      "rain_sensitivity": 2,
+      "crowd_sensitivity": 3
+    },
+    "photography": {
+      "score": 5,
+      "best_time": "mattina o tardo pomeriggio",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "da verificare"
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 2667,
+      "summary": "La casa restaurata, i giardini e la degustazione finale sono gli aspetti più apprezzati. Molti visitatori trovano piacevole il ritmo della visita e la qualità della conservazione; alcune recensioni segnalano invece un'esperienza piuttosto breve o un rapporto qualità-prezzo non eccezionale se si visita molto velocemente.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "laventure-du-sucre",
+      "maheswarnath-mandir"
+    ],
+    "food_nearby": [],
+    "activities": [],
+    "links": {
+      "official": "https://domainedelabourdonnais.com/",
+      "wikipedia": "",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "Domaine de Labourdonnais",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false
+  },
+  {
+    "id": "laventure-du-sucre",
+    "type": "culture",
+    "name": "L'Aventure du Sucre",
+    "area": "Nord - Pamplemousses",
+    "coordinates": {
+      "lat": -20.09755,
+      "lon": 57.57411
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "museo",
+      "zucchero",
+      "industria"
+    ],
+    "tags": [
+      "sugar",
+      "canna-da-zucchero",
+      "rum",
+      "museo",
+      "identita-mauriziana",
+      "imperdibile"
+    ],
+    "description": "Museo ricavato in un ex zuccherificio che racconta la storia dello zucchero e, attraverso di essa, economia, schiavitù, lavoro a contratto, agricoltura e società mauriziana.",
+    "why_go": "È probabilmente il museo più efficace per collegare in un'unica narrazione zucchero, colonizzazione, schiavitù, immigrazione e trasformazione economica dell'isola.",
+    "history": "La canna da zucchero ha modellato per secoli paesaggio, economia e società mauriziana. Il museo utilizza l'ex stabilimento di Beau Plan per raccontare questo sistema e le persone che ne fecero parte.",
+    "interest": {
+      "nature": 2,
+      "culture": 5,
+      "history": 5,
+      "geology": 1,
+      "food": 4,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 4,
+      "sea": 0
+    },
+    "practical": {
+      "opening": "10:00",
+      "closing": "16:00",
+      "hours_note": "Museo aperto lunedì-sabato 10:00-16:00, inclusi i festivi; chiuso domenica. Ultimo ingresso consigliato attorno alle 15:00.",
+      "duration": "circa 2 ore",
+      "duration_min": 90,
+      "duration_recommended": 120,
+      "duration_max": 180,
+      "ticket": null,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "access_notes": "Prevedere tempo per le degustazioni finali di zuccheri e rum."
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 5,
+      "touristic_score": 4,
+      "best_for": [
+        "storia",
+        "zucchero",
+        "rum",
+        "giornata piovosa"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 1
+    },
+    "conditions": {
+      "best_time_of_day": "tarda mattina o primo pomeriggio",
+      "wind_sensitivity": 0,
+      "rain_sensitivity": 0,
+      "crowd_sensitivity": 3
+    },
+    "photography": {
+      "score": 4,
+      "best_time": "qualsiasi",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "non pertinente"
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 5009,
+      "summary": "Le recensioni premiano l'allestimento completo, la quantità di informazioni, l'audioguida e le degustazioni finali. È spesso considerato molto più interessante di quanto suggerisca il semplice tema dello zucchero. Chi vuole leggere ogni pannello può impiegare parecchio tempo; per alcuni la quantità di testo è persino eccessiva.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "chateau-de-labourdonnais",
+      "maheswarnath-mandir"
+    ],
+    "food_nearby": [],
+    "activities": [],
+    "links": {
+      "official": "https://aventuredusucre.com/",
+      "wikipedia": "",
+      "unesco": "",
+      "science": "",
+      "reviews": "https://www.tripadvisor.co.uk/Attraction_Review-g804550-d1412174-Reviews-L_Aventure_du_Sucre-Pamplemousses.html",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "L'Aventure du Sucre",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Alta priorità nella giornata del nord.",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false
+  },
+  {
+    "id": "notre-dame-auxiliatrice-cap-malheureux",
+    "type": "culture",
+    "name": "Notre-Dame Auxiliatrice - Cap Malheureux",
+    "area": "Nord - Cap Malheureux",
+    "coordinates": {
+      "lat": -19.98653,
+      "lon": 57.62228
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "chiesa",
+      "fotografia",
+      "mare"
+    ],
+    "tags": [
+      "red-roof",
+      "cap-malheureux",
+      "coin-de-mire",
+      "fotografia"
+    ],
+    "description": "Piccola chiesa cattolica dal celebre tetto rosso, affacciata sulla costa settentrionale con Coin de Mire sullo sfondo.",
+    "why_go": "È una sosta breve ma iconica, perfetta da integrare con la giornata del nord e con le spiagge vicine.",
+    "history": "La chiesa è diventata uno dei simboli visivi del nord di Mauritius grazie alla sua posizione sul mare e al tetto rosso molto riconoscibile.",
+    "interest": {
+      "nature": 3,
+      "culture": 4,
+      "history": 3,
+      "geology": 1,
+      "food": 0,
+      "photography": 5,
+      "adventure": 0,
+      "relax": 5,
+      "sea": 5
+    },
+    "practical": {
+      "opening": null,
+      "closing": null,
+      "hours_note": "Chiesa attiva; l'accessibilità interna dipende dalle funzioni.",
+      "duration": "30-60 minuti",
+      "duration_min": 20,
+      "duration_recommended": 45,
+      "duration_max": 75,
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "access_notes": "Mantenere un comportamento rispettoso durante messe, matrimoni o altre funzioni."
+    },
+    "experience": {
+      "authenticity": 3,
+      "local_score": 4,
+      "touristic_score": 5,
+      "best_for": [
+        "fotografia",
+        "tramonto",
+        "sosta panoramica",
+        "nord"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 1
+    },
+    "conditions": {
+      "best_time_of_day": "mattina presto o tardo pomeriggio",
+      "wind_sensitivity": 2,
+      "rain_sensitivity": 3,
+      "crowd_sensitivity": 4
+    },
+    "photography": {
+      "score": 5,
+      "best_time": "alba e prima mattina",
+      "sunrise": true,
+      "sunset": false,
+      "drone": "da verificare con attenzione per luogo di culto e costa"
+    },
+    "reviews": {
+      "rating": 4.4,
+      "scale": 5,
+      "review_count": 1218,
+      "summary": "La posizione sul mare, il tetto rosso e la vista su Coin de Mire sono gli aspetti più apprezzati. È una visita molto breve e spesso affollata da persone che si fermano principalmente per fotografarla; chi arriva presto trova un'atmosfera decisamente più tranquilla.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "maheswarnath-mandir"
+    ],
+    "food_nearby": [],
+    "activities": [],
+    "links": {
+      "official": "https://mauritiusnow.com/mauritius-map/north-mauritius/",
+      "wikipedia": "",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "official-tourism",
+        "title": "Mauritius Now - North",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false
+  },
+  {
+    "id": "eureka-house",
+    "type": "culture",
+    "name": "Maison Eureka",
+    "area": "Centro - Moka",
+    "coordinates": {
+      "lat": -20.21856,
+      "lon": 57.49747
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "casa-coloniale",
+      "museo",
+      "giardini"
+    ],
+    "tags": [
+      "creole-house",
+      "moka",
+      "cascate",
+      "antiquariato"
+    ],
+    "description": "Grande dimora creola ottocentesca trasformata in museo, con mobili d'epoca, ampie verande, giardino tropicale e sentiero verso piccole cascate.",
+    "why_go": "È una delle visite più complete per combinare architettura coloniale, oggetti storici e un ambiente verde molto diverso da Port Louis.",
+    "history": "La casa risale alla prima metà del XIX secolo e conserva arredi, oggetti e soluzioni architettoniche tipiche delle grandi dimore creole.",
+    "interest": {
+      "nature": 4,
+      "culture": 5,
+      "history": 5,
+      "geology": 2,
+      "food": 3,
+      "photography": 5,
+      "adventure": 2,
+      "relax": 5,
+      "sea": 0
+    },
+    "practical": {
+      "opening": "09:00",
+      "closing": "16:30",
+      "hours_note": "Lunedì-sabato 09:00-16:30; domenica chiuso secondo gli orari di visita correnti.",
+      "duration": "1,5-2 ore",
+      "duration_min": 60,
+      "duration_recommended": 105,
+      "duration_max": 150,
+      "ticket": null,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "access_notes": "Il sentiero per le cascate può diventare scivoloso con pioggia; scarpe adatte consigliate."
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 4,
+      "touristic_score": 3,
+      "best_for": [
+        "architettura",
+        "storia",
+        "giardini",
+        "fotografia"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 2
+    },
+    "conditions": {
+      "best_time_of_day": "mattina",
+      "wind_sensitivity": 1,
+      "rain_sensitivity": 4,
+      "crowd_sensitivity": 2
+    },
+    "photography": {
+      "score": 5,
+      "best_time": "mattina",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "da verificare"
+    },
+    "reviews": {
+      "rating": 4.4,
+      "scale": 5,
+      "review_count": 366,
+      "summary": "I visitatori apprezzano la casa, i mobili, il giardino e soprattutto la possibilità di proseguire a piedi verso le cascate. L'atmosfera è spesso descritta come tranquilla. Il sentiero può essere scivoloso e alcune recensioni vorrebbero un apparato interpretativo più ricco all'interno della casa.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {
+      "official": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Eureka_House",
+      "unesco": "",
+      "science": "",
+      "reviews": "https://www.tripadvisor.co.uk/Attraction_Review-g293816-d1739595-Reviews-Maison_Eureka-Mauritius.html",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "current-listing",
+        "title": "Maison Eureka visitor information",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false
+  },
+  {
+    "id": "national-history-museum-mahebourg",
+    "type": "culture",
+    "name": "National History Museum - Mahébourg",
+    "area": "Sud-Est - Mahébourg",
+    "coordinates": {
+      "lat": -20.4163,
+      "lon": 57.703
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "museo",
+      "navale",
+      "dodo"
+    ],
+    "tags": [
+      "mahebourg",
+      "naval-history",
+      "dodo",
+      "coloniale",
+      "temporarily-closed"
+    ],
+    "description": "Museo nazionale ospitato in una storica dimora di Mahébourg, con collezioni dedicate alla storia coloniale, alle battaglie navali, ai relitti e alla storia naturale dell'isola.",
+    "why_go": "Quando aperto è uno dei migliori luoghi del sud-est per capire la storia marittima e coloniale di Mauritius.",
+    "history": "Il museo conserva mappe, armi, mobili, reperti di naufragi e battaglie navali, oltre a una importante sezione legata al dodo e alla storia naturale.",
+    "interest": {
+      "nature": 2,
+      "culture": 5,
+      "history": 5,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 4,
+      "sea": 3
+    },
+    "practical": {
+      "status": "temporarily_closed",
+      "opening": null,
+      "closing": null,
+      "hours_note": "RISULTA TEMPORANEAMENTE CHIUSO nelle informazioni correnti disponibili al 18/08/2026.",
+      "duration": "1-1,5 ore quando riaperto",
+      "duration_min": 45,
+      "duration_recommended": 75,
+      "duration_max": 120,
+      "ticket": null,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "access_notes": "Non inserirlo come tappa certa finché non viene verificata la riapertura."
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 3,
+      "best_for": [
+        "storia navale",
+        "Mahébourg",
+        "dodo",
+        "colonialismo"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 0
+    },
+    "conditions": {
+      "best_time_of_day": "da verificare alla riapertura",
+      "wind_sensitivity": 0,
+      "rain_sensitivity": 0,
+      "crowd_sensitivity": 1
+    },
+    "photography": {
+      "score": 4,
+      "best_time": "esterno al mattino",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "non pertinente"
+    },
+    "reviews": {
+      "rating": 4.2,
+      "scale": 5,
+      "review_count": 942,
+      "summary": "Storicamente le recensioni apprezzano la casa, i reperti delle battaglie navali, le mappe e il materiale sul dodo. L'allestimento è descritto come tradizionale e poco tecnologico, ma ricco di oggetti. La priorità attuale è però verificare la riapertura prima di pianificare la visita.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "pointe-canon-mahebourg",
+      "dutch-first-landing",
+      "frederik-hendrik-museum"
+    ],
+    "food_nearby": [
+      "mahebourg-market-food"
+    ],
+    "activities": [],
+    "links": {
+      "official": "https://mauritiusmuseums.govmu.org/",
+      "wikipedia": "https://en.wikipedia.org/wiki/National_History_Museum_of_Mauritius",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "government",
+        "title": "Mauritius Museums Council",
+        "checked_at": "2026-08-18"
+      },
+      {
+        "type": "business-status",
+        "title": "Current local listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "La app dovrà trattarlo come alternativa non disponibile finché status=temporarily_closed.",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false
+  },
+  {
+    "id": "frederik-hendrik-museum",
+    "type": "culture",
+    "name": "Frederik Hendrik Museum & Vieux Grand Port",
+    "area": "Sud-Est - Vieux Grand Port",
+    "coordinates": {
+      "lat": -20.375,
+      "lon": 57.72185
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "museo",
+      "archeologia",
+      "olandesi"
+    ],
+    "tags": [
+      "dutch",
+      "vieux-grand-port",
+      "colonizzazione",
+      "rovine"
+    ],
+    "description": "Sito storico e archeologico nell'area del primo insediamento olandese stabile di Mauritius, con museo e resti di diverse fasi coloniali.",
+    "why_go": "È una tappa poco spettacolare ma molto interessante se si vuole ricostruire cronologicamente la colonizzazione dell'isola prima di francesi e britannici.",
+    "history": "Gli olandesi stabilirono un insediamento a Grand Port nel 1638. Il sito conserva tracce delle successive occupazioni e permette di leggere le prime fasi della colonizzazione europea di Mauritius.",
+    "interest": {
+      "nature": 2,
+      "culture": 5,
+      "history": 5,
+      "geology": 1,
+      "food": 0,
+      "photography": 3,
+      "adventure": 1,
+      "relax": 4,
+      "sea": 2
+    },
+    "practical": {
+      "opening": "09:00",
+      "closing": "16:00",
+      "hours_note": "Orari correnti indicati: lun, mar, gio, ven, sab 09:00-16:00; mer 11:00-16:00; domenica 09:00-12:00.",
+      "duration": "45-90 minuti",
+      "duration_min": 35,
+      "duration_recommended": 60,
+      "duration_max": 90,
+      "ticket": null,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "access_notes": "Sito tranquillo e poco affollato; valore maggiore per chi è interessato alla storia."
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 4,
+      "touristic_score": 1,
+      "best_for": [
+        "archeologia",
+        "olandesi",
+        "storia coloniale",
+        "sud-est"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 1
+    },
+    "conditions": {
+      "best_time_of_day": "mattina",
+      "wind_sensitivity": 1,
+      "rain_sensitivity": 3,
+      "crowd_sensitivity": 1
+    },
+    "photography": {
+      "score": 3,
+      "best_time": "mattina",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "da verificare"
+    },
+    "reviews": {
+      "rating": 3.7,
+      "scale": 5,
+      "review_count": 22,
+      "summary": "Le poche recensioni disponibili descrivono un sito tranquillo, piccolo e interessante soprattutto per appassionati di storia. Non aspettarsi un grande museo: il valore principale è il contesto archeologico e la possibilità di collegare i resti al primo insediamento olandese.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "dutch-first-landing",
+      "national-history-museum-mahebourg"
+    ],
+    "food_nearby": [
+      "mahebourg-market-food"
+    ],
+    "activities": [],
+    "links": {
+      "official": "https://mauritiusmuseums.govmu.org/",
+      "wikipedia": "",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "official-tourism",
+        "title": "Mauritius Now - History",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "",
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true
+  },
+  {
+    "id": "dutch-first-landing",
+    "type": "culture",
+    "name": "Dutch First Landing Memorial",
+    "area": "Sud-Est - Ferney",
+    "coordinates": {
+      "lat": -20.36879,
+      "lon": 57.70243
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "monumento",
+      "olandesi",
+      "fotografia"
+    ],
+    "tags": [
+      "dutch-landing",
+      "1598",
+      "mauritius-name",
+      "memorial"
+    ],
+    "description": "Memoriale vicino alla costa sud-orientale che ricorda l'arrivo degli olandesi e l'inizio del capitolo europeo della storia di Mauritius.",
+    "why_go": "È una deviazione breve e sensata se si percorre la zona di Ferney, Vieux Grand Port e Mahébourg.",
+    "history": "Gli olandesi approdarono a Mauritius nel 1598 e diedero all'isola il nome di Maurits van Nassau. L'insediamento permanente sarebbe iniziato alcuni decenni più tardi.",
+    "interest": {
+      "nature": 3,
+      "culture": 4,
+      "history": 5,
+      "geology": 1,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 4,
+      "sea": 4
+    },
+    "practical": {
+      "opening": null,
+      "closing": null,
+      "hours_note": "Monumento all'aperto.",
+      "duration": "15-30 minuti",
+      "duration_min": 10,
+      "duration_recommended": 20,
+      "duration_max": 40,
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "access_notes": "Pensarlo come deviazione storica breve, non come attrazione principale."
+    },
+    "experience": {
+      "authenticity": 3,
+      "local_score": 3,
+      "touristic_score": 2,
+      "best_for": [
+        "storia",
+        "roadtrip",
+        "sosta breve",
+        "sud-est"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 1
+    },
+    "conditions": {
+      "best_time_of_day": "mattina o pomeriggio",
+      "wind_sensitivity": 2,
+      "rain_sensitivity": 3,
+      "crowd_sensitivity": 1
+    },
+    "photography": {
+      "score": 4,
+      "best_time": "mattina",
+      "sunrise": true,
+      "sunset": false,
+      "drone": "da verificare"
+    },
+    "reviews": {
+      "rating": 4.0,
+      "scale": 5,
+      "review_count": 167,
+      "summary": "Le recensioni lo considerano soprattutto una sosta storica rapida e panoramica. È apprezzato quando inserito in un itinerario più ampio nel sud-est; preso da solo offre pochi contenuti interpretativi.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "frederik-hendrik-museum",
+      "national-history-museum-mahebourg"
+    ],
+    "food_nearby": [
+      "mahebourg-market-food"
+    ],
+    "activities": [],
+    "links": {
+      "official": "https://mauritiusnow.com/",
+      "wikipedia": "",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "official-tourism",
+        "title": "Mauritius Now - Mauritius history",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "",
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true
+  },
+  {
+    "id": "pointe-canon-mahebourg",
+    "type": "culture",
+    "name": "Pointe Canon",
+    "area": "Sud-Est - Mahébourg",
+    "coordinates": {
+      "lat": -20.4026,
+      "lon": 57.7043
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "monumento",
+      "cannoni",
+      "waterfront"
+    ],
+    "tags": [
+      "mahebourg",
+      "cannons",
+      "naval-history",
+      "waterfront"
+    ],
+    "description": "Punto storico sul waterfront di Mahébourg con cannoni e memoria della storia militare e navale della baia di Grand Port.",
+    "why_go": "È una sosta semplice e piacevole da unire al mercato e alla passeggiata sul lungomare di Mahébourg.",
+    "history": "La baia di Grand Port ebbe un ruolo strategico nelle fasi coloniali francese e britannica e fu teatro della celebre battaglia navale di Grand Port del 1810.",
+    "interest": {
+      "nature": 3,
+      "culture": 4,
+      "history": 5,
+      "geology": 1,
+      "food": 2,
+      "photography": 5,
+      "adventure": 0,
+      "relax": 5,
+      "sea": 4
+    },
+    "practical": {
+      "opening": null,
+      "closing": null,
+      "hours_note": "Area pubblica sul waterfront.",
+      "duration": "20-45 minuti",
+      "duration_min": 15,
+      "duration_recommended": 30,
+      "duration_max": 60,
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "access_notes": "Da integrare nella passeggiata a Mahébourg."
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 4,
+      "touristic_score": 2,
+      "best_for": [
+        "waterfront",
+        "storia navale",
+        "fotografia",
+        "passeggiata"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 1
+    },
+    "conditions": {
+      "best_time_of_day": "tardo pomeriggio",
+      "wind_sensitivity": 2,
+      "rain_sensitivity": 3,
+      "crowd_sensitivity": 2
+    },
+    "photography": {
+      "score": 5,
+      "best_time": "tardo pomeriggio",
+      "sunrise": true,
+      "sunset": false,
+      "drone": "da verificare"
+    },
+    "reviews": {
+      "rating": 4.1,
+      "scale": 5,
+      "review_count": 102,
+      "summary": "È apprezzato soprattutto per la vista sulla baia, i cannoni e l'atmosfera del waterfront. Non richiede una visita dedicata lunga, ma funziona molto bene come parte della passeggiata a Mahébourg.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "national-history-museum-mahebourg"
+    ],
+    "food_nearby": [
+      "mahebourg-market-food"
+    ],
+    "activities": [],
+    "links": {
+      "official": "https://mauritiusnow.com/",
+      "wikipedia": "",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "business",
+        "title": "Current local listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate rappresentative dell'area di Pointe Canon.",
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true
+  },
+  {
+    "id": "martello-tower-museum",
+    "type": "culture",
+    "name": "Martello Tower Museum",
+    "area": "Ovest - La Preneuse / Black River",
+    "coordinates": {
+      "lat": -20.3547,
+      "lon": 57.36188
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "museo",
+      "fortificazione",
+      "militare"
+    ],
+    "tags": [
+      "martello",
+      "british",
+      "la-preneuse",
+      "fortification"
+    ],
+    "description": "Torre costiera britannica restaurata vicino a La Preneuse, trasformata in piccolo museo sulla difesa dell'isola nel XIX secolo.",
+    "why_go": "È una delle deviazioni culturali più facili dalla base di Tamarin e permette di aggiungere storia a una giornata altrimenti molto mare/natura.",
+    "history": "Le torri Martello furono costruite dai britannici nella prima metà del XIX secolo per rafforzare la difesa costiera di Mauritius da possibili attacchi francesi.",
+    "interest": {
+      "nature": 2,
+      "culture": 5,
+      "history": 5,
+      "geology": 1,
+      "food": 0,
+      "photography": 4,
+      "adventure": 1,
+      "relax": 3,
+      "sea": 4
+    },
+    "practical": {
+      "opening": "09:30",
+      "closing": "17:00",
+      "hours_note": "Martedì-venerdì 09:30-17:00; sabato 09:30-13:00. Verificare festivi.",
+      "duration": "45-75 minuti",
+      "duration_min": 30,
+      "duration_recommended": 60,
+      "duration_max": 90,
+      "ticket": null,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "access_notes": "Piccolo museo: la qualità della visita cresce molto con la spiegazione della guida."
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 4,
+      "touristic_score": 2,
+      "best_for": [
+        "storia militare",
+        "fortificazioni",
+        "ovest",
+        "visita breve"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 1
+    },
+    "conditions": {
+      "best_time_of_day": "mattina",
+      "wind_sensitivity": 1,
+      "rain_sensitivity": 1,
+      "crowd_sensitivity": 1
+    },
+    "photography": {
+      "score": 4,
+      "best_time": "mattina o tardo pomeriggio",
+      "sunrise": false,
+      "sunset": true,
+      "drone": "da verificare"
+    },
+    "reviews": {
+      "rating": 4.4,
+      "scale": 5,
+      "review_count": 339,
+      "summary": "Le recensioni lodano soprattutto le guide, considerate competenti e appassionate, e il buon livello di restauro. Il museo è piccolo, ma viene spesso definito una sorpresa positiva e una visita molto più interessante di quanto suggerisca la dimensione.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "tamarin-bay",
+      "veranda-tamarin"
+    ],
+    "food_nearby": [],
+    "activities": [],
+    "links": {
+      "official": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Martello_tower",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "business",
+        "title": "Current local listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Molto comodo dalla base occidentale.",
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": false
+  },
+  {
+    "id": "domaine-saint-aubin",
+    "type": "culture",
+    "name": "Domaine de Saint Aubin",
+    "area": "Sud - Saint Aubin",
+    "coordinates": {
+      "lat": -20.5008,
+      "lon": 57.5458
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "casa-coloniale",
+      "piantagione",
+      "esperienza-locale"
+    ],
+    "tags": [
+      "saint-aubin",
+      "vaniglia",
+      "rum",
+      "zucchero",
+      "coloniale"
+    ],
+    "description": "Tenuta storica nel sud con casa coloniale, giardini, attività legate a vaniglia, canna da zucchero e rum e un forte legame con la storia agricola dell'isola.",
+    "why_go": "È una buona tappa per comprendere la cultura delle grandi tenute del sud e collegare storia coloniale, agricoltura e prodotti locali.",
+    "history": "La tenuta affonda le proprie origini nel XVIII secolo; la casa padronale storica appartiene alla fase di sviluppo delle grandi proprietà zuccheriere del sud.",
+    "interest": {
+      "nature": 4,
+      "culture": 5,
+      "history": 4,
+      "geology": 1,
+      "food": 5,
+      "photography": 5,
+      "adventure": 1,
+      "relax": 5,
+      "sea": 0
+    },
+    "practical": {
+      "opening": "09:00",
+      "closing": "17:00",
+      "hours_note": "Gli orari delle diverse componenti della tenuta e del ristorante possono differire; verificare il giorno precedente.",
+      "duration": "2-3 ore",
+      "duration_min": 90,
+      "duration_recommended": 150,
+      "duration_max": 240,
+      "ticket": null,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "access_notes": "Per pranzo o esperienze specifiche è consigliabile verificare/prenotare."
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 5,
+      "touristic_score": 4,
+      "best_for": [
+        "vaniglia",
+        "rum",
+        "storia agricola",
+        "pranzo"
+      ]
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 1
+    },
+    "conditions": {
+      "best_time_of_day": "tarda mattina",
+      "wind_sensitivity": 1,
+      "rain_sensitivity": 2,
+      "crowd_sensitivity": 2
+    },
+    "photography": {
+      "score": 5,
+      "best_time": "mattina",
+      "sunrise": false,
+      "sunset": false,
+      "drone": "da verificare"
+    },
+    "reviews": {
+      "rating": 4.4,
+      "scale": 5,
+      "review_count": 1358,
+      "summary": "Sono apprezzati la casa, i giardini, la tranquillità della tenuta e le esperienze legate a vaniglia e rum. Alcuni visitatori trovano l'impostazione piuttosto turistica o il rapporto qualità-prezzo variabile a seconda del pacchetto scelto; funziona meglio se integrato con pranzo o altre tappe del sud.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [
+      "ganga-talao"
+    ],
+    "food_nearby": [
+      "bois-cheri-tea"
+    ],
+    "activities": [],
+    "links": {
+      "official": "https://www.saintaubin.mu/",
+      "wikipedia": "",
+      "unesco": "",
+      "science": "",
+      "reviews": "",
+      "maps": ""
+    },
+    "sources": [
+      {
+        "type": "business",
+        "title": "Current local listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate riferite al centro della tenuta.",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false
+  },
+  {
+    "id": "kailassam-temple",
+    "type": "culture",
+    "name": "Kailassam Temple",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.1490625,
+      "lon": 57.5195625
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "tempio",
+      "induismo"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": true,
+    "description": "Kailassam Temple è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "hours_note": "06:00-18:00"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 276,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.5/5 su 276 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "markaz-e-islam-masjid",
+    "type": "culture",
+    "name": "Markaz e Islam Masjid",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.1630625,
+      "lon": 57.5060625
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "moschea"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Markaz e Islam Masjid è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "hours_note": "04:00-21:00"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.7,
+      "scale": 5,
+      "review_count": 315,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.7/5 su 315 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "madurai-mariamen-temple-society",
+    "type": "culture",
+    "name": "Madurai Mariamen Temple Society",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.1636875,
+      "lon": 57.4933125
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "tempio",
+      "induismo"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Madurai Mariamen Temple Society è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "hours_note": "06:00-17:00 circa"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.7,
+      "scale": 5,
+      "review_count": 48,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.7/5 su 48 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "masjid-noor-e-islam",
+    "type": "culture",
+    "name": "Masjid Noor E Islam",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.1600625,
+      "lon": 57.5000625
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "moschea"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Masjid Noor E Islam è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "hours_note": "luogo di culto attivo"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.7,
+      "scale": 5,
+      "review_count": 140,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.7/5 su 140 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "shrimadhu-kannanur-mariammen-kovil",
+    "type": "culture",
+    "name": "Shrimadhu Kannanur Mariammen Kovil",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.1560625,
+      "lon": 57.5059375
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "tempio",
+      "induismo"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Shrimadhu Kannanur Mariammen Kovil è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "hours_note": "06:00-15:00 circa"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.6,
+      "scale": 5,
+      "review_count": 156,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.6/5 su 156 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "masjid-emarate-al-huda-wan-noor",
+    "type": "culture",
+    "name": "Masjid Emarate Al Huda Wan Noor",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.1616875,
+      "lon": 57.5061875
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "moschea"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Masjid Emarate Al Huda Wan Noor è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "hours_note": "aperto 24h nella scheda corrente"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.8,
+      "scale": 5,
+      "review_count": 124,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.8/5 su 124 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "st-helene-basilica",
+    "type": "culture",
+    "name": "St Helene Basilica",
+    "area": "Centro",
+    "coordinates": {
+      "lat": -20.3115625,
+      "lon": 57.5245625
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "chiesa"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": true,
+    "description": "St Helene Basilica è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 572,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.5/5 su 572 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "curepipe-war-memorial",
+    "type": "culture",
+    "name": "Curepipe War Memorial",
+    "area": "Centro",
+    "coordinates": {
+      "lat": -20.3176875,
+      "lon": 57.5241875
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "monumento"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "Curepipe War Memorial è un luogo reale di interesse culturale inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Interessante come breve deviazione per leggere la storia e la cultura locale.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 4,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.5/5 su 4 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "ste-therese-church-curepipe",
+    "type": "culture",
+    "name": "Ste Thérèse Church Curepipe",
+    "area": "Centro",
+    "coordinates": {
+      "lat": -20.3115625,
+      "lon": 57.5285625
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "chiesa"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Ste Thérèse Church Curepipe è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.6,
+      "scale": 5,
+      "review_count": 342,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.6/5 su 342 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "rcc-hall-of-fame",
+    "type": "culture",
+    "name": "RCC Hall of Fame",
+    "area": "Centro",
+    "coordinates": {
+      "lat": -20.3199375,
+      "lon": 57.5268125
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "monumento"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "RCC Hall of Fame è un luogo reale di interesse culturale inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Interessante come breve deviazione per leggere la storia e la cultura locale.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 5.0,
+      "scale": 5,
+      "review_count": 2,
+      "source": "local business index",
+      "summary": "Valutazione corrente 5.0/5 su 2 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "hindu-mandir-mahebourg-waterfront",
+    "type": "culture",
+    "name": "Hindu Mandir Mahébourg Waterfront",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4156875,
+      "lon": 57.7106875
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "tempio",
+      "induismo"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Hindu Mandir Mahébourg Waterfront è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 5.0,
+      "scale": 5,
+      "review_count": 1,
+      "source": "local business index",
+      "summary": "Valutazione corrente 5.0/5 su 1 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "christ-church-mahebourg",
+    "type": "culture",
+    "name": "Christ Church Mahébourg",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4060625,
+      "lon": 57.7066875
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "chiesa"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Christ Church Mahébourg è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.1,
+      "scale": 5,
+      "review_count": 7,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.1/5 su 7 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "jummah-mosque-mahebourg",
+    "type": "culture",
+    "name": "Jummah Mosque Mahébourg",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4104375,
+      "lon": 57.7065625
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "moschea"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Jummah Mosque Mahébourg è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.9,
+      "scale": 5,
+      "review_count": 38,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.9/5 su 38 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "monument-commemorating-abolition-of-slavery-mahebourg",
+    "type": "culture",
+    "name": "Monument Commemorating Abolition of Slavery Mahébourg",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4025625,
+      "lon": 57.7081875
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "monumento"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Monument Commemorating Abolition of Slavery Mahébourg è un luogo reale di interesse culturale inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Interessante come breve deviazione per leggere la storia e la cultura locale.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "hours_note": "aperto all’aperto"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.3,
+      "scale": 5,
+      "review_count": 580,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.3/5 su 580 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "shri-vinayagar-seedalamen-kovil",
+    "type": "culture",
+    "name": "Shri Vinayagar Seedalamen Kovil",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4181875,
+      "lon": 57.7039375
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "tempio",
+      "induismo"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Shri Vinayagar Seedalamen Kovil è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.7,
+      "scale": 5,
+      "review_count": 36,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.7/5 su 36 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "masjid-ar-rahmah-mahebourg",
+    "type": "culture",
+    "name": "Masjid Ar Rahmah Mahébourg",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4070625,
+      "lon": 57.6990625
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "moschea"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Masjid Ar Rahmah Mahébourg è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.8,
+      "scale": 5,
+      "review_count": 15,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.8/5 su 15 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "shiv-shakti-mandir-mahebourg",
+    "type": "culture",
+    "name": "Shiv Shakti Mandir Mahébourg",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4065625,
+      "lon": 57.7019375
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "tempio",
+      "induismo"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "Shiv Shakti Mandir Mahébourg è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.0,
+      "scale": 5,
+      "review_count": 2,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.0/5 su 2 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "la-vierge-noire-mahebourg",
+    "type": "culture",
+    "name": "La Vierge Noire Mahébourg",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4194375,
+      "lon": 57.7116875
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "chiesa"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "La Vierge Noire Mahébourg è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 3.9,
+      "scale": 5,
+      "review_count": 11,
+      "source": "local business index",
+      "summary": "Valutazione corrente 3.9/5 su 11 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "al-umarain-beau-vallon-mosque",
+    "type": "culture",
+    "name": "Al Umarain Beau Vallon Mosque",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4164375,
+      "lon": 57.7089375
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "moschea"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Al Umarain Beau Vallon Mosque è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 13,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.5/5 su 13 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "grand-port-naval-battle-monument",
+    "type": "culture",
+    "name": "Grand Port Naval Battle Monument",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4041875,
+      "lon": 57.7096875
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "monumento"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Grand Port Naval Battle Monument è un luogo reale di interesse culturale inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Interessante come breve deviazione per leggere la storia e la cultura locale.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "hours_note": "aperto all’aperto"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.2,
+      "scale": 5,
+      "review_count": 24,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.2/5 su 24 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "ishaat-e-islam-sunnee-mosque",
+    "type": "culture",
+    "name": "Ishaat-E-Islam Sunnee Mosque",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4083125,
+      "lon": 57.7056875
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "moschea"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Ishaat-E-Islam Sunnee Mosque è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 5.0,
+      "scale": 5,
+      "review_count": 12,
+      "source": "local business index",
+      "summary": "Valutazione corrente 5.0/5 su 12 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "lavoir-mahebourg",
+    "type": "culture",
+    "name": "Lavoir Mahébourg",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4080625,
+      "lon": 57.7093125
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "monumento"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Lavoir Mahébourg è un luogo reale di interesse culturale inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Interessante come breve deviazione per leggere la storia e la cultura locale.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 21,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.5/5 su 21 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "siva-soopramaniar-kovil-goodlands",
+    "type": "culture",
+    "name": "Siva Soopramaniar Kovil Goodlands",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.0399375,
+      "lon": 57.6536875
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "tempio",
+      "induismo"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Siva Soopramaniar Kovil Goodlands è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 124,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.5/5 su 124 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "lassemblee-de-dieu-goodlands",
+    "type": "culture",
+    "name": "L’Assemblée de Dieu Goodlands",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.0320625,
+      "lon": 57.6471875
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "chiesa"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "L’Assemblée de Dieu Goodlands è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "hours_note": "aperto 24h nella scheda corrente"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.7,
+      "scale": 5,
+      "review_count": 32,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.7/5 su 32 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "shri-prasanna-srinivasa-aalayam",
+    "type": "culture",
+    "name": "Shri Prasanna Srinivasa Aalayam",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.0431875,
+      "lon": 57.6478125
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "tempio",
+      "induismo"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Shri Prasanna Srinivasa Aalayam è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 24,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.5/5 su 24 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "astoria-mariammen-kovil-goodlands",
+    "type": "culture",
+    "name": "Astoria Mariammen Kovil Goodlands",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.0389375,
+      "lon": 57.6485625
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "tempio",
+      "induismo"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "Astoria Mariammen Kovil Goodlands è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "hours_note": "aperto 24h nella scheda corrente"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.0,
+      "scale": 5,
+      "review_count": 4,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.0/5 su 4 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "la-voix-de-la-deliverance-goodlands",
+    "type": "culture",
+    "name": "La Voix de la Deliverance Goodlands",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.0455625,
+      "lon": 57.6459375
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "chiesa"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "La Voix de la Deliverance Goodlands è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.7,
+      "scale": 5,
+      "review_count": 13,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.7/5 su 13 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "vishwanath-janata-mandir",
+    "type": "culture",
+    "name": "Vishwanath Janata Mandir",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.0379375,
+      "lon": 57.6545625
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "tempio",
+      "induismo"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "Vishwanath Janata Mandir è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 5.0,
+      "scale": 5,
+      "review_count": 2,
+      "source": "local business index",
+      "summary": "Valutazione corrente 5.0/5 su 2 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "eglise-ste-claire-goodlands",
+    "type": "culture",
+    "name": "Eglise Ste Claire Goodlands",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.0410625,
+      "lon": 57.6554375
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "chiesa"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Eglise Ste Claire Goodlands è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "hours_note": "orari legati alle funzioni"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 29,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.5/5 su 29 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "draupadee-ammen-kovil-goodlands",
+    "type": "culture",
+    "name": "Draupadee Ammen Kovil Goodlands",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.0411875,
+      "lon": 57.6574375
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "tempio",
+      "induismo"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Draupadee Ammen Kovil Goodlands è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "hours_note": "05:00-16:30 circa"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.7,
+      "scale": 5,
+      "review_count": 21,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.7/5 su 21 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "kalianath-mandir-goodlands",
+    "type": "culture",
+    "name": "Kalianath Mandir Goodlands",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.0379375,
+      "lon": 57.6525625
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "tempio",
+      "induismo"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "Kalianath Mandir Goodlands è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.6,
+      "scale": 5,
+      "review_count": 8,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.6/5 su 8 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "central-flacq-jummah-masjid",
+    "type": "culture",
+    "name": "Central Flacq Jummah Masjid",
+    "area": "Nord-Est",
+    "coordinates": {
+      "lat": -20.1929375,
+      "lon": 57.7216875
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "moschea"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Central Flacq Jummah Masjid è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.7,
+      "scale": 5,
+      "review_count": 46,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.7/5 su 46 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "masjid-ar-rahmah-central-flacq",
+    "type": "culture",
+    "name": "Masjid Ar-Rahmah Central Flacq",
+    "area": "Nord-Est",
+    "coordinates": {
+      "lat": -20.1896875,
+      "lon": 57.7221875
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "moschea"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Masjid Ar-Rahmah Central Flacq è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.8,
+      "scale": 5,
+      "review_count": 13,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.8/5 su 13 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "masjid-e-kartaba-central-flacq",
+    "type": "culture",
+    "name": "Masjid E Kartaba Central Flacq",
+    "area": "Nord-Est",
+    "coordinates": {
+      "lat": -20.2040625,
+      "lon": 57.7339375
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "moschea"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "Masjid E Kartaba Central Flacq è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 5.0,
+      "scale": 5,
+      "review_count": 9,
+      "source": "local business index",
+      "summary": "Valutazione corrente 5.0/5 su 9 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "quatre-bornes-sunnee-masjid",
+    "type": "culture",
+    "name": "Quatre Bornes Sunnee Masjid",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.2701875,
+      "lon": 57.4795625
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "moschea"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Quatre Bornes Sunnee Masjid è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.8,
+      "scale": 5,
+      "review_count": 59,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.8/5 su 59 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "belle-rose-sunnee-mosque",
+    "type": "culture",
+    "name": "Belle Rose Sunnee Mosque",
+    "area": "Centro",
+    "coordinates": {
+      "lat": -20.2493125,
+      "lon": 57.4825625
+    },
+    "categories": [
+      "cultura",
+      "religione",
+      "moschea"
+    ],
+    "tags": [
+      "very-local",
+      "cultura-vissuta"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Belle Rose Sunnee Mosque è un luogo reale di culto inserito per mostrare anche la Mauritius vissuta oltre alle attrazioni più note.",
+    "why_go": "Vale come tappa culturale locale se sei già nella zona; il comportamento deve essere rispettoso nei luoghi di culto.",
+    "interest": {
+      "nature": 0,
+      "culture": 5,
+      "history": 3,
+      "geology": 0,
+      "food": 0,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "20-45 min",
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "hours_note": "aperto 24h nella scheda corrente"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "cultura locale",
+        "religione vissuta",
+        "deviazione"
+      ]
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {
+      "rating": 4.8,
+      "scale": 5,
+      "review_count": 49,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.8/5 su 49 recensioni disponibili nel business index. Per i dettagli qualitativi conviene aprire la fonte recensioni.",
+      "last_update": "2026-08-18"
+    },
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "local-business-index",
+        "title": "Current local business listing",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Coordinate ricavate dal Plus Code della scheda locale corrente."
+  },
+  {
+    "id": "photographic-museum-of-mauritius",
+    "type": "culture",
+    "name": "Photographic Museum of Mauritius",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.1632,
+      "lon": 57.5019
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "quartiere"
+    ],
+    "tags": [
+      "cultura"
+    ],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Photographic Museum of Mauritius è inserito come punto culturale per leggere il tessuto storico e urbano della zona al di fuori delle sole attrazioni a pagamento.",
+    "why_go": "Interessante come passeggiata breve o deviazione mentre si attraversa la zona.",
+    "interest": {
+      "nature": 0,
+      "culture": 4,
+      "history": 4,
+      "geology": 0,
+      "food": 2,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 0,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-60 min",
+      "ticket": 0,
+      "currency": "MUR"
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 4,
+      "touristic_score": 3
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {},
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "geographic-reference",
+        "title": "GeoNames / local urban reference",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Punto di quartiere/paesaggio culturale, non singolo edificio."
+  },
+  {
+    "id": "champ-de-mars",
+    "type": "culture",
+    "name": "Champ de Mars",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.166,
+      "lon": 57.508
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "quartiere"
+    ],
+    "tags": [
+      "cultura"
+    ],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Champ de Mars è inserito come punto culturale per leggere il tessuto storico e urbano della zona al di fuori delle sole attrazioni a pagamento.",
+    "why_go": "Interessante come passeggiata breve o deviazione mentre si attraversa la zona.",
+    "interest": {
+      "nature": 0,
+      "culture": 4,
+      "history": 4,
+      "geology": 0,
+      "food": 2,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 0,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-60 min",
+      "ticket": 0,
+      "currency": "MUR"
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 4,
+      "touristic_score": 3
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {},
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "geographic-reference",
+        "title": "GeoNames / local urban reference",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Punto di quartiere/paesaggio culturale, non singolo edificio."
+  },
+  {
+    "id": "caudan-waterfront-heritage-walk",
+    "type": "culture",
+    "name": "Caudan Waterfront Heritage Walk",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.1608,
+      "lon": 57.4974
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "quartiere"
+    ],
+    "tags": [
+      "cultura"
+    ],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Caudan Waterfront Heritage Walk è inserito come punto culturale per leggere il tessuto storico e urbano della zona al di fuori delle sole attrazioni a pagamento.",
+    "why_go": "Interessante come passeggiata breve o deviazione mentre si attraversa la zona.",
+    "interest": {
+      "nature": 0,
+      "culture": 4,
+      "history": 4,
+      "geology": 0,
+      "food": 2,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 0,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-60 min",
+      "ticket": 0,
+      "currency": "MUR"
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 4,
+      "touristic_score": 3
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {},
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "geographic-reference",
+        "title": "GeoNames / local urban reference",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Punto di quartiere/paesaggio culturale, non singolo edificio."
+  },
+  {
+    "id": "pamplemousses-village-heritage-core",
+    "type": "culture",
+    "name": "Pamplemousses Village Heritage Core",
+    "area": "Nord-Est",
+    "coordinates": {
+      "lat": -20.1038889,
+      "lon": 57.5702778
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "quartiere"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Pamplemousses Village Heritage Core è inserito come punto culturale per leggere il tessuto storico e urbano della zona al di fuori delle sole attrazioni a pagamento.",
+    "why_go": "Interessante come passeggiata breve o deviazione mentre si attraversa la zona.",
+    "interest": {
+      "nature": 0,
+      "culture": 4,
+      "history": 4,
+      "geology": 0,
+      "food": 2,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 0,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-60 min",
+      "ticket": 0,
+      "currency": "MUR"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {},
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "geographic-reference",
+        "title": "GeoNames / local urban reference",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Punto di quartiere/paesaggio culturale, non singolo edificio."
+  },
+  {
+    "id": "poudre-dor-coastal-memorial-area",
+    "type": "culture",
+    "name": "Poudre d’Or Coastal Memorial Area",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.06,
+      "lon": 57.676667
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "quartiere"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Poudre d’Or Coastal Memorial Area è inserito come punto culturale per leggere il tessuto storico e urbano della zona al di fuori delle sole attrazioni a pagamento.",
+    "why_go": "Interessante come passeggiata breve o deviazione mentre si attraversa la zona.",
+    "interest": {
+      "nature": 0,
+      "culture": 4,
+      "history": 4,
+      "geology": 0,
+      "food": 2,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 0,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-60 min",
+      "ticket": 0,
+      "currency": "MUR"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {},
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "geographic-reference",
+        "title": "GeoNames / local urban reference",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Punto di quartiere/paesaggio culturale, non singolo edificio."
+  },
+  {
+    "id": "vieux-grand-port-historic-landscape",
+    "type": "culture",
+    "name": "Vieux Grand Port Historic Landscape",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.37444,
+      "lon": 57.71899
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "quartiere"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": true,
+    "description": "Vieux Grand Port Historic Landscape è inserito come punto culturale per leggere il tessuto storico e urbano della zona al di fuori delle sole attrazioni a pagamento.",
+    "why_go": "Interessante come passeggiata breve o deviazione mentre si attraversa la zona.",
+    "interest": {
+      "nature": 0,
+      "culture": 4,
+      "history": 4,
+      "geology": 0,
+      "food": 2,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 0,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-60 min",
+      "ticket": 0,
+      "currency": "MUR"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {},
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "geographic-reference",
+        "title": "GeoNames / local urban reference",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Punto di quartiere/paesaggio culturale, non singolo edificio."
+  },
+  {
+    "id": "mahebourg-rue-des-hollandais",
+    "type": "culture",
+    "name": "Mahébourg Rue des Hollandais",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4075,
+      "lon": 57.701
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "quartiere"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Mahébourg Rue des Hollandais è inserito come punto culturale per leggere il tessuto storico e urbano della zona al di fuori delle sole attrazioni a pagamento.",
+    "why_go": "Interessante come passeggiata breve o deviazione mentre si attraversa la zona.",
+    "interest": {
+      "nature": 0,
+      "culture": 4,
+      "history": 4,
+      "geology": 0,
+      "food": 2,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 0,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-60 min",
+      "ticket": 0,
+      "currency": "MUR"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {},
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "geographic-reference",
+        "title": "GeoNames / local urban reference",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Punto di quartiere/paesaggio culturale, non singolo edificio."
+  },
+  {
+    "id": "curepipe-historic-town-centre",
+    "type": "culture",
+    "name": "Curepipe Historic Town Centre",
+    "area": "Centro",
+    "coordinates": {
+      "lat": -20.31628,
+      "lon": 57.52594
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "quartiere"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Curepipe Historic Town Centre è inserito come punto culturale per leggere il tessuto storico e urbano della zona al di fuori delle sole attrazioni a pagamento.",
+    "why_go": "Interessante come passeggiata breve o deviazione mentre si attraversa la zona.",
+    "interest": {
+      "nature": 0,
+      "culture": 4,
+      "history": 4,
+      "geology": 0,
+      "food": 2,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 0,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-60 min",
+      "ticket": 0,
+      "currency": "MUR"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {},
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "geographic-reference",
+        "title": "GeoNames / local urban reference",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Punto di quartiere/paesaggio culturale, non singolo edificio."
+  },
+  {
+    "id": "rose-hill-urban-market-quarter",
+    "type": "culture",
+    "name": "Rose Hill Urban Market Quarter",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.23325,
+      "lon": 57.46609
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "quartiere"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Rose Hill Urban Market Quarter è inserito come punto culturale per leggere il tessuto storico e urbano della zona al di fuori delle sole attrazioni a pagamento.",
+    "why_go": "Interessante come passeggiata breve o deviazione mentre si attraversa la zona.",
+    "interest": {
+      "nature": 0,
+      "culture": 4,
+      "history": 4,
+      "geology": 0,
+      "food": 2,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 0,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-60 min",
+      "ticket": 0,
+      "currency": "MUR"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {},
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "geographic-reference",
+        "title": "GeoNames / local urban reference",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Punto di quartiere/paesaggio culturale, non singolo edificio."
+  },
+  {
+    "id": "goodlands-old-village-centre",
+    "type": "culture",
+    "name": "Goodlands Old Village Centre",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.03841,
+      "lon": 57.65055
+    },
+    "categories": [
+      "cultura",
+      "storia",
+      "quartiere"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Goodlands Old Village Centre è inserito come punto culturale per leggere il tessuto storico e urbano della zona al di fuori delle sole attrazioni a pagamento.",
+    "why_go": "Interessante come passeggiata breve o deviazione mentre si attraversa la zona.",
+    "interest": {
+      "nature": 0,
+      "culture": 4,
+      "history": 4,
+      "geology": 0,
+      "food": 2,
+      "photography": 4,
+      "adventure": 0,
+      "relax": 0,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-60 min",
+      "ticket": 0,
+      "currency": "MUR"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1
+    },
+    "geology": {},
+    "conditions": {},
+    "photography": {
+      "score": 4
+    },
+    "reviews": {},
+    "places_nearby": [],
+    "food_nearby": [],
+    "activities": [],
+    "links": {},
+    "sources": [
+      {
+        "type": "geographic-reference",
+        "title": "GeoNames / local urban reference",
+        "checked_at": "2026-08-18"
+      }
+    ],
+    "notes": "Punto di quartiere/paesaggio culturale, non singolo edificio."
+  }
+]

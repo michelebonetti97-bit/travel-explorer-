@@ -1,0 +1,2920 @@
+[
+  {
+    "id": "casela-nature-parks",
+    "type": "adventure",
+    "name": "Casela Nature Parks",
+    "area": "Ovest - Cascavelle",
+    "coordinates": {
+      "lat": -20.29083,
+      "lon": 57.4042
+    },
+    "categories": [
+      "avventura",
+      "parco",
+      "safari",
+      "natura"
+    ],
+    "tags": [
+      "safari",
+      "animali",
+      "adrenalina",
+      "coppia",
+      "giornata-intera"
+    ],
+    "description": "Grande parco naturalistico e di avventura sulla costa occidentale di Mauritius, con safari, attività outdoor ed esperienze con animali.",
+    "provider": "Casela Nature Parks",
+    "interest": {
+      "nature": 4,
+      "culture": 1,
+      "history": 1,
+      "geology": 2,
+      "food": 2,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "opening": "09:00",
+      "closing": "17:00",
+      "duration": "mezza giornata o giornata intera",
+      "duration_min": 180,
+      "duration_recommended": 360,
+      "duration_max": 480,
+      "ticket": null,
+      "currency": "MUR",
+      "reservation_required": true,
+      "parking": true,
+      "access_notes": "L'ingresso al parco è obbligatorio. Per molte attività è consigliata la prenotazione anticipata."
+    },
+    "activity_options": [
+      {
+        "id": "casela-safari-eco-rider",
+        "name": "Safari Eco Rider",
+        "category": "safari",
+        "duration_min": 60,
+        "price": 3800,
+        "currency": "MUR",
+        "booking_required": true,
+        "adrenaline": 3,
+        "energy": 2,
+        "status": "available",
+        "notes": "Tour di circa un'ora con veicolo elettrico fuoristrada nella zona safari."
+      },
+      {
+        "id": "casela-safari-bus",
+        "name": "African Safari",
+        "category": "safari",
+        "duration_min": null,
+        "price": null,
+        "currency": "MUR",
+        "booking_required": false,
+        "adrenaline": 2,
+        "energy": 1,
+        "status": "available"
+      },
+      {
+        "id": "casela-private-jeep",
+        "name": "Safari Private 4x4",
+        "category": "safari",
+        "duration_min": null,
+        "price": null,
+        "currency": "MUR",
+        "booking_required": true,
+        "adrenaline": 3,
+        "energy": 1,
+        "status": "available"
+      },
+      {
+        "id": "casela-walk-lions",
+        "name": "Walk with Lions",
+        "category": "wildlife",
+        "duration_min": 45,
+        "duration_max": 60,
+        "price": null,
+        "currency": "MUR",
+        "booking_required": true,
+        "minimum_age": 15,
+        "minimum_height_m": 1.5,
+        "adrenaline": 5,
+        "energy": 2,
+        "status": "available"
+      },
+      {
+        "id": "casela-quad",
+        "name": "Eco Quad",
+        "category": "quad",
+        "duration_min": null,
+        "price": null,
+        "currency": "MUR",
+        "booking_required": true,
+        "adrenaline": 4,
+        "energy": 2,
+        "status": "verify",
+        "notes": "Disponibilità da verificare prima della visita: alcune pagine ufficiali riportano chiusure temporanee per manutenzione."
+      }
+    ],
+    "conditions": {
+      "wind_sensitivity": 2,
+      "rain_sensitivity": 4,
+      "weather_check_required": true
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 1
+    },
+    "reviews": {
+      "rating": 4.2,
+      "review_count": 12400,
+      "summary": "Le recensioni mostrano un quadro misto ma in prevalenza positivo: vengono apprezzati la grande varietà di attività, le esperienze con gli animali, le guide e la possibilità di trascorrere un'intera giornata nel parco. Tra le critiche ricorrono organizzazione non sempre fluida, costi aggiuntivi per molte esperienze, tempi di trasferimento interni e qualità del servizio variabile a seconda dell'attività.",
+      "last_update": "2026-08-18"
+    },
+    "links": {
+      "official": "https://caselaparks.com/",
+      "booking": "https://booking.caselaparks.com/",
+      "reviews": "https://www.tripadvisor.co.uk/Attraction_Review-g656263-d645568-Reviews-Casela_Nature_Parks-Cascavelle.html"
+    },
+    "notes": "",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false
+  },
+  {
+    "id": "valle-advenature-park",
+    "type": "adventure",
+    "name": "Vallé Advenature Park",
+    "area": "Sud - Chamouny",
+    "coordinates": {
+      "lat": -20.4575,
+      "lon": 57.48499
+    },
+    "categories": [
+      "avventura",
+      "zipline",
+      "quad",
+      "natura",
+      "parco"
+    ],
+    "tags": [
+      "zipline",
+      "ponte-sospeso",
+      "quad",
+      "buggy",
+      "adrenalina",
+      "panorama"
+    ],
+    "description": "Grande parco nel sud di Mauritius che combina paesaggio naturale, terre colorate e numerose attività adrenaliniche.",
+    "provider": "Vallé Advenature Park",
+    "interest": {
+      "nature": 5,
+      "culture": 1,
+      "history": 1,
+      "geology": 4,
+      "food": 2,
+      "photography": 5,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "opening": "09:00",
+      "closing": "17:30",
+      "duration": "3 ore - giornata intera",
+      "duration_min": 180,
+      "duration_recommended": 300,
+      "duration_max": 480,
+      "ticket": null,
+      "currency": "MUR",
+      "reservation_required": true,
+      "parking": true
+    },
+    "activity_options": [
+      {
+        "id": "valle-signature-zipline",
+        "name": "Signature Zipline",
+        "category": "zipline",
+        "distance_m": 1500,
+        "duration_min": 20,
+        "price": null,
+        "currency": "MUR",
+        "booking_required": true,
+        "adrenaline": 5,
+        "energy": 2,
+        "status": "available"
+      },
+      {
+        "id": "valle-nepalese-bridge",
+        "name": "Nepalese Bridge",
+        "category": "ponte-sospeso",
+        "distance_m": 350,
+        "duration_min": 20,
+        "duration_max": 25,
+        "height_min_m": 80,
+        "height_max_m": 100,
+        "minimum_age": 12,
+        "minimum_height_m": 1.2,
+        "minimum_weight_kg": 40,
+        "maximum_weight_kg": 150,
+        "price": null,
+        "currency": "MUR",
+        "booking_required": true,
+        "adrenaline": 5,
+        "energy": 2,
+        "status": "available"
+      },
+      {
+        "id": "valle-bicycle-zipline",
+        "name": "Bicycle Zipline",
+        "category": "zipline",
+        "distance_m": 400,
+        "duration_min": 20,
+        "height_m": 18,
+        "minimum_age": 8,
+        "minimum_height_m": 1.4,
+        "minimum_weight_kg": 40,
+        "maximum_weight_kg": 100,
+        "price": null,
+        "currency": "MUR",
+        "booking_required": true,
+        "adrenaline": 4,
+        "energy": 2,
+        "status": "available"
+      },
+      {
+        "id": "valle-quad",
+        "name": "Quad Adventure",
+        "category": "quad",
+        "duration_min": 60,
+        "price": null,
+        "currency": "MUR",
+        "booking_required": true,
+        "adrenaline": 4,
+        "energy": 2,
+        "status": "available"
+      },
+      {
+        "id": "valle-mountain-luge",
+        "name": "Mountain Luge Kart",
+        "category": "luge",
+        "duration_min": 20,
+        "duration_max": 25,
+        "minimum_age": 8,
+        "minimum_height_m": 1.5,
+        "price": null,
+        "currency": "MUR",
+        "booking_required": true,
+        "adrenaline": 4,
+        "energy": 1,
+        "status": "available"
+      }
+    ],
+    "conditions": {
+      "wind_sensitivity": 3,
+      "rain_sensitivity": 5,
+      "weather_check_required": true
+    },
+    "geology": {
+      "origin": "Paesaggio vulcanico del settore meridionale di Mauritius.",
+      "rock": "Materiali vulcanici profondamente alterati.",
+      "process": "Alterazione meteorica, erosione e sviluppo dei depositi colorati presenti nel parco.",
+      "interest": 4
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 14454,
+      "summary": "Le recensioni più recenti apprezzano molto il paesaggio, le attività adrenaliniche e l'assistenza dello staff, in particolare zipline e quad. Viene spesso descritto come un parco ben organizzato, immerso nella natura e adatto a una giornata attiva. Le recensioni meno positive segnalano soprattutto rigidità organizzativa, poca flessibilità in alcune situazioni e qualità del servizio non sempre costante.",
+      "last_update": "2026-08-18"
+    },
+    "links": {
+      "official": "https://www.lvdc.mu/",
+      "reviews": "https://www.tripadvisor.co.uk/Attraction_Review-g2359803-d1994858-Reviews-Valle_Advenature_Park-Chamouny.html"
+    },
+    "notes": "",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false
+  },
+  {
+    "id": "ebony-forest-hiking",
+    "type": "adventure",
+    "name": "Ebony Forest Reserve",
+    "area": "Sud-Ovest - Chamarel",
+    "coordinates": {
+      "lat": -20.4369,
+      "lon": 57.3719
+    },
+    "categories": [
+      "avventura",
+      "trekking",
+      "natura",
+      "foresta",
+      "birdwatching"
+    ],
+    "tags": [
+      "foresta-endemica",
+      "trekking",
+      "conservazione",
+      "panorama",
+      "fauna"
+    ],
+    "description": "Riserva dedicata al recupero della foresta endemica mauriziana, visitabile attraverso sentieri, passerelle e attività guidate.",
+    "provider": "Ebony Forest Reserve",
+    "interest": {
+      "nature": 5,
+      "culture": 2,
+      "history": 2,
+      "geology": 3,
+      "food": 1,
+      "photography": 5,
+      "adventure": 4,
+      "relax": 4,
+      "sea": 0
+    },
+    "practical": {
+      "opening": "09:00",
+      "closing": "17:00",
+      "duration": "1-4 ore",
+      "duration_min": 60,
+      "duration_recommended": 180,
+      "duration_max": 240,
+      "ticket": 600,
+      "ticket_type": "adulto non residente - Take a Hike",
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true
+    },
+    "activity_options": [
+      {
+        "id": "ebony-take-a-hike",
+        "name": "Take a Hike",
+        "category": "trekking",
+        "distance_min_km": 2.3,
+        "distance_max_km": 6.1,
+        "duration_min": 60,
+        "duration_max": 240,
+        "difficulty": "facile",
+        "price": 600,
+        "currency": "MUR",
+        "booking_required": false,
+        "adrenaline": 2,
+        "energy": 3,
+        "status": "available"
+      },
+      {
+        "id": "ebony-guided-trek",
+        "name": "Guided Trek",
+        "category": "trekking",
+        "distance_min_km": 5,
+        "distance_max_km": 6,
+        "duration_min": 180,
+        "duration_max": 240,
+        "difficulty": "facile",
+        "price": null,
+        "currency": "MUR",
+        "booking_required": true,
+        "adrenaline": 2,
+        "energy": 3,
+        "status": "available"
+      },
+      {
+        "id": "ebony-birdwatching",
+        "name": "Birdwatching",
+        "category": "birdwatching",
+        "duration_min": 180,
+        "duration_max": 240,
+        "price": 2500,
+        "currency": "MUR",
+        "booking_required": true,
+        "adrenaline": 1,
+        "energy": 3,
+        "status": "available"
+      }
+    ],
+    "conditions": {
+      "wind_sensitivity": 2,
+      "rain_sensitivity": 4,
+      "weather_check_required": true
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 2
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 1217,
+      "summary": "Le recensioni sono molto positive per il progetto di conservazione, la competenza e la passione delle guide, la foresta endemica, la fauna e i panorami. Molti visitatori la descrivono come una delle attrazioni naturalistiche più interessanti dell'isola e apprezzano il fatto che sia generalmente più tranquilla di altri siti di Chamarel. Il percorso può richiedere parecchio cammino e gradini, soprattutto con caldo elevato.",
+      "last_update": "2026-08-18"
+    },
+    "links": {
+      "official": "https://www.ebonyforest.com/visit-ebony/",
+      "reviews": "https://www.tripadvisor.com/Attraction_Review-g1168948-d12579071-Reviews-Ebony_Forest_Reserve-Chamarel.html"
+    },
+    "notes": "",
+    "priority": {
+      "level": "must-see",
+      "score": 4,
+      "label": "Imperdibile"
+    },
+    "very_local": false
+  },
+  {
+    "id": "tamarin-falls-adventure",
+    "type": "adventure",
+    "name": "Tamarin Falls - Seven Cascades",
+    "area": "Centro-Ovest",
+    "coordinates": {
+      "lat": -20.34444,
+      "lon": 57.46639
+    },
+    "categories": [
+      "avventura",
+      "trekking",
+      "cascata",
+      "natura",
+      "canyoning"
+    ],
+    "tags": [
+      "sette-cascate",
+      "trekking",
+      "bagno",
+      "canyoning",
+      "foresta"
+    ],
+    "description": "Sistema di cascate lungo il Rivière Tamarin, esplorabile attraverso percorsi escursionistici e, con operatori specializzati, canyoning.",
+    "provider": "operatori locali",
+    "interest": {
+      "nature": 5,
+      "culture": 1,
+      "history": 1,
+      "geology": 4,
+      "food": 1,
+      "photography": 5,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "opening": null,
+      "closing": null,
+      "duration": "2-4 ore",
+      "duration_min": 120,
+      "duration_recommended": 180,
+      "duration_max": 300,
+      "ticket": 0,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": null,
+      "access_notes": "Sentieri ripidi e potenzialmente scivolosi. Per una visita completa è consigliata una guida locale qualificata."
+    },
+    "activity_options": [
+      {
+        "id": "tamarin-falls-hike",
+        "name": "Hike Seven Cascades",
+        "category": "trekking",
+        "duration_min": 120,
+        "duration_max": 180,
+        "price": null,
+        "currency": "MUR",
+        "booking_required": false,
+        "difficulty": "media",
+        "adrenaline": 3,
+        "energy": 4,
+        "status": "available"
+      },
+      {
+        "id": "tamarin-falls-canyoning",
+        "name": "Canyoning Tamarin Falls",
+        "category": "canyoning",
+        "duration_min": null,
+        "duration_max": null,
+        "price": null,
+        "currency": "MUR",
+        "booking_required": true,
+        "difficulty": "media-alta",
+        "adrenaline": 5,
+        "energy": 5,
+        "status": "provider-dependent"
+      }
+    ],
+    "conditions": {
+      "wind_sensitivity": 1,
+      "rain_sensitivity": 5,
+      "weather_check_required": true,
+      "avoid_after_heavy_rain": true
+    },
+    "geology": {
+      "origin": "Incisione fluviale del substrato vulcanico dell'altopiano interno.",
+      "rock": "Successioni basaltiche.",
+      "process": "Erosione fluviale e sviluppo di salti morfologici lungo il corso del Rivière Tamarin.",
+      "interest": 4
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 657,
+      "summary": "Le recensioni considerano le cascate una delle escursioni naturalistiche più spettacolari di Mauritius, con panorami, piscine naturali e possibilità di bagno molto apprezzati. Le guide locali ricevono frequentemente giudizi eccellenti per competenza e assistenza. I sentieri possono però essere ripidi, fangosi e scivolosi e alcuni passaggi risultano tecnici: per una visita completa è spesso consigliata una guida.",
+      "last_update": "2026-08-18"
+    },
+    "links": {
+      "official": "https://mauritiusnow.com/blog/things-to-do/best-hikes-in-mauritius/",
+      "reviews": "https://www.tripadvisor.com/AttractionProductReview-g293816-d17322041-or30-The_Tamarind_Falls_7_Cascades_Adventure-Mauritius.html"
+    },
+    "notes": "",
+    "priority": {
+      "level": "must-see",
+      "score": 4,
+      "label": "Imperdibile"
+    },
+    "very_local": true
+  },
+  {
+    "id": "le-morne-brabant-hike",
+    "type": "adventure",
+    "name": "Trekking Le Morne Brabant",
+    "area": "Sud-Ovest",
+    "coordinates": {
+      "lat": -20.451944,
+      "lon": 57.328333
+    },
+    "categories": [
+      "avventura",
+      "trekking",
+      "natura",
+      "geologia",
+      "cultura",
+      "unesco"
+    ],
+    "tags": [
+      "trekking",
+      "panorama",
+      "unesco",
+      "storia",
+      "imperdibile"
+    ],
+    "description": "Escursione sul Le Morne Brabant, con panorama sulla laguna e forte valore storico legato al paesaggio culturale UNESCO.",
+    "provider": "guide locali",
+    "interest": {
+      "nature": 5,
+      "culture": 5,
+      "history": 5,
+      "geology": 5,
+      "food": 1,
+      "photography": 5,
+      "adventure": 5,
+      "relax": 1,
+      "sea": 4
+    },
+    "practical": {
+      "opening": null,
+      "closing": null,
+      "duration": "circa 3 ore",
+      "duration_min": 180,
+      "duration_recommended": 210,
+      "duration_max": 300,
+      "ticket": null,
+      "currency": "MUR",
+      "reservation_required": true,
+      "parking": null,
+      "access_notes": "L'ultima parte presenta tratti più simili a una facile arrampicata su roccia. Consigliata guida qualificata."
+    },
+    "activity_options": [
+      {
+        "id": "le-morne-guided-hike",
+        "name": "Le Morne Guided Hike",
+        "category": "trekking",
+        "duration_min": 180,
+        "price": null,
+        "currency": "MUR",
+        "booking_required": true,
+        "difficulty": "media-alta",
+        "adrenaline": 4,
+        "energy": 5,
+        "status": "available"
+      }
+    ],
+    "conditions": {
+      "best_time_of_day": "mattina presto",
+      "wind_sensitivity": 4,
+      "rain_sensitivity": 5,
+      "weather_check_required": true
+    },
+    "geology": {
+      "origin": "Rilievo vulcanico residuo.",
+      "rock": "Basalti olivinici ankaramitici.",
+      "process": "Erosione differenziale delle antiche successioni vulcaniche del settore sud-occidentale di Mauritius.",
+      "interest": 5
+    },
+    "reviews": {
+      "summary": "Le recensioni descrivono il trekking come impegnativo ma estremamente gratificante, soprattutto per il panorama sulla laguna e l'arrivo nella parte alta. Alba e prime ore del mattino sono particolarmente apprezzate e le guide ricevono spesso giudizi molto positivi. L'ultima parte è più tecnica e ripida e può richiedere l'uso delle mani: è meno adatta a chi non è allenato o non si sente sicuro sui tratti esposti.",
+      "last_update": "2026-08-18"
+    },
+    "links": {
+      "official": "https://mauritiusnow.com/blog/things-to-do/mountains/",
+      "reviews": "https://www.tripadvisor.com/AttractionProductReview-g293816-d16862319-or25-Le_Morne_Mountain_Sunrise_Hike_Climb-Mauritius.html"
+    },
+    "notes": "",
+    "priority": {
+      "level": "must-see",
+      "score": 4,
+      "label": "Imperdibile"
+    },
+    "very_local": false
+  },
+  {
+    "id": "tamarin-bay-surf-school",
+    "type": "adventure",
+    "name": "Tamarin Bay Surf School",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.32194,
+      "lon": 57.36556
+    },
+    "categories": [
+      "avventura",
+      "surf"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Lezioni e sessioni surf nella baia di Tamarin, a pochi minuti dalla base.",
+    "provider": "Tamarin Bay Surfschool Mauritius",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": true,
+      "currency": "MUR",
+      "hours_note": "09:00-17:00"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {
+      "rating": 4.8,
+      "scale": 5,
+      "review_count": 255,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.8/5 su 255 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "lokal-surf-mauritius",
+    "type": "adventure",
+    "name": "Lokal Surf Mauritius",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.32194,
+      "lon": 57.36556
+    },
+    "categories": [
+      "avventura",
+      "surf"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Scuola surf locale sulla baia di Tamarin, utile come alternativa per una sessione flessibile.",
+    "provider": "Lokal Surf Mauritius",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": true,
+      "currency": "MUR",
+      "hours_note": "08:00-17:00"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {
+      "rating": 4.8,
+      "scale": 5,
+      "review_count": 70,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.8/5 su 70 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "tamarin-ocean-pro-diving",
+    "type": "adventure",
+    "name": "Tamarin Ocean Pro Diving",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.32194,
+      "lon": 57.36556
+    },
+    "categories": [
+      "avventura",
+      "diving"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Centro immersioni con partenza dalla zona di Tamarin Bay.",
+    "provider": "Tamarin Ocean Pro Diving Center",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": true,
+      "currency": "MUR",
+      "hours_note": "08:00-16:00"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {
+      "rating": 4.8,
+      "scale": 5,
+      "review_count": 206,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.8/5 su 206 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "tamarin-dolphin-whale-boat",
+    "type": "adventure",
+    "name": "Tamarin Dolphin & Whale Boat",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.32194,
+      "lon": 57.36556
+    },
+    "categories": [
+      "avventura",
+      "barca",
+      "wildlife"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Uscita in barca da Tamarin per osservazione responsabile di delfini e cetacei.",
+    "provider": "Cedric’s Tamarin Dolphin & Whale Adventures",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": true,
+      "currency": "MUR",
+      "hours_note": "05:30-16:00"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {
+      "rating": 4.6,
+      "scale": 5,
+      "review_count": 68,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.6/5 su 68 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "efoil-tamarin",
+    "type": "adventure",
+    "name": "Efoil Tamarin",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.32194,
+      "lon": 57.36556
+    },
+    "categories": [
+      "avventura",
+      "surf",
+      "efoil"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": false,
+    "description": "Esperienza e-foil dalla spiaggia di Tamarin per una giornata mare più attiva.",
+    "provider": "Oceanfly.mu",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": true,
+      "currency": "MUR",
+      "hours_note": "09:30-17:30"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {
+      "rating": 5.0,
+      "scale": 5,
+      "review_count": 19,
+      "source": "local business index",
+      "summary": "Valutazione corrente 5.0/5 su 19 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "airswitch-kitesurf-le-morne",
+    "type": "adventure",
+    "name": "Airswitch Kitesurf Le Morne",
+    "area": "Sud-Ovest",
+    "coordinates": {
+      "lat": -20.455,
+      "lon": 57.333
+    },
+    "categories": [
+      "avventura",
+      "kitesurf"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Scuola kitesurf nella laguna di Le Morne, uno degli spot più noti dell’isola.",
+    "provider": "Airswitch Kitesurfing",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": true,
+      "currency": "MUR",
+      "hours_note": "09:00-17:30"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {
+      "rating": 5.0,
+      "scale": 5,
+      "review_count": 243,
+      "source": "local business index",
+      "summary": "Valutazione corrente 5.0/5 su 243 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "marvin-kite-surf-school-le-morne",
+    "type": "adventure",
+    "name": "Marvin Kite & Surf School Le Morne",
+    "area": "Sud-Ovest",
+    "coordinates": {
+      "lat": -20.455,
+      "lon": 57.333
+    },
+    "categories": [
+      "avventura",
+      "kitesurf",
+      "surf"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Scuola locale kite e surf nella Kite Lagoon di Le Morne.",
+    "provider": "Marvin Kite & Surf School",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": true,
+      "currency": "MUR",
+      "hours_note": "09:00-17:00"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {
+      "rating": 5.0,
+      "scale": 5,
+      "review_count": 27,
+      "source": "local business index",
+      "summary": "Valutazione corrente 5.0/5 su 27 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "explorers-mauritius-le-morne-guided-hike",
+    "type": "adventure",
+    "name": "Explorers Mauritius Le Morne Guided Hike",
+    "area": "Sud-Ovest",
+    "coordinates": {
+      "lat": -20.45324,
+      "lon": 57.32413
+    },
+    "categories": [
+      "avventura",
+      "trekking"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Escursione guidata al Le Morne con partenza molto presto, utile per affrontare la parte superiore in sicurezza.",
+    "provider": "Explorers Mauritius",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": true,
+      "currency": "MUR",
+      "hours_note": "05:00-17:00"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {
+      "rating": 4.9,
+      "scale": 5,
+      "review_count": 257,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.9/5 su 257 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "blue-bay-glass-bottom-boat",
+    "type": "adventure",
+    "name": "Blue Bay Glass Bottom Boat",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.44098,
+      "lon": 57.71907
+    },
+    "categories": [
+      "avventura",
+      "barca",
+      "snorkeling"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Escursione in barca con fondo trasparente nel settore di Blue Bay Marine Park.",
+    "provider": "operatori Blue Bay",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": true,
+      "currency": "MUR",
+      "hours_note": "09:00-16:00"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {
+      "rating": 4.6,
+      "scale": 5,
+      "review_count": 263,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.6/5 su 263 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "blue-bay-snorkeling",
+    "type": "adventure",
+    "name": "Blue Bay Snorkeling",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.44098,
+      "lon": 57.71907
+    },
+    "categories": [
+      "avventura",
+      "snorkeling"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "must-see",
+      "score": 4,
+      "label": "Imperdibile"
+    },
+    "very_local": false,
+    "description": "Sessione snorkeling nel settore marino di Blue Bay, da fare con mare e vento compatibili.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "blue-bay-diving",
+    "type": "adventure",
+    "name": "Blue Bay Diving",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.44098,
+      "lon": 57.71907
+    },
+    "categories": [
+      "avventura",
+      "diving"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Immersione nel settore sud-est, con scelta del sito in funzione delle condizioni marine.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "ile-aux-aigrettes-eco-tour",
+    "type": "adventure",
+    "name": "Île aux Aigrettes Eco Tour",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.41957,
+      "lon": 57.73273
+    },
+    "categories": [
+      "avventura",
+      "barca",
+      "natura"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "must-see",
+      "score": 4,
+      "label": "Imperdibile"
+    },
+    "very_local": false,
+    "description": "Visita naturalistica guidata alla riserva insulare di Île aux Aigrettes.",
+    "provider": "Mauritian Wildlife Foundation / operatori autorizzati",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": true,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "five-islands-speedboat-trou-deau-douce",
+    "type": "adventure",
+    "name": "Five Islands Speedboat Trou d’Eau Douce",
+    "area": "Est",
+    "coordinates": {
+      "lat": -20.237,
+      "lon": 57.785
+    },
+    "categories": [
+      "avventura",
+      "barca",
+      "snorkeling"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Escursione in motoscafo dalla costa est verso isole e lagune, inclusa l’area di Île aux Cerfs.",
+    "provider": "Tino Boats / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": true,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {
+      "rating": 4.7,
+      "scale": 5,
+      "review_count": 391,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.7/5 su 391 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "northern-islands-catamaran-grand-baie",
+    "type": "adventure",
+    "name": "Northern Islands Catamaran Grand Baie",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.01816,
+      "lon": 57.58015
+    },
+    "categories": [
+      "avventura",
+      "barca",
+      "snorkeling"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Giornata in catamarano da Grand Baie verso le isole settentrionali.",
+    "provider": "TOPCAT / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": true,
+      "currency": "MUR",
+      "hours_note": "09:00-17:00"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {
+      "rating": 4.8,
+      "scale": 5,
+      "review_count": 118,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.8/5 su 118 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "trou-aux-biches-diving",
+    "type": "adventure",
+    "name": "Trou aux Biches Diving",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.03301,
+      "lon": 57.55033
+    },
+    "categories": [
+      "avventura",
+      "diving"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Immersioni sulla costa nord-occidentale con centro diving locale.",
+    "provider": "Blue Water Diving Centre",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": true,
+      "currency": "MUR",
+      "hours_note": "08:00-16:00"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {
+      "rating": 4.4,
+      "scale": 5,
+      "review_count": 178,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.4/5 su 178 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "bel-ombre-nature-reserve-safari",
+    "type": "adventure",
+    "name": "Bel Ombre Nature Reserve Safari",
+    "area": "Sud-Ovest",
+    "coordinates": {
+      "lat": -20.50222,
+      "lon": 57.40611
+    },
+    "categories": [
+      "avventura",
+      "safari",
+      "natura"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Esperienza 4x4/natura nella grande riserva del sud-ovest.",
+    "provider": "Bel Ombre Nature Reserve",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": true,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {
+      "rating": 4.6,
+      "scale": 5,
+      "review_count": 424,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.6/5 su 424 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "bel-ombre-nature-reserve-hiking",
+    "type": "adventure",
+    "name": "Bel Ombre Nature Reserve Hiking",
+    "area": "Sud-Ovest",
+    "coordinates": {
+      "lat": -20.50222,
+      "lon": 57.40611
+    },
+    "categories": [
+      "avventura",
+      "trekking",
+      "natura"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Percorsi a piedi nella riserva, da scegliere secondo meteo e livello di energia.",
+    "provider": "Bel Ombre Nature Reserve",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": true,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "black-river-gorges-guided-hike",
+    "type": "adventure",
+    "name": "Black River Gorges Guided Hike",
+    "area": "Sud / Centro-Sud",
+    "coordinates": {
+      "lat": -20.40444,
+      "lon": 57.42667
+    },
+    "categories": [
+      "avventura",
+      "trekking",
+      "natura"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "must-see",
+      "score": 4,
+      "label": "Imperdibile"
+    },
+    "very_local": false,
+    "description": "Escursione guidata nella rete di sentieri del Black River Gorges National Park.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "le-pouce-hike",
+    "type": "adventure",
+    "name": "Le Pouce Hike",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.198,
+      "lon": 57.52892
+    },
+    "categories": [
+      "avventura",
+      "trekking"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Trekking su uno dei rilievi più riconoscibili del centro-nord, con vista su Port Louis e Moka.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "pieter-both-guided-climb",
+    "type": "adventure",
+    "name": "Pieter Both Guided Climb",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.19216,
+      "lon": 57.55558
+    },
+    "categories": [
+      "avventura",
+      "trekking",
+      "arrampicata"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": false,
+    "description": "Salita tecnica al Pieter Both: da considerare solo con guida qualificata e condizioni adatte.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "lion-mountain-hike",
+    "type": "adventure",
+    "name": "Lion Mountain Hike",
+    "area": "Est",
+    "coordinates": {
+      "lat": -20.358889,
+      "lon": 57.718333
+    },
+    "categories": [
+      "avventura",
+      "trekking"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": true,
+    "description": "Trekking panoramico sopra Grand Port, interessante per paesaggio e geologia.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "corps-de-garde-hike",
+    "type": "adventure",
+    "name": "Corps de Garde Hike",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.25953,
+      "lon": 57.45227
+    },
+    "categories": [
+      "avventura",
+      "trekking"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Escursione sul Corps de Garde, meno turistica dei trekking più famosi.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "tourelle-du-tamarin-hike",
+    "type": "adventure",
+    "name": "Tourelle du Tamarin Hike",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.34703,
+      "lon": 57.37467
+    },
+    "categories": [
+      "avventura",
+      "trekking"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Escursione sul rilievo dominante Tamarin, ottima per fotografia del settore ovest.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "little-black-river-peak-hike",
+    "type": "adventure",
+    "name": "Little Black River Peak Hike",
+    "area": "Sud-Ovest",
+    "coordinates": {
+      "lat": -20.40473,
+      "lon": 57.40932
+    },
+    "categories": [
+      "avventura",
+      "trekking"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "must-see",
+      "score": 4,
+      "label": "Imperdibile"
+    },
+    "very_local": false,
+    "description": "Trekking verso il punto culminante dell’isola nel settore delle Black River Gorges.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "mont-cocotte-hike",
+    "type": "adventure",
+    "name": "Mont Cocotte Hike",
+    "area": "Sud / Centro-Sud",
+    "coordinates": {
+      "lat": -20.43694,
+      "lon": 57.46111
+    },
+    "categories": [
+      "avventura",
+      "trekking"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Escursione più selvaggia sull’altopiano meridionale; accessi da verificare localmente.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "bras-deau-forest-trail",
+    "type": "adventure",
+    "name": "Bras d’Eau Forest Trail",
+    "area": "Nord-Est",
+    "coordinates": {
+      "lat": -20.14,
+      "lon": 57.735
+    },
+    "categories": [
+      "avventura",
+      "trekking",
+      "natura"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Passeggiata nella foresta di Bras d’Eau, interessante come alternativa tranquilla sulla costa est.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "vallee-de-ferney-hike",
+    "type": "adventure",
+    "name": "Vallée de Ferney Hike",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.366,
+      "lon": 57.7
+    },
+    "categories": [
+      "avventura",
+      "trekking",
+      "natura"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "must-see",
+      "score": 4,
+      "label": "Imperdibile"
+    },
+    "very_local": false,
+    "description": "Escursione nella valle di Ferney, area importante per biodiversità e paesaggio del sud-est.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "rochester-falls-walk-swim",
+    "type": "adventure",
+    "name": "Rochester Falls Walk & Swim",
+    "area": "Sud / Centro-Sud",
+    "coordinates": {
+      "lat": -20.489,
+      "lon": 57.513
+    },
+    "categories": [
+      "avventura",
+      "trekking",
+      "cascata"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": true,
+    "description": "Sosta attiva alle Rochester Falls con breve accesso a piedi e bagno solo se condizioni sicure.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {
+      "rating": 4.4,
+      "scale": 5,
+      "review_count": 2078,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.4/5 su 2078 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "eau-bleue-waterfall-walk",
+    "type": "adventure",
+    "name": "Eau Bleue Waterfall Walk",
+    "area": "Sud / Centro-Sud",
+    "coordinates": {
+      "lat": -20.37361,
+      "lon": 57.62361
+    },
+    "categories": [
+      "avventura",
+      "trekking",
+      "cascata"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Deviazione verso le cascate/piscine di Eau Bleue, da valutare soprattutto con meteo stabile.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "pont-naturel-coastal-walk",
+    "type": "adventure",
+    "name": "Pont Naturel Coastal Walk",
+    "area": "Sud / Centro-Sud",
+    "coordinates": {
+      "lat": -20.47944,
+      "lon": 57.65806
+    },
+    "categories": [
+      "avventura",
+      "trekking",
+      "costa"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "must-see",
+      "score": 4,
+      "label": "Imperdibile"
+    },
+    "very_local": false,
+    "description": "Passeggiata costiera verso il ponte naturale, con scogliere esposte al moto ondoso.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {
+      "rating": 4.7,
+      "scale": 5,
+      "review_count": 1861,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.7/5 su 1861 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "gris-gris-coastal-walk",
+    "type": "adventure",
+    "name": "Gris Gris Coastal Walk",
+    "area": "Sud / Centro-Sud",
+    "coordinates": {
+      "lat": -20.52222,
+      "lon": 57.52361
+    },
+    "categories": [
+      "avventura",
+      "trekking",
+      "costa"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "must-see",
+      "score": 4,
+      "label": "Imperdibile"
+    },
+    "very_local": false,
+    "description": "Passeggiata sulla costa selvaggia di Gris Gris e verso i punti panoramici vicini.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {
+      "rating": 4.6,
+      "scale": 5,
+      "review_count": 4150,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.6/5 su 4150 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "ile-aux-benitiers-boat-snorkel",
+    "type": "adventure",
+    "name": "Île aux Bénitiers Boat & Snorkel",
+    "area": "Sud-Ovest",
+    "coordinates": {
+      "lat": -20.41623,
+      "lon": 57.34366
+    },
+    "categories": [
+      "avventura",
+      "barca",
+      "snorkeling"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Uscita in barca nel settore sud-ovest verso Île aux Bénitiers, con soste mare.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "crystal-rock-snorkel-stop",
+    "type": "adventure",
+    "name": "Crystal Rock Snorkel Stop",
+    "area": "Sud-Ovest",
+    "coordinates": {
+      "lat": -20.413,
+      "lon": 57.3335
+    },
+    "categories": [
+      "avventura",
+      "barca",
+      "snorkeling"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Sosta in barca presso il celebre affioramento roccioso nella laguna a nord di Le Morne.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "coin-de-mire-snorkeling",
+    "type": "adventure",
+    "name": "Coin de Mire Snorkeling",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -19.939167,
+      "lon": 57.613611
+    },
+    "categories": [
+      "avventura",
+      "barca",
+      "snorkeling"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Snorkeling in uscita dal nord verso Coin de Mire, con accesso dipendente da mare e operatore.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "gabriel-island-catamaran",
+    "type": "adventure",
+    "name": "Gabriel Island Catamaran",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -19.8862,
+      "lon": 57.67194
+    },
+    "categories": [
+      "avventura",
+      "barca",
+      "snorkeling"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Escursione in catamarano verso Îlot Gabriel, tipica giornata mare del nord.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "round-island-wildlife-boat",
+    "type": "adventure",
+    "name": "Round Island Wildlife Boat",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -19.85024,
+      "lon": 57.78857
+    },
+    "categories": [
+      "avventura",
+      "barca",
+      "wildlife"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": false,
+    "description": "Uscita naturalistica in barca attorno a Round Island senza dare per scontato lo sbarco, soggetto a regole di conservazione.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "pointe-desny-kayak",
+    "type": "adventure",
+    "name": "Pointe d’Esny Kayak",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.42681,
+      "lon": 57.72749
+    },
+    "categories": [
+      "avventura",
+      "kayak"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": false,
+    "description": "Kayak nella laguna di Pointe d’Esny con meteo e vento favorevoli.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "belle-mare-lagoon-snorkel",
+    "type": "adventure",
+    "name": "Belle Mare Lagoon Snorkel",
+    "area": "Nord-Est",
+    "coordinates": {
+      "lat": -20.195,
+      "lon": 57.775
+    },
+    "categories": [
+      "avventura",
+      "snorkeling"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Snorkeling/nuoto nella zona di Belle Mare scegliendo punti protetti e condizioni adatte.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "le-morne-sup-lagoon",
+    "type": "adventure",
+    "name": "Le Morne SUP Lagoon",
+    "area": "Sud-Ovest",
+    "coordinates": {
+      "lat": -20.455,
+      "lon": 57.333
+    },
+    "categories": [
+      "avventura",
+      "sup"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": false,
+    "description": "Stand up paddle nelle zone più riparate della laguna di Le Morne.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "tamarin-kayak",
+    "type": "adventure",
+    "name": "Tamarin Kayak",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.32194,
+      "lon": 57.36556
+    },
+    "categories": [
+      "avventura",
+      "kayak"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Uscita in kayak nella baia/foce di Tamarin in condizioni tranquille.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "flic-en-flac-diving",
+    "type": "adventure",
+    "name": "Flic en Flac Diving",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.278,
+      "lon": 57.372
+    },
+    "categories": [
+      "avventura",
+      "diving"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Immersioni sulla costa ovest con scelta del sito in funzione del mare.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 4
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "albion-coastal-walk",
+    "type": "adventure",
+    "name": "Albion Coastal Walk",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.20814,
+      "lon": 57.40766
+    },
+    "categories": [
+      "avventura",
+      "trekking",
+      "costa"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Passeggiata costiera nell’area di Albion, buona deviazione fotografica sulla costa ovest.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "baie-du-cap-scenic-coastal-drive",
+    "type": "adventure",
+    "name": "Baie du Cap Scenic Coastal Drive",
+    "area": "Sud-Ovest",
+    "coordinates": {
+      "lat": -20.48833,
+      "lon": 57.37056
+    },
+    "categories": [
+      "avventura",
+      "roadtrip",
+      "fotografia"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "must-see",
+      "score": 4,
+      "label": "Imperdibile"
+    },
+    "very_local": false,
+    "description": "Tratto panoramico lungo la costa di Baie du Cap, da vivere come roadtrip con soste brevi.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "poudre-dor-local-coastal-walk",
+    "type": "adventure",
+    "name": "Poudre d’Or Local Coastal Walk",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.06,
+      "lon": 57.676667
+    },
+    "categories": [
+      "avventura",
+      "trekking",
+      "costa"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Passeggiata molto local lungo il settore costiero di Poudre d’Or, lontano dai resort principali.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  },
+  {
+    "id": "bambous-virieux-coastal-drive",
+    "type": "adventure",
+    "name": "Bambous Virieux Coastal Drive",
+    "area": "Est",
+    "coordinates": {
+      "lat": -20.34278,
+      "lon": 57.7575
+    },
+    "categories": [
+      "avventura",
+      "roadtrip",
+      "fotografia"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Roadtrip nel sud-est più locale tra Bambous Virieux e Grand Sable.",
+    "provider": "self-guided / operatori locali",
+    "interest": {
+      "nature": 4,
+      "culture": 0,
+      "history": 0,
+      "geology": 2,
+      "food": 0,
+      "photography": 4,
+      "adventure": 5,
+      "relax": 2,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "1-4 ore",
+      "reservation_required": false,
+      "currency": "MUR"
+    },
+    "activity_options": [],
+    "conditions": {
+      "weather_check_required": true
+    },
+    "geology": {},
+    "reviews": {},
+    "links": {},
+    "notes": "Verificare condizioni meteo, mare, accesso e disponibilità il giorno precedente."
+  }
+]

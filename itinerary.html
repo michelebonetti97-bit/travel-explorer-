@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Itinerario | Travel Explorer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
+
+    <style>
+        .itinerary-body {
+            margin: 0;
+            background: #f5f5f7;
+            color: #1d1d1f;
+        }
+
+        .itinerary-page {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 20px 16px 70px;
+        }
+
+        .itinerary-header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 16px;
+        }
+
+        .itinerary-header h1 {
+            margin: 2px 0 0;
+            font-size: 28px;
+            line-height: 1.1;
+        }
+
+        .itinerary-kicker {
+            color: #8e8e93;
+            font-size: 12px;
+        }
+
+        .trip-summary {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        .trip-summary-card {
+            padding: 14px;
+            border-radius: 18px;
+            background: white;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+        }
+
+        .trip-summary-card span {
+            display: block;
+            color: #8e8e93;
+            font-size: 10px;
+            margin-bottom: 5px;
+        }
+
+        .trip-summary-card strong {
+            display: block;
+            font-size: 16px;
+        }
+
+        .day-selector {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            margin: 0 -16px 16px;
+            padding: 4px 16px 10px;
+            scrollbar-width: none;
+        }
+
+        .day-selector::-webkit-scrollbar {
+            display: none;
+        }
+
+        .day-pill {
+            flex: 0 0 auto;
+            border: 0;
+            border-radius: 18px;
+            background: white;
+            color: #1d1d1f;
+            padding: 10px 13px;
+            font-size: 12px;
+            font-weight: 700;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+            cursor: pointer;
+        }
+
+        .day-pill.active {
+            background: #1d1d1f;
+            color: white;
+        }
+
+        .day-card {
+            background: white;
+            border-radius: 24px;
+            padding: 18px;
+            margin-bottom: 14px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.055);
+        }
+
+        .day-title-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 14px;
+        }
+
+        .day-title-row h2 {
+            margin: 0;
+            color: #1d1d1f;
+            font-size: 22px;
+            font-weight: 760;
+        }
+
+        .day-date {
+            margin-bottom: 4px;
+            color: #8e8e93;
+            font-size: 12px;
+            font-weight: 650;
+        }
+
+        .day-theme {
+            margin-top: 7px;
+            color: #6e6e73;
+            font-size: 12px;
+        }
+
+        .feasibility-score {
+            flex: 0 0 auto;
+            text-align: center;
+            padding: 9px 11px;
+            border-radius: 15px;
+            background: #f2f2f7;
+        }
+
+        .feasibility-score strong {
+            display: block;
+            font-size: 17px;
+        }
+
+        .feasibility-score span {
+            color: #8e8e93;
+            font-size: 9px;
+        }
+
+        .day-stats {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 8px;
+            margin-top: 15px;
+        }
+
+        .day-stat {
+            padding: 10px;
+            border-radius: 14px;
+            background: #f5f5f7;
+        }
+
+        .day-stat span {
+            display: block;
+            color: #8e8e93;
+            font-size: 9px;
+        }
+
+        .day-stat strong {
+            display: block;
+            margin-top: 4px;
+            font-size: 12px;
+        }
+
+        .edit-toolbar {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 14px;
+        }
+
+        .toolbar-button {
+            min-height: 46px;
+            border: 0;
+            border-radius: 15px;
+            background: white;
+            color: #1d1d1f;
+            font-weight: 750;
+            cursor: pointer;
+            box-shadow: 0 4px 14px rgba(0,0,0,.05);
+        }
+
+        .toolbar-button.primary {
+            background: #1d1d1f;
+            color: white;
+        }
+
+        .toolbar-button.warning {
+            background: #fff8e8;
+            color: #6b551b;
+        }
+
+        #itinerary-map {
+            width: 100%;
+            height: 260px;
+            border-radius: 20px;
+            overflow: hidden;
+            margin-bottom: 14px;
+            background: #e8e8ed;
+        }
+
+        .timeline {
+            position: relative;
+        }
+
+        .timeline-item {
+            display: grid;
+            grid-template-columns: 54px 15px 1fr;
+            gap: 8px;
+            min-height: 84px;
+        }
+
+        .timeline-item.is-locked .timeline-dot {
+            background: #b57600;
+        }
+
+        .timeline-time {
+            padding-top: 3px;
+            color: #6e6e73;
+            font-size: 11px;
+            font-weight: 700;
+        }
+
+        .timeline-rail {
+            position: relative;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            top: 5px;
+            left: 2px;
+            width: 11px;
+            height: 11px;
+            border: 3px solid white;
+            border-radius: 50%;
+            background: #1d1d1f;
+            box-shadow: 0 0 0 1px #c7c7cc;
+            z-index: 2;
+        }
+
+        .timeline-line {
+            position: absolute;
+            top: 16px;
+            bottom: -5px;
+            left: 7px;
+            width: 1px;
+            background: #d9d9de;
+        }
+
+        .timeline-item:last-child .timeline-line {
+            display: none;
+        }
+
+        .timeline-content {
+            padding: 0 0 18px;
+        }
+
+        .timeline-kind {
+            margin-bottom: 3px;
+            color: #8e8e93;
+            font-size: 9px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: .5px;
+        }
+
+        .timeline-content h3 {
+            margin: 0 0 5px;
+            font-size: 15px;
+        }
+
+        .timeline-content p {
+            margin: 0;
+            color: #626267;
+            font-size: 12px;
+            line-height: 1.45;
+        }
+
+        .timeline-meta {
+            margin-top: 7px;
+            color: #8e8e93;
+            font-size: 10px;
+        }
+
+        .timeline-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 9px;
+        }
+
+        .mini-action {
+            display: inline-block;
+            padding: 7px 9px;
+            border: 0;
+            border-radius: 11px;
+            background: #f2f2f7;
+            color: #1d1d1f;
+            text-decoration: none;
+            font-size: 10px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .mini-action.locked {
+            background: #fff3d3;
+            color: #6c5300;
+        }
+
+        .mini-action.danger {
+            color: #b42318;
+        }
+
+        .section-heading {
+            margin: 0 0 12px;
+            font-size: 18px;
+        }
+
+        .nearby-list,
+        .alternative-list {
+            display: grid;
+            gap: 8px;
+        }
+
+        .suggestion-card {
+            padding: 13px;
+            border-radius: 16px;
+            background: #f5f5f7;
+        }
+
+        .suggestion-top {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            align-items: flex-start;
+        }
+
+        .suggestion-card strong {
+            font-size: 13px;
+        }
+
+        .suggestion-card p {
+            margin: 6px 0 0;
+            color: #6e6e73;
+            font-size: 11px;
+            line-height: 1.4;
+        }
+
+        .suggestion-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 8px;
+        }
+
+        .suggestion-badge {
+            padding: 5px 7px;
+            border-radius: 9px;
+            background: white;
+            color: #555;
+            font-size: 9px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .detour-time {
+            flex: 0 0 auto;
+            color: #6e6e73;
+            font-size: 10px;
+            font-weight: 750;
+        }
+
+        .itinerary-actions {
+            display: grid;
+            gap: 9px;
+            margin-top: 14px;
+        }
+
+        .itinerary-primary,
+        .itinerary-secondary {
+            width: 100%;
+            min-height: 50px;
+            border-radius: 17px;
+            font-size: 14px;
+            font-weight: 750;
+            cursor: pointer;
+        }
+
+        .itinerary-primary {
+            border: 0;
+            background: #1d1d1f;
+            color: white;
+        }
+
+        .itinerary-secondary {
+            border: 1px solid #dedede;
+            background: white;
+            color: #1d1d1f;
+        }
+
+        .day-complete-button {
+            width: 100%;
+            min-height: 58px;
+            margin-top: 4px;
+            border: 0;
+            border-radius: 18px;
+            background: #e8f7ec;
+            color: #176b35;
+            font-size: 15px;
+            font-weight: 850;
+            cursor: pointer;
+        }
+
+        .day-complete-button.completed {
+            background: #176b35;
+            color: white;
+        }
+
+        .day-complete-note {
+            margin: 8px 2px 0;
+            color: #7b7b80;
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .add-detour-button {
+            border: 0;
+            cursor: pointer;
+        }
+
+        .weather-warning {
+            margin-top: 13px;
+            padding: 12px;
+            border-radius: 14px;
+            background: #fff8e8;
+            color: #69551d;
+            font-size: 11px;
+            line-height: 1.45;
+        }
+
+        .live-day-card {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .live-day-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 11px;
+        }
+
+        .live-day-head h2 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .live-refresh {
+            border: 0;
+            border-radius: 12px;
+            background: #f2f2f7;
+            padding: 8px 10px;
+            font-size: 10px;
+            font-weight: 800;
+            cursor: pointer;
+        }
+
+        .live-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 8px;
+        }
+
+        .live-stat {
+            padding: 11px;
+            border-radius: 14px;
+            background: #f5f5f7;
+        }
+
+        .live-stat span {
+            display: block;
+            color: #8e8e93;
+            font-size: 9px;
+        }
+
+        .live-stat strong {
+            display: block;
+            margin-top: 4px;
+            font-size: 13px;
+        }
+
+        .live-assessment {
+            margin-top: 10px;
+            padding: 12px;
+            border-radius: 14px;
+            font-size: 11px;
+            line-height: 1.45;
+        }
+
+        .live-assessment.good {
+            background: #eaf7ed;
+            color: #1b6a37;
+        }
+
+        .live-assessment.mixed {
+            background: #fff8e8;
+            color: #6d571c;
+        }
+
+        .live-assessment.poor {
+            background: #fff0ef;
+            color: #8b2c25;
+        }
+
+        .live-source-note {
+            margin-top: 8px;
+            color: #8e8e93;
+            font-size: 9px;
+            line-height: 1.4;
+        }
+
+        .live-unavailable {
+            padding: 13px;
+            border-radius: 14px;
+            background: #f5f5f7;
+            color: #6e6e73;
+            font-size: 11px;
+            line-height: 1.45;
+        }
+
+        .recalc-live-context {
+            margin: 12px 0;
+            padding: 12px;
+            border-radius: 14px;
+            background: #eef6ff;
+            color: #315775;
+            font-size: 11px;
+            line-height: 1.45;
+        }
+
+        .modal-backdrop {
+            position: fixed;
+            inset: 0;
+            z-index: 5000;
+            display: none;
+            align-items: flex-end;
+            justify-content: center;
+            padding: 14px;
+            background: rgba(0,0,0,.42);
+        }
+
+        .modal-backdrop.open {
+            display: flex;
+        }
+
+        .modal-sheet {
+            width: min(720px, 100%);
+            max-height: 88vh;
+            overflow-y: auto;
+            padding: 18px;
+            border-radius: 24px 24px 18px 18px;
+            background: white;
+            box-shadow: 0 20px 70px rgba(0,0,0,.25);
+        }
+
+        .modal-sheet h2 {
+            margin: 0 0 6px;
+            font-size: 21px;
+        }
+
+        .modal-sheet > p {
+            margin: 0 0 15px;
+            color: #6e6e73;
+            font-size: 12px;
+            line-height: 1.45;
+        }
+
+        .modal-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+
+        .mode-button {
+            min-height: 70px;
+            border: 1px solid #e5e5e7;
+            border-radius: 16px;
+            background: #f7f7f8;
+            text-align: left;
+            padding: 12px;
+            cursor: pointer;
+        }
+
+        .mode-button strong {
+            display: block;
+            margin-bottom: 4px;
+            font-size: 12px;
+        }
+
+        .mode-button span {
+            color: #737378;
+            font-size: 10px;
+            line-height: 1.35;
+        }
+
+        .modal-close {
+            width: 100%;
+            min-height: 46px;
+            margin-top: 12px;
+            border: 0;
+            border-radius: 14px;
+            background: #ececef;
+            font-weight: 750;
+            cursor: pointer;
+        }
+
+        .poi-search {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 13px 14px;
+            border: 1px solid #dedee3;
+            border-radius: 14px;
+            font-size: 14px;
+        }
+
+        .poi-results {
+            display: grid;
+            gap: 7px;
+            margin-top: 12px;
+        }
+
+        .poi-result {
+            width: 100%;
+            border: 0;
+            border-radius: 14px;
+            background: #f5f5f7;
+            padding: 12px;
+            text-align: left;
+            cursor: pointer;
+        }
+
+        .poi-result strong {
+            display: block;
+            font-size: 13px;
+        }
+
+        .poi-result span {
+            display: block;
+            margin-top: 4px;
+            color: #77777c;
+            font-size: 10px;
+        }
+
+        .recalc-result {
+            margin-top: 14px;
+            padding: 14px;
+            border-radius: 16px;
+            background: #f5f5f7;
+        }
+
+        .recalc-result h3 {
+            margin: 0 0 8px;
+            font-size: 15px;
+        }
+
+        .recalc-result p {
+            margin: 5px 0;
+            color: #5f5f64;
+            font-size: 11px;
+            line-height: 1.45;
+        }
+
+        .recalc-apply {
+            width: 100%;
+            min-height: 46px;
+            margin-top: 10px;
+            border: 0;
+            border-radius: 14px;
+            background: #1d1d1f;
+            color: white;
+            font-weight: 750;
+            cursor: pointer;
+        }
+
+        @media (min-width: 560px) {
+            .trip-summary {
+                grid-template-columns: repeat(4, minmax(0, 1fr));
+            }
+
+            #itinerary-map {
+                height: 330px;
+            }
+
+            .edit-toolbar {
+                grid-template-columns: repeat(4, 1fr);
+            }
+
+            .modal-backdrop {
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body class="itinerary-body">
+
+<div class="itinerary-page">
+
+    <header class="itinerary-header">
+        <a href="index.html" class="back-button">←</a>
+
+        <div>
+            <div class="itinerary-kicker">Mauritius 2026</div>
+            <h1>Itinerario</h1>
+        </div>
+    </header>
+
+    <section id="trip-summary" class="trip-summary"></section>
+
+    <div id="day-selector" class="day-selector"></div>
+
+    <div class="edit-toolbar">
+        <button id="add-stop" class="toolbar-button">＋ Aggiungi tappa</button>
+        <button id="recalculate-ai" class="toolbar-button primary">🤖 Ricalcolo AI</button>
+        <a href="here.html" class="toolbar-button" style="display:flex;align-items:center;justify-content:center;text-decoration:none;">📍 Sono qui</a>
+        <button id="reset-day" class="toolbar-button warning">↺ Ripristina giorno</button>
+    </div>
+
+    <section id="day-overview" class="day-card"></section>
+
+    <section id="live-day-card" class="day-card live-day-card">
+        <div class="live-day-head">
+            <h2>🌦️ Condizioni live</h2>
+            <button id="refresh-live-day" class="live-refresh">↻ Aggiorna</button>
+        </div>
+        <div id="live-day-content" class="live-unavailable">
+            Caricamento dati live…
+        </div>
+    </section>
+
+    <div id="itinerary-map"></div>
+
+    <section class="day-card">
+        <h2 class="section-heading">🕒 Timeline modificabile</h2>
+        <div id="timeline" class="timeline"></div>
+    </section>
+
+    <section class="day-card">
+        <h2 class="section-heading">💎 Deviazioni intelligenti</h2>
+        <div id="nearby-list" class="nearby-list"></div>
+    </section>
+
+    <section class="day-card">
+        <h2 class="section-heading">🔁 Piano B</h2>
+        <div id="alternative-list" class="alternative-list"></div>
+    </section>
+
+    <div class="itinerary-actions">
+        <button id="navigate-day" class="itinerary-primary">
+            🚗 Apri percorso della giornata
+        </button>
+
+        <button id="open-full-map" class="itinerary-secondary">
+            🗺️ Torna alla mappa completa
+        </button>
+
+        <button id="complete-day" class="day-complete-button">
+            ✅ Giornata completata
+        </button>
+
+        <div class="day-complete-note">
+            Lo stato viene salvato sul dispositivo e resta anche riaprendo l'app.
+        </div>
+    </div>
+
+</div>
+
+<div id="add-poi-modal" class="modal-backdrop">
+    <div class="modal-sheet">
+        <h2>＋ Aggiungi tappa</h2>
+        <p>Cerca nei 400 POI. La nuova tappa viene aggiunta alla giornata selezionata e salvata in IndexedDB.</p>
+
+        <input
+            id="poi-search"
+            class="poi-search"
+            type="search"
+            placeholder="Cerca spiaggia, tempio, mercato, cascata..."
+        >
+
+        <div id="poi-results" class="poi-results"></div>
+
+        <button class="modal-close" data-close-modal="add-poi-modal">Chiudi</button>
+    </div>
+</div>
+
+<div id="recalc-modal" class="modal-backdrop">
+    <div class="modal-sheet">
+        <h2>🤖 Ricalcolo AI</h2>
+        <p>
+            Il motore lavora offline con priorità, lucchetti, tempi e 400 POI.
+            Quando sei online usa anche meteo, vento e condizioni marine reali del modello previsionale.
+            Le tappe bloccate non vengono mai eliminate automaticamente.
+        </p>
+
+        <div id="recalc-live-context" class="recalc-live-context">
+            Sto preparando il contesto live della giornata…
+        </div>
+
+        <div class="modal-grid">
+            <button class="mode-button" data-recalc-mode="live">
+                <strong>🌦️ Live: meteo + mare</strong>
+                <span>Ricalcola usando vento, pioggia e onde previste per la giornata.</span>
+            </button>
+
+            <button class="mode-button" data-recalc-mode="late30">
+                <strong>⏱️ +30 min ritardo</strong>
+                <span>Recupera mezz'ora senza toccare le tappe bloccate.</span>
+            </button>
+
+            <button class="mode-button" data-recalc-mode="late60">
+                <strong>⏱️ +60 min ritardo</strong>
+                <span>Taglia o accorcia prima le tappe meno importanti.</span>
+            </button>
+
+            <button class="mode-button" data-recalc-mode="tired">
+                <strong>😴 Sono stanco</strong>
+                <span>Alleggerisce la giornata e aumenta il margine libero.</span>
+            </button>
+
+            <button class="mode-button" data-recalc-mode="local">
+                <strong>🏘️ Rendilo più local</strong>
+                <span>Cerca una deviazione Very Local sensata vicino alle tappe.</span>
+            </button>
+
+            <button class="mode-button" data-recalc-mode="maximize">
+                <strong>⚡ Massimizza</strong>
+                <span>Aggiunge un POI di valore se la giornata ha abbastanza buffer.</span>
+            </button>
+
+            <button class="mode-button" data-recalc-mode="balanced">
+                <strong>⚖️ Equilibrato</strong>
+                <span>Ricalcola gli orari mantenendo tutte le tappe attuali.</span>
+            </button>
+        </div>
+
+        <div id="recalc-result"></div>
+
+        <button class="modal-close" data-close-modal="recalc-modal">Chiudi</button>
+    </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="live-data.js"></script>
+<script src="travel-store.js"></script>
+<script src="itinerary.js"></script>
+<script src="itinerary-flex.js"></script>
+
+</body>
+</html>

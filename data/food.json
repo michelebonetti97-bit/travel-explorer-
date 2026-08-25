@@ -1,0 +1,3410 @@
+[
+  {
+    "id": "port-louis-central-market-food",
+    "type": "food",
+    "name": "Central Market Port Louis",
+    "area": "Port Louis",
+    "coordinates": {
+      "lat": -20.16059,
+      "lon": 57.502755
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "street-food",
+      "cultura"
+    ],
+    "tags": [
+      "dholl-puri",
+      "alouda",
+      "samosa",
+      "frutta-tropicale",
+      "mercato-locale",
+      "imperdibile"
+    ],
+    "description": "Storico mercato centrale di Port Louis e uno dei luoghi migliori per entrare nella vita quotidiana mauriziana e provare diversi street food locali.",
+    "food_type": "mercato e street food",
+    "must_try": [
+      "dholl puri",
+      "samosa",
+      "gateaux piments",
+      "alouda",
+      "frutta tropicale",
+      "dolci mauriziani"
+    ],
+    "interest": {
+      "nature": 1,
+      "culture": 5,
+      "history": 4,
+      "geology": 0,
+      "food": 5,
+      "photography": 5,
+      "adventure": 1,
+      "relax": 1,
+      "sea": 0
+    },
+    "practical": {
+      "opening": "05:00",
+      "closing": "16:30",
+      "hours_note": "Orari indicativi. La domenica chiude prima.",
+      "duration": "1-2 ore",
+      "duration_min": 60,
+      "duration_recommended": 90,
+      "duration_max": 150,
+      "reservation_required": false,
+      "parking": false,
+      "payment": "contanti consigliati",
+      "currency": "MUR",
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 3,
+      "best_for": [
+        "street food",
+        "fotografia",
+        "vita locale",
+        "pranzo economico"
+      ]
+    },
+    "reviews": {
+      "rating": 4.0,
+      "scale": 5,
+      "review_count": 11591,
+      "source": "local business index",
+      "summary": "Le recensioni descrivono il mercato come vivace, autentico e molto interessante per osservare la vita locale, i prodotti freschi, le spezie e lo street food. È particolarmente apprezzato per colori, profumi e atmosfera. Le critiche più ricorrenti riguardano confusione, caldo, pulizia non sempre impeccabile e un ambiente che può risultare caotico nelle ore più frequentate.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 0
+    },
+    "links": {
+      "official": "https://mauritiusnow.com/blog/things-to-do/port-louis-market/",
+      "wikipedia": "",
+      "maps": "",
+      "reviews": "https://www.tripadvisor.com/Attraction_Review-g293817-d472659-Reviews-Central_Market-Port_Louis.html"
+    },
+    "notes": "Inserire preferibilmente nella giornata dedicata a Port Louis.",
+    "priority": {
+      "level": "must-see",
+      "score": 4,
+      "label": "Imperdibile"
+    },
+    "very_local": true
+  },
+  {
+    "id": "central-flacq-market-food",
+    "type": "food",
+    "name": "Central Flacq Market",
+    "area": "Est - Flacq",
+    "coordinates": {
+      "lat": -20.1893364,
+      "lon": 57.7254423
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "street-food",
+      "cultura"
+    ],
+    "tags": [
+      "mercato",
+      "street-food",
+      "frutta",
+      "spezie",
+      "est-mauritius"
+    ],
+    "description": "Grande mercato della zona orientale di Mauritius, frequentato dalla popolazione locale e particolarmente interessante per prodotti freschi, spezie e street food.",
+    "food_type": "mercato e street food",
+    "must_try": [
+      "dholl puri",
+      "gateaux piments",
+      "biryani",
+      "noodles",
+      "frutta tropicale",
+      "bevande locali"
+    ],
+    "interest": {
+      "nature": 1,
+      "culture": 5,
+      "history": 2,
+      "geology": 0,
+      "food": 5,
+      "photography": 4,
+      "adventure": 1,
+      "relax": 1,
+      "sea": 0
+    },
+    "practical": {
+      "opening": "06:00",
+      "closing": "17:00",
+      "hours_note": "Mercoledì e domenica sono i giorni principali, quando è presente il maggior numero di bancarelle.",
+      "best_days": [
+        "mercoledì",
+        "domenica"
+      ],
+      "duration": "1-2 ore",
+      "duration_min": 60,
+      "duration_recommended": 90,
+      "duration_max": 150,
+      "reservation_required": false,
+      "parking": true,
+      "payment": "contanti consigliati",
+      "currency": "MUR",
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 2,
+      "best_for": [
+        "street food",
+        "mercato locale",
+        "fotografia",
+        "pranzo"
+      ]
+    },
+    "reviews": {
+      "rating": 4.1,
+      "scale": 5,
+      "review_count": 3530,
+      "source": "local business index",
+      "summary": "Il mercato è molto apprezzato per l'atmosfera autentica, la forte presenza di residenti, la grande scelta di frutta, verdura e prodotti locali e la possibilità di provare piccoli piatti mauriziani. È considerato molto fotogenico e poco turistico. Le principali criticità sono affollamento, rumore, caldo e la necessità di contrattare su alcuni articoli e souvenir.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 0
+    },
+    "links": {
+      "official": "https://mauritiusnow.com/blog/things-to-do/central-flacq-market/",
+      "wikipedia": "",
+      "maps": "",
+      "reviews": ""
+    },
+    "notes": "Molto interessante da abbinare alla giornata sulla costa orientale.",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": true
+  },
+  {
+    "id": "mahebourg-market-food",
+    "type": "food",
+    "name": "Mahébourg Market",
+    "area": "Sud-Est - Mahébourg",
+    "coordinates": {
+      "lat": -20.4069482,
+      "lon": 57.7078291
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "street-food",
+      "cultura"
+    ],
+    "tags": [
+      "mahebourg",
+      "mercato-locale",
+      "street-food",
+      "creole",
+      "lunedì"
+    ],
+    "description": "Mercato tradizionale di Mahébourg vicino al waterfront. Il lunedì il mercato si amplia notevolmente e diventa uno dei momenti migliori per osservare la vita locale e provare cucina mauriziana.",
+    "food_type": "mercato locale e street food",
+    "must_try": [
+      "gateaux piments",
+      "dholl puri",
+      "samosa",
+      "biryani",
+      "noodles",
+      "alouda"
+    ],
+    "interest": {
+      "nature": 1,
+      "culture": 5,
+      "history": 4,
+      "geology": 0,
+      "food": 5,
+      "photography": 5,
+      "adventure": 1,
+      "relax": 2,
+      "sea": 2
+    },
+    "practical": {
+      "opening": "07:00",
+      "closing": "16:30",
+      "hours_note": "Mercato presente anche negli altri giorni, ma il grande mercato settimanale è il lunedì.",
+      "best_days": [
+        "lunedì"
+      ],
+      "duration": "1-2 ore",
+      "duration_min": 60,
+      "duration_recommended": 120,
+      "duration_max": 180,
+      "reservation_required": false,
+      "parking": true,
+      "payment": "contanti consigliati",
+      "currency": "MUR",
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 2,
+      "best_for": [
+        "street food",
+        "cultura locale",
+        "fotografia",
+        "pranzo"
+      ]
+    },
+    "reviews": {
+      "rating": 4.2,
+      "scale": 5,
+      "review_count": 352,
+      "source": "local business index",
+      "summary": "Le recensioni lo descrivono come un mercato semplice e locale, interessante soprattutto per osservare la quotidianità di Mahébourg. Sono presenti abbigliamento, souvenir, prodotti freschi e una sezione alimentare. I prezzi sono generalmente considerati ragionevoli. L'esperienza è meno spettacolare rispetto ai grandi mercati turistici e l'ambiente può essere molto caldo.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 0
+    },
+    "links": {
+      "official": "",
+      "wikipedia": "",
+      "maps": "",
+      "reviews": ""
+    },
+    "notes": "Il lunedì è nettamente il giorno più interessante.",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": true
+  },
+  {
+    "id": "rhumerie-de-chamarel",
+    "type": "food",
+    "name": "Rhumerie de Chamarel",
+    "area": "Sud-Ovest - Chamarel",
+    "coordinates": {
+      "lat": -20.427935,
+      "lon": 57.396324
+    },
+    "categories": [
+      "food",
+      "rum",
+      "degustazione",
+      "esperienza-locale"
+    ],
+    "tags": [
+      "rum",
+      "canna-da-zucchero",
+      "degustazione",
+      "distilleria",
+      "chamarel"
+    ],
+    "description": "Distilleria agricola nel territorio di Chamarel, dove viene prodotto rum a partire dalla canna da zucchero coltivata nella tenuta. La visita permette di osservare il processo produttivo e comprende una degustazione.",
+    "food_type": "distilleria e degustazione",
+    "must_try": [
+      "rum agricolo bianco",
+      "rum invecchiato",
+      "liqueur",
+      "prodotti a base di canna da zucchero"
+    ],
+    "interest": {
+      "nature": 3,
+      "culture": 4,
+      "history": 3,
+      "geology": 2,
+      "food": 5,
+      "photography": 4,
+      "adventure": 1,
+      "relax": 4,
+      "sea": 0
+    },
+    "practical": {
+      "opening": "09:30",
+      "closing": "16:30",
+      "hours_note": "Aperto dal lunedì al sabato. Chiuso la domenica.",
+      "duration": "circa 1 ora",
+      "duration_min": 45,
+      "duration_recommended": 60,
+      "duration_max": 90,
+      "ticket": 650,
+      "ticket_type": "visita guidata standard",
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "price_range": "medio"
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 5,
+      "touristic_score": 4,
+      "best_for": [
+        "degustazione",
+        "produzione locale",
+        "cultura del rum",
+        "pranzo"
+      ]
+    },
+    "restaurant": {
+      "name": "L'Alchimiste",
+      "opening": "11:30",
+      "closing": "15:30",
+      "reservation_recommended": true,
+      "visit_and_tasting_included_with_lunch": true
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 4550,
+      "source": "local business index",
+      "summary": "Le recensioni sono nel complesso molto positive. Sono particolarmente apprezzati il contesto paesaggistico, la spiegazione del processo produttivo, la degustazione abbondante e la qualità dei rum. Anche il ristorante viene spesso valutato positivamente. Le critiche riguardano soprattutto episodi isolati di servizio poco cordiale, rapporto qualità-prezzo e una visita che alcuni considerano piuttosto breve.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {
+      "origin": "",
+      "rock": "",
+      "process": "",
+      "interest": 1
+    },
+    "links": {
+      "official": "https://www.rhumeriedechamarel.com/",
+      "wikipedia": "",
+      "maps": "",
+      "reviews": "https://www.tripadvisor.co.uk/Attraction_Review-g1168948-d1383014-Reviews-Rhumerie_de_Chamarel-Chamarel.html"
+    },
+    "notes": "Ottimo abbinamento alla giornata Chamarel. Non confondere il costo con il biglietto del Geopark.",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false
+  },
+  {
+    "id": "bois-cheri-tea",
+    "type": "food",
+    "name": "Bois Chéri Tea Factory & Tea Museum",
+    "area": "Centro-Sud - Bois Chéri",
+    "coordinates": {
+      "lat": -20.426304,
+      "lon": 57.525849
+    },
+    "categories": [
+      "food",
+      "te",
+      "degustazione",
+      "cultura",
+      "esperienza-locale"
+    ],
+    "tags": [
+      "tea",
+      "piantagione",
+      "degustazione",
+      "fabbrica",
+      "museo",
+      "panorama"
+    ],
+    "description": "Storica produzione di tè mauriziano con visita alla fabbrica e al museo, piantagioni e degustazione in posizione panoramica.",
+    "food_type": "produzione del tè e degustazione",
+    "must_try": [
+      "vanilla tea",
+      "black tea",
+      "green tea",
+      "infusi aromatizzati"
+    ],
+    "interest": {
+      "nature": 4,
+      "culture": 5,
+      "history": 4,
+      "geology": 3,
+      "food": 5,
+      "photography": 5,
+      "adventure": 1,
+      "relax": 5,
+      "sea": 0
+    },
+    "practical": {
+      "opening": "09:00",
+      "closing": "17:00",
+      "hours_note": "Gli orari possono variare per visite alla fabbrica e nei fine settimana: verificare online il giorno precedente.",
+      "duration": "1,5-2 ore",
+      "duration_min": 75,
+      "duration_recommended": 120,
+      "duration_max": 180,
+      "ticket": null,
+      "currency": "MUR",
+      "reservation_required": false,
+      "parking": true,
+      "price_range": "medio"
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 5,
+      "touristic_score": 4,
+      "best_for": [
+        "tea tasting",
+        "cultura",
+        "paesaggio",
+        "giornata piovosa"
+      ]
+    },
+    "reviews": {
+      "rating": 4.4,
+      "scale": 5,
+      "review_count": 3368,
+      "source": "local business index",
+      "summary": "I visitatori apprezzano soprattutto la degustazione dei diversi tè, il paesaggio delle piantagioni, il lago e la possibilità di comprendere la produzione del tè mauriziano. Le guide vengono spesso considerate informative. Alcune recensioni trovano il museo o la visita alla fabbrica piuttosto semplici, mentre le opinioni sul ristorante e sul servizio sono più contrastanti.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {
+      "origin": "Altopiano vulcanico interno di Mauritius.",
+      "rock": "Substrato vulcanico basaltico.",
+      "process": "Alterazione tropicale delle successioni vulcaniche e sviluppo di suoli profondi favorevoli alle coltivazioni dell'altopiano.",
+      "interest": 3
+    },
+    "links": {
+      "official": "https://www.saintaubin.mu/",
+      "wikipedia": "",
+      "maps": "",
+      "reviews": "https://www.tripadvisor.com/Attraction_Review-g2027591-d2047680-Reviews-Bois_Cheri_Tea_Factory_and_Tea_Museum-Bois_Cheri.html"
+    },
+    "notes": "Molto facile da combinare con Ganga Talao e la giornata del centro-sud.",
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false
+  },
+  {
+    "id": "original-maraz-and-sons-dholl-puri",
+    "type": "food",
+    "name": "Original Maraz and Sons Dholl Puri",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.1605625,
+      "lon": 57.5026875
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Original Maraz and Sons Dholl Puri è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "scale": 5,
+      "review_count": 2,
+      "source": "local business index",
+      "summary": "Valutazione corrente 5.0/5 su 2 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "maraz-roti-dholl-puri-gateaux",
+    "type": "food",
+    "name": "Maraz Roti Dholl Puri & Gâteaux",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.1680625,
+      "lon": 57.5151875
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Maraz Roti Dholl Puri & Gâteaux è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.4,
+      "scale": 5,
+      "review_count": 41,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.4/5 su 41 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "ricardos-fast-food",
+    "type": "food",
+    "name": "Ricardo’s Fast Food",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.1468125,
+      "lon": 57.5184375
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Ricardo’s Fast Food è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.2,
+      "scale": 5,
+      "review_count": 813,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.2/5 su 813 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "jim-snack",
+    "type": "food",
+    "name": "Jim Snack",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.1635625,
+      "lon": 57.5058125
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Jim Snack è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 290,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.5/5 su 290 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "pailles-market-place",
+    "type": "food",
+    "name": "Pailles Market Place",
+    "area": "Port Louis / Nord-Ovest",
+    "coordinates": {
+      "lat": -20.1886875,
+      "lon": 57.4929375
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "cultura"
+    ],
+    "tags": [
+      "very-local",
+      "mercato-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Pailles Market Place è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "market",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico",
+      "hours_note": "domenica mattina"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 3.6,
+      "scale": 5,
+      "review_count": 79,
+      "source": "local business index",
+      "summary": "Valutazione corrente 3.6/5 su 79 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "grand-baie-bazar",
+    "type": "food",
+    "name": "Grand Baie Bazar",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.0099375,
+      "lon": 57.5863125
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "cultura"
+    ],
+    "tags": [
+      "mercato-locale"
+    ],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Grand Baie Bazar è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "market",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "variabile",
+      "hours_note": "09:00-17:00 lun-sab"
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 3,
+      "touristic_score": 3,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 3.7,
+      "scale": 5,
+      "review_count": 1014,
+      "source": "local business index",
+      "summary": "Valutazione corrente 3.7/5 su 1014 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "chez-stef-snack",
+    "type": "food",
+    "name": "Chez Stef Snack",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.0155625,
+      "lon": 57.5741875
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Chez Stef Snack è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "scale": 5,
+      "review_count": 45,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.9/5 su 45 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "fournil-grand-baie",
+    "type": "food",
+    "name": "Fournil Grand Baie",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.0130625,
+      "lon": 57.5913125
+    },
+    "categories": [
+      "food",
+      "bakery",
+      "pasticceria"
+    ],
+    "tags": [
+      "very-local",
+      "bakery-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Fournil Grand Baie è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "bakery",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.4,
+      "scale": 5,
+      "review_count": 120,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.4/5 su 120 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "patisserie-pillay-grand-baie",
+    "type": "food",
+    "name": "Patisserie Pillay Grand Baie",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.0110625,
+      "lon": 57.5641875
+    },
+    "categories": [
+      "food",
+      "bakery",
+      "pasticceria"
+    ],
+    "tags": [
+      "very-local",
+      "bakery-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Patisserie Pillay Grand Baie è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "bakery",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "scale": 5,
+      "review_count": 33,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.7/5 su 33 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "urban-food-maker-curepipe",
+    "type": "food",
+    "name": "Urban Food Maker Curepipe",
+    "area": "Centro",
+    "coordinates": {
+      "lat": -20.3185625,
+      "lon": 57.5268125
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Urban Food Maker Curepipe è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 60,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.5/5 su 60 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "curepipe-market",
+    "type": "food",
+    "name": "Curepipe Market",
+    "area": "Centro",
+    "coordinates": {
+      "lat": -20.3171875,
+      "lon": 57.5259375
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "cultura"
+    ],
+    "tags": [
+      "very-local",
+      "mercato-locale"
+    ],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": true,
+    "description": "Curepipe Market è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "market",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico",
+      "hours_note": "06:30-18:00 circa"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 3.5,
+      "scale": 5,
+      "review_count": 1487,
+      "source": "local business index",
+      "summary": "Valutazione corrente 3.5/5 su 1487 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "patisserie-nizam-curepipe",
+    "type": "food",
+    "name": "Patisserie Nizam Curepipe",
+    "area": "Centro",
+    "coordinates": {
+      "lat": -20.3030625,
+      "lon": 57.5221875
+    },
+    "categories": [
+      "food",
+      "bakery",
+      "pasticceria"
+    ],
+    "tags": [
+      "very-local",
+      "bakery-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Patisserie Nizam Curepipe è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "bakery",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 100,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.5/5 su 100 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "quatre-bornes-market",
+    "type": "food",
+    "name": "Quatre Bornes Market",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.2665625,
+      "lon": 57.4799375
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "cultura"
+    ],
+    "tags": [
+      "very-local",
+      "mercato-locale"
+    ],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": true,
+    "description": "Quatre Bornes Market è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "market",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.0,
+      "scale": 5,
+      "review_count": 2521,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.0/5 su 2521 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "rose-hill-market",
+    "type": "food",
+    "name": "Rose Hill Market",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.2444375,
+      "lon": 57.4760625
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "cultura"
+    ],
+    "tags": [
+      "very-local",
+      "mercato-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Rose Hill Market è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "market",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico",
+      "hours_note": "06:00-18:00; domenica fino a mezzogiorno"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 3.8,
+      "scale": 5,
+      "review_count": 602,
+      "source": "local business index",
+      "summary": "Valutazione corrente 3.8/5 su 602 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "foire-de-quatre-bornes",
+    "type": "food",
+    "name": "Foire de Quatre Bornes",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.2664375,
+      "lon": 57.4789375
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "cultura"
+    ],
+    "tags": [
+      "very-local",
+      "mercato-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Foire de Quatre Bornes è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "market",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "variabile"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.2,
+      "scale": 5,
+      "review_count": 226,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.2/5 su 226 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "kistna-la-boulangerie-de-dholl-puri",
+    "type": "food",
+    "name": "Kistna La Boulangerie de Dholl Puri",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.2311875,
+      "lon": 57.4540625
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Kistna La Boulangerie de Dholl Puri è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico",
+      "hours_note": "09:00-17:00 feriali"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.2,
+      "scale": 5,
+      "review_count": 85,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.2/5 su 85 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "riverside-snack-curepipe",
+    "type": "food",
+    "name": "Riverside Snack Curepipe",
+    "area": "Centro",
+    "coordinates": {
+      "lat": -20.3046875,
+      "lon": 57.5243125
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Riverside Snack Curepipe è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico",
+      "hours_note": "11:00-16:00 alcuni giorni"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.2,
+      "scale": 5,
+      "review_count": 62,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.2/5 su 62 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "patisserie-mahe",
+    "type": "food",
+    "name": "Patisserie Mahe",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4078125,
+      "lon": 57.7081875
+    },
+    "categories": [
+      "food",
+      "bakery",
+      "pasticceria"
+    ],
+    "tags": [
+      "very-local",
+      "bakery-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Patisserie Mahe è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "bakery",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.0,
+      "scale": 5,
+      "review_count": 127,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.0/5 su 127 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "mahebourg-waterfront-food-stop",
+    "type": "food",
+    "name": "Mahébourg Waterfront Food Stop",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4050625,
+      "lon": 57.7098125
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": true,
+    "description": "Mahébourg Waterfront Food Stop è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico/medio"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.3,
+      "scale": 5,
+      "review_count": 2311,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.3/5 su 2311 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "la-famiilia-kev-snack",
+    "type": "food",
+    "name": "La Famiilia Kev Snack",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4189375,
+      "lon": 57.7039375
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "La Famiilia Kev Snack è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "scale": 5,
+      "review_count": 8,
+      "source": "local business index",
+      "summary": "Valutazione corrente 5.0/5 su 8 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "coin-bistro-mahebourg",
+    "type": "food",
+    "name": "Coin Bistro Mahébourg",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4063125,
+      "lon": 57.7074375
+    },
+    "categories": [
+      "food",
+      "ristorante"
+    ],
+    "tags": [
+      "very-local"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Coin Bistro Mahébourg è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "restaurant",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "medio"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "scale": 5,
+      "review_count": 65,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.7/5 su 65 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "shopping-market-mahebourg",
+    "type": "food",
+    "name": "Shopping Market Mahébourg",
+    "area": "Sud-Est",
+    "coordinates": {
+      "lat": -20.4066875,
+      "lon": 57.7084375
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "cultura"
+    ],
+    "tags": [
+      "very-local",
+      "mercato-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Shopping Market Mahébourg è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "market",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "variabile"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.1,
+      "scale": 5,
+      "review_count": 40,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.1/5 su 40 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "souillac-market",
+    "type": "food",
+    "name": "Souillac Market",
+    "area": "Sud / Centro-Sud",
+    "coordinates": {
+      "lat": -20.5206875,
+      "lon": 57.5230625
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "cultura"
+    ],
+    "tags": [
+      "very-local",
+      "mercato-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Souillac Market è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "market",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 3.3,
+      "scale": 5,
+      "review_count": 10,
+      "source": "local business index",
+      "summary": "Valutazione corrente 3.3/5 su 10 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "la-bonne-bouffe-souillac",
+    "type": "food",
+    "name": "La Bonne Bouffe Souillac",
+    "area": "Sud / Centro-Sud",
+    "coordinates": {
+      "lat": -20.5190625,
+      "lon": 57.5229375
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "La Bonne Bouffe Souillac è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico",
+      "hours_note": "10:00-21:00"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 53,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.5/5 su 53 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "good-snack-souillac",
+    "type": "food",
+    "name": "Good Snack Souillac",
+    "area": "Sud / Centro-Sud",
+    "coordinates": {
+      "lat": -20.5158125,
+      "lon": 57.5314375
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Good Snack Souillac è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico",
+      "hours_note": "10:00-20:00"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.2,
+      "scale": 5,
+      "review_count": 15,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.2/5 su 15 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "lepep-snack-souillac",
+    "type": "food",
+    "name": "Lepep Snack Souillac",
+    "area": "Sud / Centro-Sud",
+    "coordinates": {
+      "lat": -20.5184375,
+      "lon": 57.5259375
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "Lepep Snack Souillac è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "scale": 5,
+      "review_count": 7,
+      "source": "local business index",
+      "summary": "Valutazione corrente 5.0/5 su 7 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "nudlz-snack-souillac",
+    "type": "food",
+    "name": "Nudlz Snack Souillac",
+    "area": "Sud / Centro-Sud",
+    "coordinates": {
+      "lat": -20.5180625,
+      "lon": 57.5263125
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "Nudlz Snack Souillac è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "scale": 5,
+      "review_count": 5,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.8/5 su 5 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "fam-locean-snack",
+    "type": "food",
+    "name": "Fam L’Ocean Snack",
+    "area": "Sud / Centro-Sud",
+    "coordinates": {
+      "lat": -20.5195625,
+      "lon": 57.5225625
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "Fam L’Ocean Snack è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "scale": 5,
+      "review_count": 2,
+      "source": "local business index",
+      "summary": "Valutazione corrente 5.0/5 su 2 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "angry-hungry-girl-souillac",
+    "type": "food",
+    "name": "Angry Hungry Girl Souillac",
+    "area": "Sud / Centro-Sud",
+    "coordinates": {
+      "lat": -20.5245625,
+      "lon": 57.5303125
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Angry Hungry Girl Souillac è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico",
+      "hours_note": "24h nella scheda corrente"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.4,
+      "scale": 5,
+      "review_count": 19,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.4/5 su 19 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "iran-bakery-surinam",
+    "type": "food",
+    "name": "Iran Bakery Surinam",
+    "area": "Sud / Centro-Sud",
+    "coordinates": {
+      "lat": -20.5124375,
+      "lon": 57.5104375
+    },
+    "categories": [
+      "food",
+      "bakery",
+      "pasticceria"
+    ],
+    "tags": [
+      "very-local",
+      "bakery-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Iran Bakery Surinam è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "bakery",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico",
+      "hours_note": "03:30-21:00"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.3,
+      "scale": 5,
+      "review_count": 86,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.3/5 su 86 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "goodlands-market",
+    "type": "food",
+    "name": "Goodlands Market",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.0413125,
+      "lon": 57.6540625
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "cultura"
+    ],
+    "tags": [
+      "very-local",
+      "mercato-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Goodlands Market è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "market",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.2,
+      "scale": 5,
+      "review_count": 40,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.2/5 su 40 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "bazar-de-goodlands",
+    "type": "food",
+    "name": "Bazar de Goodlands",
+    "area": "Nord",
+    "coordinates": {
+      "lat": -20.0509375,
+      "lon": 57.6665625
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "cultura"
+    ],
+    "tags": [
+      "very-local",
+      "mercato-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Bazar de Goodlands è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "market",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico",
+      "hours_note": "mer e sab 05:00-16:00"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.4,
+      "scale": 5,
+      "review_count": 27,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.4/5 su 27 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "bel-air-market-fair",
+    "type": "food",
+    "name": "Bel Air Market Fair",
+    "area": "Est",
+    "coordinates": {
+      "lat": -20.2579375,
+      "lon": 57.7600625
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "cultura"
+    ],
+    "tags": [
+      "very-local",
+      "mercato-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Bel Air Market Fair è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "market",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.0,
+      "scale": 5,
+      "review_count": 12,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.0/5 su 12 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "bel-air-market",
+    "type": "food",
+    "name": "Bel Air Market",
+    "area": "Est",
+    "coordinates": {
+      "lat": -20.2564375,
+      "lon": 57.7523125
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "cultura"
+    ],
+    "tags": [
+      "very-local",
+      "mercato-locale"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "Bel Air Market è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "market",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "scale": 5,
+      "review_count": 3,
+      "source": "local business index",
+      "summary": "Valutazione corrente 5.0/5 su 3 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "patisserie-ramdhun-flacq",
+    "type": "food",
+    "name": "Patisserie Ramdhun Flacq",
+    "area": "Nord-Est",
+    "coordinates": {
+      "lat": -20.2126875,
+      "lon": 57.7404375
+    },
+    "categories": [
+      "food",
+      "bakery",
+      "pasticceria"
+    ],
+    "tags": [
+      "very-local",
+      "bakery-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Patisserie Ramdhun Flacq è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "bakery",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico",
+      "hours_note": "08:00-18:00"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 16,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.5/5 su 16 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "le-fournil-flacq",
+    "type": "food",
+    "name": "Le Fournil Flacq",
+    "area": "Nord-Est",
+    "coordinates": {
+      "lat": -20.1894375,
+      "lon": 57.7219375
+    },
+    "categories": [
+      "food",
+      "bakery",
+      "pasticceria"
+    ],
+    "tags": [
+      "very-local",
+      "bakery-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Le Fournil Flacq è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "bakery",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico",
+      "hours_note": "24h nella scheda corrente"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.1,
+      "scale": 5,
+      "review_count": 62,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.1/5 su 62 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "chez-matok-central-flacq-market",
+    "type": "food",
+    "name": "Chez Matok Central Flacq Market",
+    "area": "Nord-Est",
+    "coordinates": {
+      "lat": -20.1893125,
+      "lon": 57.7261875
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "Chez Matok Central Flacq Market è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "scale": 5,
+      "review_count": 4,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.5/5 su 4 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "corner-bakery-central-flacq",
+    "type": "food",
+    "name": "Corner Bakery Central Flacq",
+    "area": "Nord-Est",
+    "coordinates": {
+      "lat": -20.1909375,
+      "lon": 57.7203125
+    },
+    "categories": [
+      "food",
+      "bakery",
+      "pasticceria"
+    ],
+    "tags": [
+      "very-local",
+      "bakery-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Corner Bakery Central Flacq è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "bakery",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.3,
+      "scale": 5,
+      "review_count": 10,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.3/5 su 10 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "la-kaz-a-pain-flic-en-flac",
+    "type": "food",
+    "name": "La Kaz à Pain Flic en Flac",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.2803125,
+      "lon": 57.3686875
+    },
+    "categories": [
+      "food",
+      "bakery",
+      "pasticceria"
+    ],
+    "tags": [
+      "very-local",
+      "bakery-locale"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "La Kaz à Pain Flic en Flac è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "bakery",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico",
+      "hours_note": "07:00-16:00; domenica fino alle 13"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.1,
+      "scale": 5,
+      "review_count": 142,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.1/5 su 142 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "wolmar-supermarket-local-stop",
+    "type": "food",
+    "name": "Wolmar Supermarket Local Stop",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.2936875,
+      "lon": 57.3640625
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "cultura"
+    ],
+    "tags": [
+      "very-local",
+      "mercato-locale"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "Wolmar Supermarket Local Stop è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "market",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico",
+      "hours_note": "08:00-19:30"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 3.8,
+      "scale": 5,
+      "review_count": 309,
+      "source": "local business index",
+      "summary": "Valutazione corrente 3.8/5 su 309 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "blue-box-food-chez-colas",
+    "type": "food",
+    "name": "Blue Box Food Chez Colas",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.2881875,
+      "lon": 57.3638125
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Blue Box Food Chez Colas è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "scale": 5,
+      "review_count": 71,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.8/5 su 71 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "emba-filao-restaurant-le-morne",
+    "type": "food",
+    "name": "Emba Filao Restaurant Le Morne",
+    "area": "Sud-Ovest",
+    "coordinates": {
+      "lat": -20.4544375,
+      "lon": 57.3123125
+    },
+    "categories": [
+      "food",
+      "ristorante"
+    ],
+    "tags": [],
+    "priority": {
+      "level": "very-interesting",
+      "score": 3,
+      "label": "Molto interessante"
+    },
+    "very_local": false,
+    "description": "Emba Filao Restaurant Le Morne è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "restaurant",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "medio",
+      "hours_note": "08:30-14:45 circa"
+    },
+    "experience": {
+      "authenticity": 4,
+      "local_score": 3,
+      "touristic_score": 3,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.0,
+      "scale": 5,
+      "review_count": 809,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.0/5 su 809 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "boulet-and-noodles-tamarin",
+    "type": "food",
+    "name": "Boulet and Noodles Tamarin",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.3270625,
+      "lon": 57.3771875
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Boulet and Noodles Tamarin è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "scale": 5,
+      "review_count": 46,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.9/5 su 46 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "imbiss-tamarin",
+    "type": "food",
+    "name": "Imbiss Tamarin",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.3279375,
+      "lon": 57.3850625
+    },
+    "categories": [
+      "food",
+      "street-food"
+    ],
+    "tags": [
+      "very-local",
+      "street-food"
+    ],
+    "priority": {
+      "level": "local-gem",
+      "score": 2,
+      "label": "Locale particolare"
+    },
+    "very_local": true,
+    "description": "Imbiss Tamarin è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "street-food",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 4.4,
+      "scale": 5,
+      "review_count": 60,
+      "source": "local business index",
+      "summary": "Valutazione corrente 4.4/5 su 60 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  },
+  {
+    "id": "tamarin-store-food-stop",
+    "type": "food",
+    "name": "Tamarin Store Food Stop",
+    "area": "Ovest",
+    "coordinates": {
+      "lat": -20.3290625,
+      "lon": 57.3775625
+    },
+    "categories": [
+      "food",
+      "mercato",
+      "cultura"
+    ],
+    "tags": [
+      "very-local",
+      "mercato-locale"
+    ],
+    "priority": {
+      "level": "nearby-detour",
+      "score": 1,
+      "label": "Deviazione se sei vicino"
+    },
+    "very_local": true,
+    "description": "Tamarin Store Food Stop è un punto food reale inserito per dare alternative concrete e locali durante gli spostamenti.",
+    "food_type": "market",
+    "must_try": [],
+    "interest": {
+      "nature": 0,
+      "culture": 3,
+      "history": 0,
+      "geology": 0,
+      "food": 5,
+      "photography": 2,
+      "adventure": 0,
+      "relax": 3,
+      "sea": 0
+    },
+    "practical": {
+      "duration": "30-75 min",
+      "currency": "MUR",
+      "reservation_required": false,
+      "price_range": "economico"
+    },
+    "experience": {
+      "authenticity": 5,
+      "local_score": 5,
+      "touristic_score": 1,
+      "best_for": [
+        "sosta food",
+        "vita locale"
+      ]
+    },
+    "reviews": {
+      "rating": 3.9,
+      "scale": 5,
+      "review_count": 200,
+      "source": "local business index",
+      "summary": "Valutazione corrente 3.9/5 su 200 recensioni disponibili. La scheda conserva il dato quantitativo; la sintesi qualitativa approfondita va aggiornata solo quando è accessibile un corpus recensioni sufficiente.",
+      "last_update": "2026-08-18"
+    },
+    "geology": {},
+    "links": {},
+    "notes": "Coordinate ricavate dal Plus Code della scheda business corrente."
+  }
+]

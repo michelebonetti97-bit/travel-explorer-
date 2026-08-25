@@ -1,0 +1,667 @@
+{
+  "trip": {
+    "id": "mauritius-2026",
+    "name": "Mauritius 2026",
+    "destination": "Mauritius",
+    "base_poi_id": "veranda-tamarin",
+    "start_date": "2026-09-13",
+    "end_date": "2026-09-20",
+    "timezone": "Indian/Mauritius",
+    "currency": "MUR",
+    "notes": "Piano principale. Le attività meteo-sensibili possono essere sostituite dalle alternative indicate."
+  },
+  "engine": {
+    "nearby_radius_km": 7,
+    "nearby_max_results": 8,
+    "prefer_very_local": true,
+    "priority_order": [
+      "must-see",
+      "very-interesting",
+      "local-gem",
+      "nearby-detour"
+    ],
+    "day_max_minutes": 720,
+    "recommended_buffer_minutes": 60,
+    "driving_warning_minutes": 210
+  },
+  "days": [
+    {
+      "date": "2026-09-13",
+      "title": "Arrivo + Tamarin senza stress",
+      "theme": "Arrivo · Very Local · Relax",
+      "weather_dependency": "low",
+      "target_end": "17:00",
+      "manual_driving_minutes": 75,
+      "buffer_minutes": 150,
+      "blocks": [
+        {
+          "kind": "arrival",
+          "time": "05:40",
+          "duration_minutes": 100,
+          "title": "Arrivo a Mauritius",
+          "description": "Immigrazione, bagagli e ritiro auto.",
+          "custom_location": {
+            "name": "Sir Seewoosagur Ramgoolam International Airport",
+            "lat": -20.4302,
+            "lon": 57.6836
+          }
+        },
+        {
+          "kind": "transfer",
+          "time": "07:20",
+          "duration_minutes": 65,
+          "title": "Aeroporto → Tamarin",
+          "description": "Trasferimento tranquillo verso la costa ovest."
+        },
+        {
+          "kind": "meal",
+          "time": "08:30",
+          "duration_minutes": 60,
+          "title": "Colazione libera a Tamarin",
+          "description": "Prima colazione senza prenotazioni e senza tempi rigidi."
+        },
+        {
+          "kind": "visit",
+          "time": "10:00",
+          "duration_minutes": 75,
+          "poi_id": "tamarin-bay",
+          "poi_type": "place",
+          "title": "Tamarin Bay",
+          "description": "Passeggiata leggera, primo contatto con l'oceano e la costa ovest."
+        },
+        {
+          "kind": "visit",
+          "time": "11:30",
+          "duration_minutes": 35,
+          "poi_id": "tamarin",
+          "poi_type": "place",
+          "title": "Tamarin local",
+          "description": "Piccola esplorazione del paese senza trasformare il primo giorno in una maratona."
+        },
+        {
+          "kind": "meal",
+          "time": "12:15",
+          "duration_minutes": 60,
+          "poi_id": "boulet-and-noodles-tamarin",
+          "poi_type": "food",
+          "title": "Pranzo local",
+          "description": "Prima esperienza molto locale, se aperto; altrimenti scelta libera in zona."
+        },
+        {
+          "kind": "hotel",
+          "time": "13:45",
+          "duration_minutes": 195,
+          "poi_id": "veranda-tamarin",
+          "poi_type": "place",
+          "title": "Hotel, check-in e riposo",
+          "description": "Pomeriggio volutamente scarico. Sunset e relax senza altri trasferimenti."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Se siete distrutti dal volo",
+          "description": "Saltare Tamarin village e pranzo programmato; andare direttamente in hotel appena possibile."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "title": "Le Morne + Chamarel",
+      "theme": "Trekking · Geologia · Rum",
+      "weather_dependency": "high",
+      "target_end": "17:15",
+      "manual_driving_minutes": 100,
+      "buffer_minutes": 70,
+      "blocks": [
+        {
+          "kind": "transfer",
+          "time": "06:20",
+          "duration_minutes": 35,
+          "title": "Tamarin → Le Morne",
+          "description": "Partenza presto."
+        },
+        {
+          "kind": "activity",
+          "time": "07:00",
+          "duration_minutes": 210,
+          "poi_id": "le-morne-brabant-hike",
+          "poi_type": "adventure",
+          "title": "Trekking Le Morne Brabant",
+          "description": "Trekking principale della giornata. Partenza mattutina per evitare caldo e affollamento."
+        },
+        {
+          "kind": "break",
+          "time": "10:30",
+          "duration_minutes": 30,
+          "title": "Recupero + snack",
+          "description": "Acqua, cambio maglia e pausa prima di Chamarel."
+        },
+        {
+          "kind": "transfer",
+          "time": "11:00",
+          "duration_minutes": 30,
+          "title": "Le Morne → Chamarel",
+          "description": "Salita verso l'altopiano di Chamarel."
+        },
+        {
+          "kind": "visit",
+          "time": "11:30",
+          "duration_minutes": 120,
+          "poi_id": "chamarel-seven-coloured-earth",
+          "poi_type": "place",
+          "title": "Seven Coloured Earth + Chamarel Waterfall",
+          "description": "Un'unica visita al Geopark: waterfall, terre colorate e lettura geologica."
+        },
+        {
+          "kind": "meal",
+          "time": "13:40",
+          "duration_minutes": 60,
+          "poi_id": "chamarel-village",
+          "poi_type": "place",
+          "title": "Pranzo a Chamarel Village",
+          "description": "Pranzo con margine, preferendo cucina locale."
+        },
+        {
+          "kind": "visit",
+          "time": "14:50",
+          "duration_minutes": 75,
+          "poi_id": "rhumerie-de-chamarel",
+          "poi_type": "food",
+          "title": "Rhumerie de Chamarel",
+          "description": "Visita e degustazione. Se siete in ritardo, è la prima tappa da accorciare o saltare."
+        },
+        {
+          "kind": "transfer",
+          "time": "16:10",
+          "duration_minutes": 40,
+          "title": "Chamarel → Tamarin",
+          "description": "Rientro verso l'hotel."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Pioggia / sentiero non sicuro",
+          "poi_id": "valle-advenature-park",
+          "poi_type": "adventure",
+          "description": "Se Le Morne non è praticabile, non forzare il trekking. Usare un'attività compatibile con le condizioni oppure trasformare la giornata in Chamarel + cultura."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Port Louis + Nord culturale",
+      "theme": "UNESCO · Street Food · Templi",
+      "weather_dependency": "low",
+      "target_end": "18:30",
+      "manual_driving_minutes": 205,
+      "buffer_minutes": 65,
+      "blocks": [
+        {
+          "kind": "transfer",
+          "time": "07:30",
+          "duration_minutes": 55,
+          "title": "Tamarin → Port Louis",
+          "description": "Arrivo prima delle ore più trafficate."
+        },
+        {
+          "kind": "visit",
+          "time": "08:30",
+          "duration_minutes": 45,
+          "poi_id": "port-louis-chinatown",
+          "poi_type": "culture",
+          "title": "Chinatown",
+          "description": "Passeggiata urbana prima dell'apertura di Aapravasi Ghat."
+        },
+        {
+          "kind": "visit",
+          "time": "09:20",
+          "duration_minutes": 70,
+          "poi_id": "aapravasi-ghat",
+          "poi_type": "culture",
+          "title": "Aapravasi Ghat",
+          "description": "Tappa storica prioritaria della giornata."
+        },
+        {
+          "kind": "meal",
+          "time": "10:45",
+          "duration_minutes": 90,
+          "poi_id": "port-louis-central-market-food",
+          "poi_type": "food",
+          "title": "Central Market + street food",
+          "description": "Mercato, dholl puri, gateaux piments, alouda e giro tra i banchi."
+        },
+        {
+          "kind": "visit",
+          "time": "12:30",
+          "duration_minutes": 50,
+          "poi_id": "fort-adelaide",
+          "poi_type": "culture",
+          "title": "Fort Adelaide",
+          "description": "Vista dall'alto sulla capitale e sul porto."
+        },
+        {
+          "kind": "transfer",
+          "time": "13:30",
+          "duration_minutes": 40,
+          "title": "Port Louis → Triolet",
+          "description": "Verso il nord dell'isola."
+        },
+        {
+          "kind": "visit",
+          "time": "14:15",
+          "duration_minutes": 60,
+          "poi_id": "maheswarnath-mandir",
+          "poi_type": "culture",
+          "title": "Maheswarnath Mandir",
+          "description": "Tempio hindu importante e molto più interessante di una giornata solo spiagge."
+        },
+        {
+          "kind": "transfer",
+          "time": "15:20",
+          "duration_minutes": 25,
+          "title": "Triolet → Cap Malheureux",
+          "description": ""
+        },
+        {
+          "kind": "visit",
+          "time": "15:45",
+          "duration_minutes": 50,
+          "poi_id": "notre-dame-auxiliatrice-cap-malheureux",
+          "poi_type": "culture",
+          "title": "Cap Malheureux",
+          "description": "Chiesa dal tetto rosso e vista su Coin de Mire."
+        },
+        {
+          "kind": "transfer",
+          "time": "16:40",
+          "duration_minutes": 95,
+          "title": "Cap Malheureux → Tamarin",
+          "description": "Rientro lungo verso la costa ovest."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Se Port Louis vi prende più tempo",
+          "description": "Saltare Fort Adelaide e mantenere Aapravasi Ghat, Central Market e Maheswarnath Mandir."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Est: mercato + mare",
+      "theme": "Very Local · Street Food · Oceano",
+      "weather_dependency": "very_high",
+      "target_end": "17:45",
+      "manual_driving_minutes": 190,
+      "buffer_minutes": 90,
+      "blocks": [
+        {
+          "kind": "transfer",
+          "time": "07:30",
+          "duration_minutes": 80,
+          "title": "Tamarin → Central Flacq",
+          "description": "Attraversamento dell'isola verso est."
+        },
+        {
+          "kind": "visit",
+          "time": "08:50",
+          "duration_minutes": 90,
+          "poi_id": "central-flacq-market-food",
+          "poi_type": "food",
+          "title": "Central Flacq Market",
+          "description": "Mercoledì è uno dei giorni migliori: mercato pieno e street food."
+        },
+        {
+          "kind": "meal",
+          "time": "10:25",
+          "duration_minutes": 35,
+          "poi_id": "chez-matok-central-flacq-market",
+          "poi_type": "food",
+          "title": "Snack very local",
+          "description": "Tappa breve e flessibile."
+        },
+        {
+          "kind": "transfer",
+          "time": "11:05",
+          "duration_minutes": 25,
+          "title": "Flacq → Pointe Lafayette",
+          "description": ""
+        },
+        {
+          "kind": "visit",
+          "time": "11:30",
+          "duration_minutes": 80,
+          "poi_id": "pointe-lafayette",
+          "poi_type": "place",
+          "title": "Pointe Lafayette",
+          "description": "Prima parte del giorno mare, più selvaggia e fotografica."
+        },
+        {
+          "kind": "visit",
+          "time": "13:00",
+          "duration_minutes": 170,
+          "poi_id": "poste-lafayette",
+          "poi_type": "place",
+          "title": "Poste Lafayette",
+          "description": "Mare e relax. Nessun'altra visita obbligatoria."
+        },
+        {
+          "kind": "transfer",
+          "time": "15:55",
+          "duration_minutes": 85,
+          "title": "Poste Lafayette → Tamarin",
+          "description": "Rientro."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Vento forte sulla costa est",
+          "poi_id": "laventure-du-sucre",
+          "poi_type": "culture",
+          "description": "Se il mare a est è sgradevole, trasformare la seconda metà della giornata in cultura indoor invece di ostinarsi sulla spiaggia."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Gorges + Ganga Talao + Tea Route",
+      "theme": "Natura · Hinduismo · Tè · Geologia",
+      "weather_dependency": "medium",
+      "target_end": "17:00",
+      "manual_driving_minutes": 145,
+      "buffer_minutes": 70,
+      "blocks": [
+        {
+          "kind": "transfer",
+          "time": "07:45",
+          "duration_minutes": 30,
+          "title": "Tamarin → Black River Gorges",
+          "description": ""
+        },
+        {
+          "kind": "visit",
+          "time": "08:15",
+          "duration_minutes": 105,
+          "poi_id": "black-river-gorges",
+          "poi_type": "place",
+          "title": "Black River Gorges",
+          "description": "Viewpoint e passeggiata breve: non è il giorno della grande escursione."
+        },
+        {
+          "kind": "transfer",
+          "time": "10:05",
+          "duration_minutes": 25,
+          "title": "Black River Gorges → Ganga Talao",
+          "description": ""
+        },
+        {
+          "kind": "visit",
+          "time": "10:30",
+          "duration_minutes": 75,
+          "poi_id": "ganga-talao",
+          "poi_type": "place",
+          "title": "Ganga Talao - Grand Bassin",
+          "description": "Lago craterico sacro, templi e contesto religioso."
+        },
+        {
+          "kind": "transfer",
+          "time": "11:50",
+          "duration_minutes": 20,
+          "title": "Ganga Talao → Bois Chéri",
+          "description": ""
+        },
+        {
+          "kind": "visit",
+          "time": "12:10",
+          "duration_minutes": 120,
+          "poi_id": "bois-cheri-tea",
+          "poi_type": "food",
+          "title": "Bois Chéri",
+          "description": "Fabbrica/museo, piantagioni, tea tasting e possibile pranzo."
+        },
+        {
+          "kind": "transfer",
+          "time": "14:15",
+          "duration_minutes": 35,
+          "title": "Bois Chéri → Trou aux Cerfs",
+          "description": ""
+        },
+        {
+          "kind": "visit",
+          "time": "14:50",
+          "duration_minutes": 40,
+          "poi_id": "trou-aux-cerfs-volcano",
+          "poi_type": "place",
+          "title": "Trou aux Cerfs",
+          "description": "Crater rim e lettura vulcanologica rapida."
+        },
+        {
+          "kind": "visit",
+          "time": "15:35",
+          "duration_minutes": 45,
+          "poi_id": "curepipe-historic-town-centre",
+          "poi_type": "culture",
+          "title": "Curepipe local",
+          "description": "Breve deviazione urbana, da saltare se siete stanchi."
+        },
+        {
+          "kind": "transfer",
+          "time": "16:20",
+          "duration_minutes": 40,
+          "title": "Curepipe → Tamarin",
+          "description": ""
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Pioggia forte",
+          "description": "Ridurre Black River Gorges e mantenere Ganga Talao + Bois Chéri + Curepipe."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Adventure: Tamarin Falls",
+      "theme": "Cascate · Trekking · Very Local",
+      "weather_dependency": "very_high",
+      "target_end": "16:30",
+      "manual_driving_minutes": 65,
+      "buffer_minutes": 150,
+      "blocks": [
+        {
+          "kind": "transfer",
+          "time": "07:20",
+          "duration_minutes": 35,
+          "title": "Tamarin → Seven Cascades",
+          "description": ""
+        },
+        {
+          "kind": "activity",
+          "time": "08:00",
+          "duration_minutes": 240,
+          "poi_id": "tamarin-falls-adventure",
+          "poi_type": "adventure",
+          "title": "Tamarin Falls - Seven Cascades",
+          "description": "Escursione guidata. Non affrontare il percorso se le condizioni dopo piogge forti non sono sicure."
+        },
+        {
+          "kind": "transfer",
+          "time": "12:10",
+          "duration_minutes": 30,
+          "title": "Rientro a Tamarin",
+          "description": ""
+        },
+        {
+          "kind": "meal",
+          "time": "12:45",
+          "duration_minutes": 75,
+          "poi_id": "imbiss-tamarin",
+          "poi_type": "food",
+          "title": "Pranzo local",
+          "description": "Pranzo senza fretta dopo il trekking."
+        },
+        {
+          "kind": "hotel",
+          "time": "14:15",
+          "duration_minutes": 135,
+          "poi_id": "veranda-tamarin",
+          "poi_type": "place",
+          "title": "Pomeriggio libero",
+          "description": "Piscina, mare, spa, sonno o deviazioni suggerite dall'app."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Cascate non sicure",
+          "poi_id": "valle-advenature-park",
+          "poi_type": "adventure",
+          "description": "Usare Vallé Advenature Park solo se le sue attività sono operative e compatibili con il meteo."
+        },
+        {
+          "label": "Versione tranquilla",
+          "poi_id": "casela-nature-parks",
+          "poi_type": "adventure",
+          "description": "Casela come alternativa meno legata a sentieri naturali scivolosi."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Sud-est: Aigrettes + Blue Bay + Mahébourg",
+      "theme": "Conservazione · Snorkeling · Very Local",
+      "weather_dependency": "high",
+      "target_end": "17:45",
+      "manual_driving_minutes": 185,
+      "buffer_minutes": 65,
+      "blocks": [
+        {
+          "kind": "transfer",
+          "time": "07:15",
+          "duration_minutes": 80,
+          "title": "Tamarin → Pointe d'Esny",
+          "description": "Trasferimento verso il sud-est."
+        },
+        {
+          "kind": "activity",
+          "time": "08:45",
+          "duration_minutes": 120,
+          "poi_id": "ile-aux-aigrettes-eco-tour",
+          "poi_type": "adventure",
+          "title": "Île aux Aigrettes Eco Tour",
+          "description": "Da prenotare. Se l'orario disponibile è diverso, la giornata va riordinata attorno alla visita."
+        },
+        {
+          "kind": "transfer",
+          "time": "10:50",
+          "duration_minutes": 20,
+          "title": "Pointe d'Esny → Blue Bay",
+          "description": ""
+        },
+        {
+          "kind": "activity",
+          "time": "11:10",
+          "duration_minutes": 120,
+          "poi_id": "blue-bay-snorkeling",
+          "poi_type": "adventure",
+          "title": "Blue Bay Marine Park",
+          "description": "Snorkeling/relax nella laguna."
+        },
+        {
+          "kind": "transfer",
+          "time": "13:15",
+          "duration_minutes": 15,
+          "title": "Blue Bay → Mahébourg",
+          "description": ""
+        },
+        {
+          "kind": "meal",
+          "time": "13:30",
+          "duration_minutes": 70,
+          "poi_id": "mahebourg-waterfront-food-stop",
+          "poi_type": "food",
+          "title": "Pranzo a Mahébourg",
+          "description": "Preferenza per cucina locale e waterfront."
+        },
+        {
+          "kind": "visit",
+          "time": "14:45",
+          "duration_minutes": 60,
+          "poi_id": "mahebourg-rue-des-hollandais",
+          "poi_type": "culture",
+          "title": "Mahébourg very local",
+          "description": "Passeggiata nel tessuto storico e deviazioni locali."
+        },
+        {
+          "kind": "visit",
+          "time": "15:50",
+          "duration_minutes": 45,
+          "poi_id": "pointe-desny",
+          "poi_type": "place",
+          "title": "Pointe d'Esny",
+          "description": "Ultimo bagno o passeggiata, solo se avete ancora voglia."
+        },
+        {
+          "kind": "transfer",
+          "time": "16:35",
+          "duration_minutes": 70,
+          "title": "Pointe d'Esny → Tamarin",
+          "description": "Rientro per l'ultima sera."
+        }
+      ],
+      "alternatives": [
+        {
+          "label": "Île aux Aigrettes non disponibile",
+          "poi_id": "pont-naturel",
+          "poi_type": "place",
+          "description": "Sostituire il tour con Pont Naturel e mantenere Blue Bay + Mahébourg."
+        },
+        {
+          "label": "Mare brutto",
+          "poi_id": "frederik-hendrik-museum",
+          "poi_type": "culture",
+          "description": "Spostare la giornata verso storia e sud-est terrestre."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "title": "Partenza",
+      "theme": "Aeroporto",
+      "weather_dependency": "low",
+      "target_end": "08:00",
+      "manual_driving_minutes": 75,
+      "buffer_minutes": 120,
+      "blocks": [
+        {
+          "kind": "hotel",
+          "time": "05:30",
+          "duration_minutes": 20,
+          "poi_id": "veranda-tamarin",
+          "poi_type": "place",
+          "title": "Check-out",
+          "description": "Bagagli, eventuale breakfast box e controllo finale."
+        },
+        {
+          "kind": "transfer",
+          "time": "05:50",
+          "duration_minutes": 75,
+          "title": "Tamarin → Aeroporto",
+          "description": "Margine conservativo per restituzione auto e imprevisti."
+        },
+        {
+          "kind": "departure",
+          "time": "07:05",
+          "duration_minutes": 175,
+          "title": "Restituzione auto + aeroporto",
+          "description": "Volo previsto alle 10:00.",
+          "custom_location": {
+            "name": "Sir Seewoosagur Ramgoolam International Airport",
+            "lat": -20.4302,
+            "lon": 57.6836
+          }
+        }
+      ],
+      "alternatives": []
+    }
+  ]
+}
