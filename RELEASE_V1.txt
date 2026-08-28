@@ -31,5 +31,6 @@ Leaflet viene caricato online con doppio provider (unpkg + jsDelivr) e viene
 messo in cache dopo l'uso. Se Leaflet non è disponibile, i moduli restano
 operativi senza mappa invece di bloccare i pulsanti.
 
-PROSSIMO STEP DOPO IL FREEZE
-Sincronizzazione multi-dispositivo Michele / Denise, mantenendo offline-first.
+STEP SUCCESSIVO REALIZZATO
+La sincronizzazione multi-dispositivo Michele / Denise è documentata in
+RELEASE_SYNC_V1.txt.

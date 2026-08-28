@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0c6ea8">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="icon" href="icons/favicon-64.png">
+    <title>Sincronizzazione | Travel Explorer</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{margin:0;min-height:100vh;background:linear-gradient(145deg,#eaf7ff 0%,#f0fbf2 55%,#fff8ec 100%)}
+        .sync-page{max-width:760px;margin:0 auto;padding:18px 16px 80px}
+        .sync-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+        .sync-head h1{margin:0;font-size:27px}
+        .sync-kicker{font-size:9px;font-weight:850;letter-spacing:1px;color:#66817b;text-transform:uppercase}
+        .sync-panel{padding:18px;margin-bottom:12px;border:1px solid rgba(255,255,255,.78);border-radius:22px;background:rgba(255,255,255,.92);box-shadow:0 7px 24px rgba(0,0,0,.06)}
+        .sync-panel h2{margin:0 0 7px;font-size:18px}
+        .sync-panel p{margin:0 0 12px;color:#666;font-size:11px;line-height:1.55}
+        .sync-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+        .sync-card{padding:14px;border-radius:17px;background:#f5f5f7}
+        .sync-card h3{margin:0 0 5px;font-size:14px}
+        .sync-card p{margin:0 0 10px;font-size:10px}
+        .sync-field{display:block;margin:10px 0}
+        .sync-field span{display:block;margin-bottom:5px;color:#777;font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.5px}
+        .sync-field input{width:100%;min-height:44px;padding:10px 12px;border:1px solid #dddde2;border-radius:13px;background:#fff;color:#1d1d1f;font-size:14px}
+        .sync-button{width:100%;min-height:44px;border:0;border-radius:13px;padding:10px 13px;background:#1d1d1f;color:#fff;font-weight:850;cursor:pointer}
+        .sync-button.secondary{background:#edf2f1;color:#355b55}
+        .sync-button.danger{background:#fff0ed;color:#9c3e32}
+        .sync-button:disabled{opacity:.52;cursor:wait}
+        .sync-actions{display:flex;flex-wrap:wrap;gap:8px}
+        .sync-actions .sync-button{width:auto;flex:1 1 150px}
+        .sync-status{padding:12px;border-radius:14px;background:#f5f5f7;color:#555;font-size:10px;line-height:1.45}
+        .sync-status.good{background:#edf8f1;color:#2f6d48}
+        .sync-status.warn{background:#fff8e8;color:#755d24}
+        .sync-status.bad{background:#fff0ed;color:#963b31}
+        .sync-code{display:flex;align-items:center;gap:8px;margin:10px 0;padding:12px;border:1px dashed #aac8c1;border-radius:14px;background:#f3fbf7}
+        .sync-code strong{font-size:22px;letter-spacing:2px}
+        .sync-code button{margin-left:auto;border:0;border-radius:10px;padding:8px 10px;background:#fff;font-weight:800}
+        .sync-facts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}
+        .sync-fact{padding:11px;border-radius:13px;background:#f5f5f7}
+        .sync-fact span{display:block;color:#888;font-size:8px;text-transform:uppercase}
+        .sync-fact strong{display:block;margin-top:3px;font-size:12px;word-break:break-word}
+        .sync-note{padding:11px;border-radius:13px;background:#eef7ff;color:#426174;font-size:10px;line-height:1.5}
+        [hidden]{display:none!important}
+        @media(max-width:560px){.sync-grid,.sync-facts{grid-template-columns:1fr}.sync-page{padding-top:14px}.sync-head h1{font-size:24px}}
+    </style>
+</head>
+<body>
+<main class="sync-page">
+    <header class="sync-head">
+        <a class="back-button" href="index.html">←</a>
+        <div>
+            <div class="sync-kicker">Mauritius 2026</div>
+            <h1>☁️ Viaggio condiviso</h1>
+        </div>
+    </header>
+
+    <section class="sync-panel">
+        <h2>Michele ↔ Denise</h2>
+        <p>Ogni modifica viene salvata prima sul dispositivo. Quando c’è connessione viene condivisa con l’altro iPhone; offline resta in attesa senza bloccare l’app.</p>
+        <div id="sync-page-status" class="sync-status">Controllo account…</div>
+    </section>
+
+    <section id="sync-login-view" class="sync-panel" hidden>
+        <h2>Accedi</h2>
+        <p>Usa uno dei due account già creati in Supabase. La sessione resterà memorizzata su questo dispositivo.</p>
+        <form id="sync-login-form">
+            <label class="sync-field">
+                <span>Email</span>
+                <input id="sync-email" type="email" autocomplete="username" required>
+            </label>
+            <label class="sync-field">
+                <span>Password</span>
+                <input id="sync-password" type="password" autocomplete="current-password" required>
+            </label>
+            <button class="sync-button" type="submit">Accedi al viaggio</button>
+        </form>
+    </section>
+
+    <section id="sync-trip-view" class="sync-panel" hidden>
+        <h2>Collega i due dispositivi</h2>
+        <p>Questa operazione si esegue una sola volta. Michele crea il viaggio dal suo iPhone; Denise inserisce il codice ricevuto.</p>
+
+        <div class="sync-grid">
+            <article class="sync-card">
+                <h3>1 · Telefono di Michele</h3>
+                <p>Crea il viaggio usando come base i dati già presenti su questo iPhone.</p>
+                <button id="sync-create-trip" class="sync-button" type="button">Crea Mauritius 2026</button>
+            </article>
+
+            <article class="sync-card">
+                <h3>2 · Telefono di Denise</h3>
+                <p>Inserisci il codice mostrato sul telefono di Michele.</p>
+                <label class="sync-field">
+                    <span>Codice viaggio</span>
+                    <input id="sync-invite-input" type="text" maxlength="10" autocomplete="off" autocapitalize="characters">
+                </label>
+                <button id="sync-join-trip" class="sync-button secondary" type="button">Collega questo iPhone</button>
+            </article>
+        </div>
+    </section>
+
+    <section id="sync-connected-view" class="sync-panel" hidden>
+        <h2 id="sync-trip-name">Mauritius 2026</h2>
+        <p>Il viaggio è collegato. Il codice serve soltanto per aggiungere l’altro account.</p>
+
+        <div id="sync-invite-box" class="sync-code">
+            <div>
+                <span class="sync-kicker">Codice viaggio</span>
+                <strong id="sync-invite-code">—</strong>
+            </div>
+            <button id="sync-copy-code" type="button">Copia</button>
+        </div>
+
+        <div class="sync-facts">
+            <div class="sync-fact"><span>Account</span><strong id="sync-account-email">—</strong></div>
+            <div class="sync-fact"><span>Ruolo</span><strong id="sync-account-role">—</strong></div>
+            <div class="sync-fact"><span>Modifiche in attesa</span><strong id="sync-pending-count">0</strong></div>
+            <div class="sync-fact"><span>Ultimo allineamento</span><strong id="sync-last-time">—</strong></div>
+        </div>
+
+        <div class="sync-actions">
+            <button id="sync-now" class="sync-button" type="button">↻ Sincronizza ora</button>
+            <button id="sync-sign-out" class="sync-button danger" type="button">Esci da questo account</button>
+        </div>
+    </section>
+
+    <section id="sync-account-view" class="sync-panel" hidden>
+        <h2>Profilo e password</h2>
+        <div class="sync-grid">
+            <div>
+                <label class="sync-field">
+                    <span>Nome mostrato nelle modifiche</span>
+                    <input id="sync-display-name" type="text" maxlength="40" autocomplete="name">
+                </label>
+                <button id="sync-save-name" class="sync-button secondary" type="button">Salva nome</button>
+            </div>
+            <div>
+                <label class="sync-field">
+                    <span>Nuova password</span>
+                    <input id="sync-new-password" type="password" minlength="8" autocomplete="new-password">
+                </label>
+                <button id="sync-change-password" class="sync-button secondary" type="button">Cambia password</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="sync-note">Foto, scontrini e documenti fino a 25 MB vengono salvati nello spazio privato del viaggio. La chiave amministrativa Supabase non è presente nell’app.</div>
+</main>
+
+<script src="vendor/supabase.min.js"></script>
+<script src="sync-config.js"></script>
+<script src="travel-store.js"></script>
+<script src="travel-sync.js"></script>
+<script src="sync.js"></script>
+<script src="pwa-register.js"></script>
+</body>
+</html>

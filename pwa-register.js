@@ -1,9 +1,10 @@
 // ======================================================
-// TRAVEL EXPLORER - PWA REGISTER V6
+// TRAVEL EXPLORER - PWA REGISTER V7 SYNC
 // Installazione + aggiornamento + supporto iOS
 // ======================================================
 
 let deferredInstallPrompt = null;
+let tePWARefreshing = false;
 
 const TE_PWA_SCRIPT_URL =
     document.currentScript?.src ||
@@ -16,6 +17,17 @@ const TE_SERVICE_WORKER_URL =
     new URL("service-worker.js", TE_PWA_ROOT_URL).href;
 
 document.addEventListener("DOMContentLoaded", () => {
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.addEventListener(
+            "controllerchange",
+            () => {
+                if (tePWARefreshing) return;
+                tePWARefreshing = true;
+                window.location.reload();
+            }
+        );
+    }
+
     registerTravelExplorerServiceWorker();
     initializeInstallUI();
 });

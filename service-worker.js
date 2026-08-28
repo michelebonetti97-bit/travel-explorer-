@@ -1,10 +1,10 @@
 // ======================================================
-// TRAVEL EXPLORER - SERVICE WORKER — V1 STABILE
+// TRAVEL EXPLORER - SERVICE WORKER — V2 SYNC
 // Offline-first per app shell e dati editoriali
 // Runtime cache per mappe/API/risorse esterne già viste
 // ======================================================
 
-const VERSION = "travel-explorer-v1.0.0-stable";
+const VERSION = "travel-explorer-v2.0.0-sync";
 
 const CORE_CACHE =
     VERSION + "-core";
@@ -26,6 +26,12 @@ const CORE_ASSETS = [
     "./manifest.json",
     "./offline.html",
     "./pwa-register.js",
+    "./sync.html",
+    "./sync-config.js",
+    "./travel-store.js",
+    "./travel-sync.js",
+    "./sync.js",
+    "./vendor/supabase.min.js",
     "./assets/mauritius-hero.png",
     "./icons/icon-192.png",
     "./icons/icon-512.png",
@@ -52,7 +58,6 @@ const OPTIONAL_ASSETS = [
     "./itinerary-v12.js",
     "./here.js",
     "./live-data.js",
-    "./travel-store.js",
     "./budget.js",
     "./documents.js",
     "./checklist.js",
@@ -129,6 +134,15 @@ self.addEventListener(
             new URL(
                 request.url
             );
+
+        // Account, database e allegati Supabase non devono mai finire
+        // nella Cache Storage del service worker.
+        if (
+            url.hostname === "mnyypkydbdqictlwlgyb.supabase.co" ||
+            url.hostname.endsWith(".supabase.co")
+        ) {
+            return;
+        }
 
         // Navigazioni HTML:
         // prima rete, poi pagina esatta in cache, infine offline.html.
@@ -482,9 +496,14 @@ async function cacheFirst(
     maxItems = null
 ) {
 
+    const ignoreSearch =
+        new URL(request.url).origin ===
+        self.location.origin;
+
     const cached =
         await caches.match(
-            request
+            request,
+            { ignoreSearch }
         );
 
     if (cached) {

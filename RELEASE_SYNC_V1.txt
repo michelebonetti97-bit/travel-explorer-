@@ -1,0 +1,36 @@
+TRAVEL EXPLORER — SYNC V1
+Michele / Denise — Mauritius 2026
+
+NOVITÀ
+- Due account separati con sessione persistente.
+- Un unico viaggio condiviso tramite codice di 10 caratteri.
+- Salvataggio locale IndexedDB prima di ogni invio.
+- Coda offline con riallineamento automatico al ritorno della rete.
+- Aggiornamenti realtime e avviso con nome di chi ha modificato.
+- Unione a tre vie per limitare sovrascritture in caso di modifiche contemporanee.
+- Sincronizzazione di itinerari, giornate, budget, spese, documenti,
+  checklist e diario.
+- Allegati privati Supabase Storage fino a 25 MB per file.
+- Service worker V2 con nuovi file disponibili offline.
+
+PRIMA DELLA PUBBLICAZIONE
+1. Eseguire supabase_setup.sql nel SQL Editor.
+2. Eseguire supabase_storage_setup.sql nel SQL Editor.
+3. Verificare che Authentication contenga soltanto Michele e Denise.
+4. Disattivare nuove registrazioni pubbliche.
+
+PRIMO COLLEGAMENTO
+1. Non disinstallare la PWA già presente sul telefono di Michele.
+2. Sul telefono di Michele: aprire Backup viaggio ed esportare il backup locale.
+3. Pubblicare questa cartella su GitHub Pages e aprirla online sul suo iPhone.
+4. Aprire Viaggio condiviso e accedere con l'account Michele.
+5. Impostare il nome Michele e premere Crea Mauritius 2026.
+6. Attendere lo stato Condiviso e copiare il codice.
+7. Solo adesso Denise installa la PWA aggiornata, accede, imposta Denise e
+   inserisce il codice.
+8. Verificare una modifica online e una modifica offline per ciascun telefono.
+
+NOTA
+La Publishable key nel browser è pubblica per definizione. La protezione dei dati
+è affidata ad autenticazione e Row Level Security. Non inserire mai nel repository
+sb_secret, service_role o password del database.

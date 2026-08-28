@@ -171,6 +171,20 @@
             font-weight: 500;
         }
 
+        .sync-home {
+            grid-column: 1 / -1;
+            min-height: 86px !important;
+            background: linear-gradient(135deg, #eef7ff, #edf8f1) !important;
+        }
+
+        .sync-home small {
+            display: block;
+            margin-top: 5px;
+            color: #68777a;
+            font-size: 10px;
+            font-weight: 550;
+        }
+
         /* GUIDA HOME ----------------------------------------- */
 
         .home-guide {
@@ -325,6 +339,12 @@
             <span>Checklist</span>
         </a>
 
+        <a href="sync.html" class="card module-card sync-home">
+            ☁️
+            <span>Viaggio condiviso</span>
+            <small>Account e sincronizzazione Michele ↔ Denise</small>
+        </a>
+
     </div>
 
     <section class="home-guide">
@@ -362,6 +382,10 @@
 
 </div>
 
+<script src="vendor/supabase.min.js"></script>
+<script src="sync-config.js"></script>
+<script src="travel-store.js"></script>
+<script src="travel-sync.js"></script>
 <script src="pwa-register.js"></script>
 </body>
 </html>
