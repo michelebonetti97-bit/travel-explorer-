@@ -217,7 +217,18 @@ function normalizeDiaryEntries(
             photo:
                 entry.photo ||
                 null,
+            source:
+                entry.source ||
+                (String(entry.id || "").startsWith("itinerary-") ? "itinerary" : "manual"),
+            auto_text:
+                entry.auto_text ||
+                "",
             created_at:
+                entry.created_at ||
+                new Date()
+                    .toISOString(),
+            updated_at:
+                entry.updated_at ||
                 entry.created_at ||
                 new Date()
                     .toISOString()
@@ -617,6 +628,11 @@ async function saveDiaryEntry() {
         photoInput?.files?.[0] ||
         null;
 
+    const storedPhotoBlob =
+        newPhoto
+            ? await compressTravelImage(newPhoto, 1800, 0.84)
+            : null;
+
     const existing =
         editingEntryId
             ? diaryEntries.find(
@@ -677,9 +693,9 @@ async function saveDiaryEntry() {
                     name:
                         newPhoto.name,
                     type:
-                        newPhoto.type,
+                        storedPhotoBlob.type || newPhoto.type || "image/jpeg",
                     blob:
-                        newPhoto
+                        storedPhotoBlob
                 }
                 : (
                     existing?.photo ||
@@ -1559,4 +1575,45 @@ function escapeDiary(value) {
         "&#039;"
     );
 
+}
+
+// Riduce le foto del diario prima del salvataggio IndexedDB.
+async function compressTravelImage(file, maxDimension = 1800, quality = 0.84) {
+    if (!file || !String(file.type || "").startsWith("image/")) {
+        return file;
+    }
+
+    try {
+        const url = URL.createObjectURL(file);
+        const image = new Image();
+        image.decoding = "async";
+
+        await new Promise((resolve, reject) => {
+            image.onload = resolve;
+            image.onerror = reject;
+            image.src = url;
+        });
+
+        const scale = Math.min(1, maxDimension / Math.max(image.naturalWidth, image.naturalHeight));
+        const width = Math.max(1, Math.round(image.naturalWidth * scale));
+        const height = Math.max(1, Math.round(image.naturalHeight * scale));
+
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0, width, height);
+        URL.revokeObjectURL(url);
+
+        return await new Promise(resolve => {
+            canvas.toBlob(
+                blob => resolve(blob || file),
+                "image/jpeg",
+                quality
+            );
+        });
+    }
+    catch (error) {
+        console.warn("Compressione foto non disponibile, salvo originale.", error);
+        return file;
+    }
 }

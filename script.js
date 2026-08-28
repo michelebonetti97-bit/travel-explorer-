@@ -149,6 +149,7 @@ function normalizeItem(item, defaultType = "place") {
     reviews: item.reviews || {},
     conditions: item.conditions || {},
     photography: item.photography || {},
+    image: item.image || item.photo || item.hero_image || null,
     experience: item.experience || {},
     restaurant: item.restaurant || null,
     activityOptions: item.activity_options || [],
@@ -942,6 +943,9 @@ async function initializePlacePage() {
   const params = new URLSearchParams(window.location.search);
   const id = params.get("id");
   const requestedType = params.get("type") || "place";
+
+  configurePlaceBackNavigation(params);
+
   if (!id) return showPlaceError("Elemento non specificato.");
 
   const filename = DATABASES[requestedType] || DATABASES.place;
@@ -951,8 +955,1396 @@ async function initializePlacePage() {
 
   const item = normalizeItem(rawItem, requestedType);
   renderPlacePage(item);
+  await renderPlaceHeroImage(item);
   await renderNearby(item);
 }
+
+
+function configurePlaceBackNavigation(params) {
+
+  const backButton =
+    document.querySelector(
+      ".back-button"
+    );
+
+  if (!backButton) {
+    return;
+  }
+
+  const explicitReturn =
+    params.get(
+      "returnTo"
+    );
+
+  if (explicitReturn) {
+    backButton.href =
+      explicitReturn;
+    return;
+  }
+
+  try {
+
+    if (document.referrer) {
+
+      const referrer =
+        new URL(
+          document.referrer
+        );
+
+      if (
+        referrer.origin ===
+        window.location.origin
+      ) {
+        backButton.href =
+          document.referrer;
+      }
+
+    }
+
+  }
+
+  catch (_) {}
+
+}
+
+
+// ======================================================
+// FOTO POI - WIKIMEDIA / WIKIPEDIA V1
+// ======================================================
+
+const PLACE_IMAGE_CACHE_PREFIX =
+  "travel-explorer-place-image-v1:";
+
+const PLACE_IMAGE_CACHE_DAYS =
+  30;
+
+const PLACE_IMAGE_MISSING_DAYS =
+  7;
+
+
+async function renderPlaceHeroImage(item) {
+
+  const section =
+    document.getElementById(
+      "place-photo-section"
+    );
+
+  if (!section) {
+    return;
+  }
+
+  setPlacePhotoLoading(
+    item
+  );
+
+
+  // 1. In futuro possiamo fissare una foto direttamente nel JSON.
+  const explicit =
+    normalizeExplicitPlaceImage(
+      item.image
+    );
+
+  if (explicit?.url) {
+
+    renderPlacePhoto(
+      {
+        ...explicit,
+        sourceLabel:
+          explicit.sourceLabel ||
+          "Foto editoriale"
+      },
+      item
+    );
+
+    return;
+  }
+
+
+  // 2. Cache locale: rende la foto stabile tra una visita e l'altra.
+  const cached =
+    readPlaceImageCache(
+      item
+    );
+
+  if (cached) {
+
+    if (cached.missing) {
+
+      renderPlacePhotoFallback(
+        item
+      );
+
+      return;
+    }
+
+
+    if (cached.url) {
+
+      renderPlacePhoto(
+        cached,
+        item
+      );
+
+      return;
+    }
+
+  }
+
+
+  // 3. Ricerca online solo quando la scheda viene realmente aperta.
+  if (!navigator.onLine) {
+
+    renderPlacePhotoFallback(
+      item,
+      "Foto non ancora disponibile offline"
+    );
+
+    return;
+  }
+
+
+  try {
+
+    let result =
+      await searchCommonsPlaceImage(
+        item
+      );
+
+
+    // Per i POI con pagina Wikipedia nota abbiamo un secondo tentativo
+    // molto affidabile usando l'immagine principale della pagina.
+    if (
+      !result &&
+      item.links?.wikipedia
+    ) {
+
+      result =
+        await searchWikipediaPageImage(
+          item.links.wikipedia,
+          item
+        );
+
+    }
+
+
+    if (result?.url) {
+
+      writePlaceImageCache(
+        item,
+        result
+      );
+
+      renderPlacePhoto(
+        result,
+        item
+      );
+
+      return;
+    }
+
+
+    writePlaceImageCache(
+      item,
+      {
+        missing:
+          true
+      }
+    );
+
+
+    renderPlacePhotoFallback(
+      item
+    );
+
+  }
+
+  catch (error) {
+
+    console.warn(
+      "Foto POI non disponibile:",
+      item.name,
+      error
+    );
+
+
+    renderPlacePhotoFallback(
+      item,
+      navigator.onLine
+        ? "Foto non disponibile"
+        : "Foto non ancora disponibile offline"
+    );
+
+  }
+
+}
+
+
+function normalizeExplicitPlaceImage(value) {
+
+  if (!value) {
+    return null;
+  }
+
+
+  if (
+    typeof value ===
+    "string"
+  ) {
+
+    return {
+      url:
+        value,
+      sourceLabel:
+        "Foto"
+    };
+
+  }
+
+
+  if (
+    typeof value !==
+    "object"
+  ) {
+    return null;
+  }
+
+
+  const url =
+    value.url ||
+    value.src ||
+    value.image_url ||
+    "";
+
+
+  if (!url) {
+    return null;
+  }
+
+
+  return {
+    url,
+    sourcePage:
+      value.source_url ||
+      value.source ||
+      "",
+    sourceLabel:
+      value.source_name ||
+      value.source_label ||
+      "Foto",
+    author:
+      value.author ||
+      "",
+    license:
+      value.license ||
+      ""
+  };
+
+}
+
+
+function setPlacePhotoLoading(item) {
+
+  const section =
+    document.getElementById(
+      "place-photo-section"
+    );
+
+  const image =
+    document.getElementById(
+      "place-photo-image"
+    );
+
+  const fallback =
+    document.getElementById(
+      "place-photo-fallback"
+    );
+
+  const meta =
+    document.getElementById(
+      "place-photo-meta"
+    );
+
+
+  if (!section) {
+    return;
+  }
+
+
+  section.classList.add(
+    "loading"
+  );
+
+  section.classList.remove(
+    "has-photo",
+    "no-photo"
+  );
+
+
+  if (image) {
+
+    image.removeAttribute(
+      "src"
+    );
+
+    image.alt =
+      `Foto di ${item.name}`;
+
+  }
+
+
+  if (fallback) {
+
+    fallback.innerHTML = `
+      <span class="place-photo-fallback-icon">📷</span>
+      <strong>Cerco una foto del luogo…</strong>
+      <small>Wikimedia / Wikipedia</small>
+    `;
+
+  }
+
+
+  if (meta) {
+    meta.innerHTML = "";
+  }
+
+}
+
+
+function renderPlacePhoto(
+  photo,
+  item
+) {
+
+  const section =
+    document.getElementById(
+      "place-photo-section"
+    );
+
+  const image =
+    document.getElementById(
+      "place-photo-image"
+    );
+
+  const meta =
+    document.getElementById(
+      "place-photo-meta"
+    );
+
+
+  if (
+    !section ||
+    !image ||
+    !photo?.url
+  ) {
+
+    renderPlacePhotoFallback(
+      item
+    );
+
+    return;
+  }
+
+
+  section.classList.remove(
+    "loading",
+    "no-photo"
+  );
+
+  section.classList.add(
+    "has-photo"
+  );
+
+
+  image.alt =
+    `${item.name}, Mauritius`;
+
+  image.loading =
+    "eager";
+
+  image.decoding =
+    "async";
+
+
+  image.onerror =
+    () => {
+
+      clearPlaceImageCache(
+        item
+      );
+
+      renderPlacePhotoFallback(
+        item
+      );
+
+    };
+
+
+  image.src =
+    photo.url;
+
+
+  if (meta) {
+
+    const details =
+      [];
+
+
+    if (photo.author) {
+
+      details.push(
+        cleanPhotoMetadata(
+          photo.author
+        )
+      );
+
+    }
+
+
+    if (photo.license) {
+
+      details.push(
+        cleanPhotoMetadata(
+          photo.license
+        )
+      );
+
+    }
+
+
+    const sourceLabel =
+      cleanPhotoMetadata(
+        photo.sourceLabel ||
+        "Wikimedia Commons"
+      );
+
+
+    const source =
+      photo.sourcePage
+        ? `
+          <a
+            href="${escapeHTML(
+              photo.sourcePage
+            )}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ${escapeHTML(
+              sourceLabel
+            )}
+          </a>
+        `
+        : escapeHTML(
+            sourceLabel
+          );
+
+
+    meta.innerHTML = `
+      <span>
+        📷 ${source}
+        ${
+          details.length
+            ? ` · ${details
+                .map(
+                  escapeHTML
+                )
+                .join(
+                  " · "
+                )}`
+            : ""
+        }
+      </span>
+    `;
+
+  }
+
+}
+
+
+function renderPlacePhotoFallback(
+  item,
+  message =
+    "Nessuna foto affidabile trovata"
+) {
+
+  const section =
+    document.getElementById(
+      "place-photo-section"
+    );
+
+  const image =
+    document.getElementById(
+      "place-photo-image"
+    );
+
+  const fallback =
+    document.getElementById(
+      "place-photo-fallback"
+    );
+
+  const meta =
+    document.getElementById(
+      "place-photo-meta"
+    );
+
+
+  if (!section) {
+    return;
+  }
+
+
+  section.classList.remove(
+    "loading",
+    "has-photo"
+  );
+
+  section.classList.add(
+    "no-photo"
+  );
+
+
+  if (image) {
+    image.removeAttribute(
+      "src"
+    );
+  }
+
+
+  if (fallback) {
+
+    fallback.innerHTML = `
+      <span class="place-photo-fallback-icon">
+        ${placePhotoFallbackIcon(
+          item
+        )}
+      </span>
+
+      <strong>
+        ${escapeHTML(
+          item.name
+        )}
+      </strong>
+
+      <small>
+        ${escapeHTML(
+          message
+        )}
+      </small>
+    `;
+
+  }
+
+
+  if (meta) {
+
+    meta.innerHTML = `
+      <span>
+        Meglio nessuna anteprima che una foto non verificata.
+      </span>
+    `;
+
+  }
+
+}
+
+
+function placePhotoFallbackIcon(item) {
+
+  if (
+    item.categories.includes(
+      "food"
+    ) ||
+    item.type ===
+      "food"
+  ) {
+    return "🍛";
+  }
+
+
+  if (
+    item.categories.some(
+      value =>
+        /sea|beach|mare|spiaggia/i
+          .test(
+            value
+          )
+    )
+  ) {
+    return "🌊";
+  }
+
+
+  if (
+    Number(
+      item.interest?.geology
+    ) >=
+    3
+  ) {
+    return "🌋";
+  }
+
+
+  if (
+    Number(
+      item.interest?.culture
+    ) >=
+    3
+  ) {
+    return "🏛️";
+  }
+
+
+  if (
+    item.type ===
+      "adventure"
+  ) {
+    return "🧗";
+  }
+
+
+  return "🌴";
+
+}
+
+
+async function searchCommonsPlaceImage(item) {
+
+  const queries =
+    buildPlaceImageQueries(
+      item
+    );
+
+
+  for (
+    const query of queries
+  ) {
+
+    const url =
+      new URL(
+        "https://commons.wikimedia.org/w/api.php"
+      );
+
+
+    url.search =
+      new URLSearchParams(
+        {
+          action:
+            "query",
+          generator:
+            "search",
+          gsrsearch:
+            query,
+          gsrnamespace:
+            "6",
+          gsrlimit:
+            "10",
+          prop:
+            "imageinfo",
+          iiprop:
+            "url|extmetadata|mime",
+          iiurlwidth:
+            "1600",
+          format:
+            "json",
+          origin:
+            "*"
+        }
+      )
+      .toString();
+
+
+    const response =
+      await fetch(
+        url.toString()
+      );
+
+
+    if (!response.ok) {
+      continue;
+    }
+
+
+    const payload =
+      await response.json();
+
+
+    const pages =
+      Object.values(
+        payload?.query?.pages ||
+        {}
+      );
+
+
+    const ranked =
+      pages
+        .map(
+          page =>
+            scoreCommonsImage(
+              page,
+              item
+            )
+        )
+        .filter(
+          Boolean
+        )
+        .sort(
+          (
+            a,
+            b
+          ) =>
+            b.score -
+            a.score
+        );
+
+
+    const best =
+      ranked[0];
+
+
+    if (
+      best &&
+      best.score >=
+        46
+    ) {
+
+      return best.photo;
+
+    }
+
+  }
+
+
+  return null;
+
+}
+
+
+function buildPlaceImageQueries(item) {
+
+  const name =
+    String(
+      item.name ||
+      ""
+    )
+    .trim();
+
+
+  const area =
+    String(
+      item.area ||
+      ""
+    )
+    .trim();
+
+
+  const queries =
+    [];
+
+
+  if (name) {
+
+    queries.push(
+      `"${name}" Mauritius`
+    );
+
+    queries.push(
+      `${name} Mauritius`
+    );
+
+  }
+
+
+  if (
+    name &&
+    area &&
+    !name
+      .toLowerCase()
+      .includes(
+        area.toLowerCase()
+      )
+  ) {
+
+    queries.push(
+      `"${name}" "${area}" Mauritius`
+    );
+
+  }
+
+
+  return [
+    ...new Set(
+      queries
+    )
+  ]
+  .slice(
+    0,
+    3
+  );
+
+}
+
+
+function scoreCommonsImage(
+  page,
+  item
+) {
+
+  const info =
+    page?.imageinfo?.[0];
+
+
+  if (
+    !info?.url
+  ) {
+    return null;
+  }
+
+
+  const mime =
+    String(
+      info.mime ||
+      ""
+    )
+    .toLowerCase();
+
+
+  if (
+    mime &&
+    ![
+      "image/jpeg",
+      "image/png",
+      "image/webp"
+    ]
+    .includes(
+      mime
+    )
+  ) {
+    return null;
+  }
+
+
+  const title =
+    String(
+      page.title ||
+      ""
+    )
+    .replace(
+      /^File:/i,
+      ""
+    );
+
+
+  if (
+    /(?:^|[\s_-])(map|kaart|carte|plan|logo|flag|coat|arms|icon|diagram|scheme|poster|stamp|coin|seal|route|sign)(?:[\s_.-]|$)/i
+      .test(
+        title
+      )
+  ) {
+    return null;
+  }
+
+
+  const titleNormalized =
+    normalizePhotoSearchText(
+      title
+    );
+
+
+  const nameTokens =
+    meaningfulPhotoTokens(
+      item.name
+    );
+
+
+  const areaTokens =
+    meaningfulPhotoTokens(
+      item.area
+    );
+
+
+  let score =
+    0;
+
+
+  let nameMatches =
+    0;
+
+
+  nameTokens.forEach(
+    token => {
+
+      if (
+        titleNormalized.includes(
+          token
+        )
+      ) {
+
+        nameMatches +=
+          1;
+
+        score +=
+          token.length >=
+          6
+            ? 18
+            : 12;
+
+      }
+
+    }
+  );
+
+
+  areaTokens.forEach(
+    token => {
+
+      if (
+        titleNormalized.includes(
+          token
+        )
+      ) {
+        score +=
+          5;
+      }
+
+    }
+  );
+
+
+  if (
+    titleNormalized.includes(
+      "mauritius"
+    )
+  ) {
+    score +=
+      8;
+  }
+
+
+  const fullName =
+    normalizePhotoSearchText(
+      item.name
+    );
+
+
+  if (
+    fullName &&
+    titleNormalized.includes(
+      fullName
+    )
+  ) {
+    score +=
+      35;
+  }
+
+
+  // Per nomi con parole significative chiediamo almeno una
+  // corrispondenza nel titolo, così evitiamo foto generiche.
+  if (
+    nameTokens.length &&
+    nameMatches ===
+      0
+  ) {
+    return null;
+  }
+
+
+  const metadata =
+    info.extmetadata ||
+    {};
+
+
+  return {
+    score,
+    photo: {
+      url:
+        info.thumburl ||
+        info.url,
+      sourcePage:
+        info.descriptionurl ||
+        "",
+      sourceLabel:
+        "Wikimedia Commons",
+      author:
+        cleanPhotoMetadata(
+          metadata.Artist?.value ||
+          metadata.Credit?.value ||
+          ""
+        ),
+      license:
+        cleanPhotoMetadata(
+          metadata.LicenseShortName?.value ||
+          metadata.UsageTerms?.value ||
+          ""
+        )
+    }
+  };
+
+}
+
+
+async function searchWikipediaPageImage(
+  wikipediaURL,
+  item
+) {
+
+  let parsed;
+
+
+  try {
+
+    parsed =
+      new URL(
+        wikipediaURL
+      );
+
+  }
+
+  catch (_) {
+    return null;
+  }
+
+
+  if (
+    !parsed.hostname
+      .endsWith(
+        "wikipedia.org"
+      )
+  ) {
+    return null;
+  }
+
+
+  const match =
+    parsed.pathname.match(
+      /^\/wiki\/(.+)$/
+    );
+
+
+  if (!match) {
+    return null;
+  }
+
+
+  const title =
+    decodeURIComponent(
+      match[1]
+    )
+    .replaceAll(
+      "_",
+      " "
+    );
+
+
+  const api =
+    new URL(
+      `${parsed.origin}/w/api.php`
+    );
+
+
+  api.search =
+    new URLSearchParams(
+      {
+        action:
+          "query",
+        prop:
+          "pageimages|info",
+        inprop:
+          "url",
+        piprop:
+          "thumbnail|original",
+        pithumbsize:
+          "1600",
+        titles:
+          title,
+        format:
+          "json",
+        origin:
+          "*"
+      }
+    )
+    .toString();
+
+
+  const response =
+    await fetch(
+      api.toString()
+    );
+
+
+  if (!response.ok) {
+    return null;
+  }
+
+
+  const payload =
+    await response.json();
+
+
+  const page =
+    Object.values(
+      payload?.query?.pages ||
+      {}
+    )[0];
+
+
+  const imageURL =
+    page?.original?.source ||
+    page?.thumbnail?.source ||
+    "";
+
+
+  if (!imageURL) {
+    return null;
+  }
+
+
+  return {
+    url:
+      imageURL,
+    sourcePage:
+      page.fullurl ||
+      wikipediaURL,
+    sourceLabel:
+      "Wikipedia",
+    author:
+      "",
+    license:
+      ""
+  };
+
+}
+
+
+function meaningfulPhotoTokens(value) {
+
+  const stopwords =
+    new Set(
+      [
+        "the",
+        "de",
+        "du",
+        "des",
+        "la",
+        "le",
+        "les",
+        "of",
+        "and",
+        "et",
+        "aux",
+        "ile",
+        "island",
+        "mauritius",
+        "maurice",
+        "restaurant",
+        "hotel",
+        "beach",
+        "plage",
+        "park"
+      ]
+    );
+
+
+  return normalizePhotoSearchText(
+    value
+  )
+  .split(
+    " "
+  )
+  .filter(
+    token =>
+      token.length >=
+        3 &&
+      !stopwords.has(
+        token
+      )
+  )
+  .slice(
+    0,
+    6
+  );
+
+}
+
+
+function normalizePhotoSearchText(value) {
+
+  return String(
+    value ||
+    ""
+  )
+  .normalize(
+    "NFD"
+  )
+  .replace(
+    /[\u0300-\u036f]/g,
+    ""
+  )
+  .toLowerCase()
+  .replace(
+    /[^a-z0-9]+/g,
+    " "
+  )
+  .trim();
+
+}
+
+
+function cleanPhotoMetadata(value) {
+
+  if (!value) {
+    return "";
+  }
+
+
+  const wrapper =
+    document.createElement(
+      "div"
+    );
+
+
+  wrapper.innerHTML =
+    String(
+      value
+    );
+
+
+  return wrapper.textContent
+    .replace(
+      /\s+/g,
+      " "
+    )
+    .trim()
+    .slice(
+      0,
+      120
+    );
+
+}
+
+
+function placeImageCacheKey(item) {
+
+  return (
+    PLACE_IMAGE_CACHE_PREFIX +
+    encodeURIComponent(
+      `${item.type}:${item.id || item.name}`
+    )
+  );
+
+}
+
+
+function readPlaceImageCache(item) {
+
+  try {
+
+    const raw =
+      localStorage.getItem(
+        placeImageCacheKey(
+          item
+        )
+      );
+
+
+    if (!raw) {
+      return null;
+    }
+
+
+    const value =
+      JSON.parse(
+        raw
+      );
+
+
+    const age =
+      Date.now() -
+      Number(
+        value.cachedAt ||
+        0
+      );
+
+
+    const maxAge =
+      (
+        value.missing
+          ? PLACE_IMAGE_MISSING_DAYS
+          : PLACE_IMAGE_CACHE_DAYS
+      ) *
+      24 *
+      60 *
+      60 *
+      1000;
+
+
+    if (
+      age >
+      maxAge
+    ) {
+
+      clearPlaceImageCache(
+        item
+      );
+
+      return null;
+    }
+
+
+    return value;
+
+  }
+
+  catch (_) {
+
+    return null;
+
+  }
+
+}
+
+
+function writePlaceImageCache(
+  item,
+  value
+) {
+
+  try {
+
+    localStorage.setItem(
+      placeImageCacheKey(
+        item
+      ),
+      JSON.stringify(
+        {
+          ...value,
+          cachedAt:
+            Date.now()
+        }
+      )
+    );
+
+  }
+
+  catch (_) {}
+
+}
+
+
+function clearPlaceImageCache(item) {
+
+  try {
+
+    localStorage.removeItem(
+      placeImageCacheKey(
+        item
+      )
+    );
+
+  }
+
+  catch (_) {}
+
+}
+
 
 function renderPlacePage(item) {
   document.title = `${item.name} | Travel Explorer`;
@@ -1220,7 +2612,25 @@ async function renderNearby(item) {
   found.forEach(nearby => {
     const link = document.createElement("a");
     link.className = "nearby-card";
-    link.href = `place.html?id=${encodeURIComponent(nearby.id)}&type=${encodeURIComponent(nearby.type)}`;
+
+    const currentParams =
+      new URLSearchParams(
+        window.location.search
+      );
+
+    const returnTo =
+      currentParams.get(
+        "returnTo"
+      );
+
+    link.href =
+      `place.html?id=${encodeURIComponent(nearby.id)}&type=${encodeURIComponent(nearby.type)}` +
+      (
+        returnTo
+          ? `&returnTo=${encodeURIComponent(returnTo)}`
+          : ""
+      );
+
     link.innerHTML = `<strong>${escapeHTML(nearby.name)}</strong><span>${escapeHTML(nearby.area)}</span>`;
     container.appendChild(link);
   });

@@ -1,0 +1,35 @@
+TRAVEL EXPLORER — V1.0 STABILE
+Mauritius 2026
+
+BASE CONGELATA
+- Smart Planner V1.2.1
+- Smart Planner separato da Itinerario deciso
+- Rientro bloccato a Veranda Tamarin dal 13 al 19 settembre
+- 20 settembre con vincolo logistico aeroporto + volo
+- 400 POI
+- schede POI con anteprima fotografica Wikimedia/Wikipedia
+- Mappa e Sono qui
+- Budget EUR/MUR + scontrini
+- Diario
+- Documenti
+- Checklist
+- Dede File
+- Cose da sapere
+- Backup viaggio
+- PWA/offline
+
+SVILUPPO LOCALE
+Aprire index.html con Live Server.
+Su localhost il service worker viene disattivato apposta per evitare cache vecchie.
+
+PUBBLICAZIONE
+Questa cartella è quella da pubblicare su GitHub Pages.
+Dopo la pubblicazione, la PWA torna ad attivarsi normalmente in HTTPS.
+
+NOTA MAPPE
+Leaflet viene caricato online con doppio provider (unpkg + jsDelivr) e viene
+messo in cache dopo l'uso. Se Leaflet non è disponibile, i moduli restano
+operativi senza mappa invece di bloccare i pulsanti.
+
+PROSSIMO STEP DOPO IL FREEZE
+Sincronizzazione multi-dispositivo Michele / Denise, mantenendo offline-first.

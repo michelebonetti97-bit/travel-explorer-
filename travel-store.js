@@ -188,10 +188,110 @@ window.TravelStore = (() => {
     }
 
 
+    async function dump() {
+
+        const db =
+            await openDB();
+
+        return new Promise(
+            (resolve, reject) => {
+
+                const transaction =
+                    db.transaction(
+                        STORE_NAME,
+                        "readonly"
+                    );
+
+                const request =
+                    transaction
+                        .objectStore(STORE_NAME)
+                        .getAll();
+
+                request.onsuccess =
+                    () => resolve(
+                        Array.isArray(request.result)
+                            ? request.result
+                            : []
+                    );
+
+                request.onerror =
+                    () => reject(request.error);
+
+                transaction.oncomplete =
+                    () => db.close();
+
+            }
+        );
+
+    }
+
+
+    async function restore(
+        records,
+        { replace = false } = {}
+    ) {
+
+        if (!Array.isArray(records)) {
+            throw new Error("Backup non valido");
+        }
+
+        const db =
+            await openDB();
+
+        return new Promise(
+            (resolve, reject) => {
+
+                const transaction =
+                    db.transaction(
+                        STORE_NAME,
+                        "readwrite"
+                    );
+
+                const store =
+                    transaction.objectStore(
+                        STORE_NAME
+                    );
+
+                if (replace) {
+                    store.clear();
+                }
+
+                records.forEach(record => {
+                    if (record && typeof record.key === "string") {
+                        store.put({
+                            key: record.key,
+                            value: record.value,
+                            updated_at:
+                                record.updated_at ||
+                                new Date().toISOString()
+                        });
+                    }
+                });
+
+                transaction.oncomplete =
+                    () => {
+                        db.close();
+                        resolve();
+                    };
+
+                transaction.onerror =
+                    () => {
+                        db.close();
+                        reject(transaction.error);
+                    };
+
+            }
+        );
+
+    }
+
+
     return {
         get,
         set,
-        remove
+        remove,
+        dump,
+        restore
     };
 
 })();

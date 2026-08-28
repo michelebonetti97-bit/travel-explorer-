@@ -5,6 +5,16 @@
 
 let deferredInstallPrompt = null;
 
+const TE_PWA_SCRIPT_URL =
+    document.currentScript?.src ||
+    new URL("pwa-register.js", window.location.href).href;
+
+const TE_PWA_ROOT_URL =
+    new URL("./", TE_PWA_SCRIPT_URL);
+
+const TE_SERVICE_WORKER_URL =
+    new URL("service-worker.js", TE_PWA_ROOT_URL).href;
+
 document.addEventListener("DOMContentLoaded", () => {
     registerTravelExplorerServiceWorker();
     initializeInstallUI();
@@ -17,13 +27,58 @@ async function registerTravelExplorerServiceWorker() {
         return;
     }
 
+    // Durante lo sviluppo con Live Server evitiamo che una vecchia
+    // cache PWA mascheri i file appena sostituiti.
+    const isLocalDevelopment =
+        location.hostname === "127.0.0.1" ||
+        location.hostname === "localhost";
+
+    if (isLocalDevelopment) {
+        const registrations =
+            await navigator.serviceWorker.getRegistrations();
+
+        await Promise.all(
+            registrations.map(
+                registration =>
+                    registration.unregister()
+            )
+        );
+
+        if ("caches" in window) {
+            const keys =
+                await caches.keys();
+
+            await Promise.all(
+                keys
+                    .filter(
+                        key =>
+                            key.startsWith(
+                                "travel-explorer-"
+                            )
+                    )
+                    .map(
+                        key =>
+                            caches.delete(
+                                key
+                            )
+                    )
+            );
+        }
+
+        console.log(
+            "Travel Explorer: PWA disattivata su Live Server."
+        );
+
+        return;
+    }
+
     try {
 
         const registration =
             await navigator.serviceWorker.register(
-                "./service-worker.js",
+                TE_SERVICE_WORKER_URL,
                 {
-                    scope: "./"
+                    scope: TE_PWA_ROOT_URL.pathname
                 }
             );
 

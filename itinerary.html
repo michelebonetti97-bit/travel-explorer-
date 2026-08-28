@@ -3,15 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
     <title>Itinerario | Travel Explorer</title>
+    <meta name="theme-color" content="#0c6ea8">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="icon" href="icons/favicon-64.png">
 
     <link rel="stylesheet" href="style.css">
 
     <link
         rel="stylesheet"
-        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" onerror="this.onerror=null;this.href='https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css'"
     >
 
     <style>
@@ -718,7 +722,573 @@
                 align-items: center;
             }
         }
+    
+
+
+        /* ==================================================
+           SMART / ITINERARIO DECISO - SEPARAZIONE V1.1
+           ================================================== */
+
+        .planner-view-switch {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 7px;
+            margin-bottom: 14px;
+            padding: 5px;
+            border-radius: 18px;
+            background: #e9e9ed;
+        }
+
+        .planner-view-button {
+            min-height: 44px;
+            border: 0;
+            border-radius: 14px;
+            background: transparent;
+            color: #65656a;
+            font-size: 11px;
+            font-weight: 800;
+            cursor: pointer;
+        }
+
+        .planner-view-button.active {
+            background: white;
+            color: #1d1d1f;
+            box-shadow: 0 3px 12px rgba(0,0,0,.07);
+        }
+
+        .planner-view-panel[hidden] {
+            display: none !important;
+        }
+
+        .planner-workbench {
+            padding: 16px;
+            margin-bottom: 14px;
+            border-radius: 24px;
+            background: white;
+            box-shadow: 0 5px 20px rgba(0,0,0,.055);
+        }
+
+        .planner-workbench-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .planner-workbench-head span {
+            display: block;
+            color: #8e8e93;
+            font-size: 9px;
+            font-weight: 800;
+            letter-spacing: .65px;
+        }
+
+        .planner-workbench-head h2 {
+            margin: 3px 0 0;
+            font-size: 18px;
+        }
+
+        .planner-map-note {
+            max-width: 185px;
+            color: #77777c;
+            font-size: 9px;
+            line-height: 1.35;
+            text-align: right;
+        }
+
+        .planner-smart-toolbar {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        #planner-route-map {
+            width: 100%;
+            height: 285px;
+            margin-bottom: 13px;
+            border-radius: 18px;
+            overflow: hidden;
+            background: #e8e8ed;
+        }
+
+        .planner-workbench-timeline {
+            padding: 13px;
+            border-radius: 18px;
+            background: #f7f7f8;
+        }
+
+        .planner-workbench-timeline h3 {
+            margin: 0 0 11px;
+            font-size: 14px;
+        }
+
+        #planner-working-timeline .timeline-item {
+            grid-template-columns: 54px 15px 1fr;
+        }
+
+        .final-toolbar {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .final-readonly #timeline .timeline-actions button {
+            display: none !important;
+        }
+
+        .final-readonly #timeline .timeline-actions {
+            margin-top: 9px;
+        }
+
+        @media (min-width: 620px) {
+            .planner-smart-toolbar {
+                grid-template-columns: repeat(5, minmax(0, 1fr));
+            }
+
+            #planner-route-map {
+                height: 350px;
+            }
+
+            .final-toolbar {
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+            }
+        }
+
+        /* ==================================================
+           SMART PLANNER V1
+           ================================================== */
+
+        .planner-card {
+            background: linear-gradient(145deg, #eef8ff 0%, #ffffff 68%);
+            border-radius: 24px;
+            padding: 17px;
+            margin-bottom: 14px;
+            box-shadow: 0 5px 20px rgba(0,0,0,.055);
+        }
+
+        .planner-card-head {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 13px;
+        }
+
+        .planner-card-head span {
+            display: block;
+            color: #7d8790;
+            font-size: 9px;
+            font-weight: 800;
+            letter-spacing: .7px;
+        }
+
+        .planner-card-head h2 {
+            margin: 3px 0 0;
+            font-size: 19px;
+        }
+
+        .planner-current-day {
+            color: #5f6871;
+            font-size: 10px;
+            line-height: 1.4;
+            text-align: right;
+        }
+
+        .planner-flight-note {
+            margin-bottom: 12px;
+            padding: 10px 11px;
+            border-radius: 13px;
+            background: rgba(255,255,255,.86);
+            color: #5f6871;
+            font-size: 9.5px;
+            line-height: 1.45;
+        }
+
+        .planner-section-label {
+            display: block;
+            margin: 12px 0 7px;
+            color: #77777c;
+            font-size: 9px;
+            font-weight: 800;
+            letter-spacing: .45px;
+        }
+
+        .planner-chip-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 7px;
+        }
+
+        .planner-theme-chip,
+        .planner-zone-chip {
+            border: 1px solid #dde4e8;
+            border-radius: 12px;
+            background: rgba(255,255,255,.86);
+            color: #33373b;
+            padding: 8px 9px;
+            font-size: 9.5px;
+            font-weight: 750;
+            cursor: pointer;
+        }
+
+        .planner-theme-chip.active,
+        .planner-zone-chip.active {
+            background: #1d1d1f;
+            border-color: #1d1d1f;
+            color: white;
+        }
+
+        .planner-theme-stars {
+            margin-left: 4px;
+            font-size: 8px;
+            opacity: .8;
+        }
+
+        .planner-fields {
+            display: grid;
+            grid-template-columns: repeat(2,minmax(0,1fr));
+            gap: 8px;
+            margin-top: 11px;
+        }
+
+        .planner-field {
+            display: grid;
+            gap: 5px;
+        }
+
+        .planner-field.full {
+            grid-column: 1 / -1;
+        }
+
+        .planner-field label {
+            color: #77777c;
+            font-size: 9px;
+            font-weight: 800;
+        }
+
+        .planner-field input,
+        .planner-field select,
+        .planner-field textarea {
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #dfe3e6;
+            border-radius: 12px;
+            background: white;
+            padding: 10px 11px;
+            font: inherit;
+            font-size: 11px;
+            color: #1d1d1f;
+        }
+
+        .planner-field textarea {
+            min-height: 70px;
+            resize: vertical;
+        }
+
+        .planner-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 12px;
+        }
+
+        .planner-primary-button,
+        .planner-secondary-button {
+            min-height: 42px;
+            border: 0;
+            border-radius: 13px;
+            padding: 0 12px;
+            font-size: 10px;
+            font-weight: 850;
+            cursor: pointer;
+        }
+
+        .planner-primary-button {
+            background: #1d1d1f;
+            color: white;
+        }
+
+        .planner-secondary-button {
+            background: rgba(255,255,255,.92);
+            color: #1d1d1f;
+            border: 1px solid #e1e5e8;
+        }
+
+        .planner-status {
+            margin-top: 10px;
+            padding: 9px 10px;
+            border-radius: 12px;
+            background: rgba(255,255,255,.82);
+            color: #666d73;
+            font-size: 9.5px;
+            line-height: 1.4;
+        }
+
+        .planner-status.working { background: #eef6ff; }
+        .planner-status.success { background: #eef9f1; color: #27633a; }
+        .planner-status.warning { background: #fff5e5; color: #815d1e; }
+
+        .planner-day-health {
+            display: grid;
+            grid-template-columns: repeat(4,minmax(0,1fr));
+            gap: 7px;
+            margin-top: 11px;
+        }
+
+        .planner-day-health > div {
+            padding: 9px;
+            border-radius: 12px;
+            background: rgba(255,255,255,.82);
+        }
+
+        .planner-day-health span {
+            display: block;
+            color: #8e8e93;
+            font-size: 7.5px;
+            margin-bottom: 3px;
+        }
+
+        .planner-day-health strong {
+            display: block;
+            font-size: 11px;
+        }
+
+        .planner-preview {
+            display: none;
+            margin-top: 12px;
+            padding: 12px;
+            border-radius: 16px;
+            background: white;
+        }
+
+        .planner-preview.open { display: block; }
+
+        .planner-preview-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .planner-preview-head span {
+            display: block;
+            color: #8e8e93;
+            font-size: 8px;
+            font-weight: 800;
+        }
+
+        .planner-preview-head strong {
+            display: block;
+            margin-top: 3px;
+            font-size: 11px;
+        }
+
+        .planner-proposal-list,
+        .planner-extra-list {
+            display: grid;
+            gap: 7px;
+        }
+
+        .planner-proposal-row,
+        .planner-extra-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 9px;
+            border-radius: 12px;
+            background: #f5f5f7;
+        }
+
+        .planner-proposal-order {
+            display: grid;
+            place-items: center;
+            width: 27px;
+            height: 27px;
+            flex: 0 0 27px;
+            border-radius: 50%;
+            background: #1d1d1f;
+            color: white;
+            font-size: 9px;
+            font-weight: 900;
+        }
+
+        .planner-proposal-copy,
+        .planner-extra-row > div:first-child {
+            min-width: 0;
+            flex: 1 1 auto;
+        }
+
+        .planner-proposal-copy strong,
+        .planner-extra-row strong {
+            display: block;
+            font-size: 10.5px;
+        }
+
+        .planner-proposal-copy span,
+        .planner-extra-row span {
+            display: block;
+            margin-top: 3px;
+            color: #77777c;
+            font-size: 8.5px;
+        }
+
+        .planner-mini-link,
+        .planner-mini-button {
+            flex: 0 0 auto;
+            border: 0;
+            border-radius: 9px;
+            background: white;
+            color: #1d1d1f;
+            text-decoration: none;
+            padding: 6px 7px;
+            font-size: 8.5px;
+            font-weight: 800;
+            cursor: pointer;
+        }
+
+        .planner-extra-actions {
+            display: flex;
+            gap: 5px;
+        }
+
+        .planner-extra-title {
+            margin: 12px 0 7px;
+            color: #77777c;
+            font-size: 9px;
+            font-weight: 850;
+        }
+
+        .planner-fixed-badge {
+            pointer-events: none;
+            opacity: .72;
+        }
+
+        .planner-modal-backdrop {
+            position: fixed;
+            inset: 0;
+            z-index: 2500;
+            display: none;
+            align-items: flex-end;
+            justify-content: center;
+            padding: 14px;
+            background: rgba(0,0,0,.42);
+        }
+
+        .planner-modal-backdrop.open { display: flex; }
+
+        .planner-modal-sheet {
+            width: min(720px,100%);
+            max-height: 88vh;
+            overflow: auto;
+            padding: 17px;
+            border-radius: 24px;
+            background: white;
+            box-shadow: 0 18px 60px rgba(0,0,0,.22);
+        }
+
+        .planner-modal-sheet h2 {
+            margin: 0 0 5px;
+            font-size: 20px;
+        }
+
+        .planner-modal-note {
+            color: #77777c;
+            font-size: 9.5px;
+            line-height: 1.45;
+        }
+
+        .planner-library-group { margin-top: 17px; }
+        .planner-library-group h3 { margin: 0 0 8px; font-size: 13px; }
+        .planner-library-cards { display: grid; gap: 7px; }
+
+        .planner-library-card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 11px;
+            border-radius: 14px;
+            background: #f5f5f7;
+        }
+
+        .planner-library-copy { min-width: 0; }
+        .planner-library-copy strong { display: block; font-size: 10.5px; }
+        .planner-library-copy span { display: block; margin-top: 3px; color: #77777c; font-size: 8.5px; }
+        .planner-library-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 5px; }
+
+        .planner-primary-small,
+        .planner-secondary-small,
+        .planner-danger-small {
+            min-height: 30px;
+            border: 0;
+            border-radius: 9px;
+            padding: 0 8px;
+            font-size: 8px;
+            font-weight: 850;
+            cursor: pointer;
+        }
+
+        .planner-primary-small { background: #1d1d1f; color: white; }
+        .planner-secondary-small { background: white; color: #1d1d1f; }
+        .planner-danger-small { background: #fff0ef; color: #9e2d25; }
+
+        .planner-empty {
+            padding: 11px;
+            border-radius: 12px;
+            background: #f5f5f7;
+            color: #77777c;
+            font-size: 9px;
+        }
+
+        .planner-compare-card {
+            padding: 11px;
+            border-radius: 13px;
+            background: #f5f5f7;
+            margin-top: 8px;
+        }
+
+        .planner-compare-card.suggested { background: #eef9f1; }
+        .planner-compare-card span { color: #77777c; font-size: 8px; font-weight: 850; }
+        .planner-compare-card p { margin: 5px 0 0; font-size: 9.5px; line-height: 1.45; }
+
+        .planner-optimize-summary {
+            display: grid;
+            gap: 3px;
+            margin-top: 10px;
+            padding: 11px;
+            border-radius: 13px;
+            background: #eef6ff;
+        }
+
+        .planner-optimize-summary strong { font-size: 11px; }
+        .planner-optimize-summary span { color: #6c7379; font-size: 9px; }
+
+        @media (min-width: 640px) {
+            .planner-modal-backdrop { align-items: center; }
+            .planner-fields { grid-template-columns: repeat(4,minmax(0,1fr)); }
+            .planner-field.full { grid-column: 1 / -1; }
+        }
+
     </style>
+<script>
+(function () {
+    const local = location.hostname === "127.0.0.1" || location.hostname === "localhost";
+    if (!local) return;
+
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.getRegistrations()
+            .then(regs => Promise.all(regs.map(reg => reg.unregister())))
+            .catch(() => {});
+    }
+
+    if ("caches" in window) {
+        caches.keys()
+            .then(keys => Promise.all(keys.filter(k => k.startsWith("travel-explorer-")).map(k => caches.delete(k))))
+            .catch(() => {});
+    }
+})();
+</script>
 </head>
 
 <body class="itinerary-body">
@@ -738,14 +1308,142 @@
 
     <div id="day-selector" class="day-selector"></div>
 
-    <div class="edit-toolbar">
-        <button id="add-stop" class="toolbar-button">＋ Aggiungi tappa</button>
-        <button id="recalculate-ai" class="toolbar-button primary">🤖 Ricalcolo AI</button>
-        <a href="here.html" class="toolbar-button" style="display:flex;align-items:center;justify-content:center;text-decoration:none;">📍 Sono qui</a>
-        <button id="reset-day" class="toolbar-button warning">↺ Ripristina giorno</button>
+    <div class="planner-view-switch" role="tablist" aria-label="Modalità itinerario">
+        <button
+            class="planner-view-button active"
+            type="button"
+            data-planner-view="smart"
+            aria-selected="true"
+        >
+            ✨ Smart Planner
+        </button>
+
+        <button
+            class="planner-view-button"
+            type="button"
+            data-planner-view="final"
+            aria-selected="false"
+        >
+            📅 Itinerario deciso
+        </button>
     </div>
 
-    <section id="day-overview" class="day-card"></section>
+    <div id="planner-smart-view" class="planner-view-panel">
+
+    <section class="planner-card">
+        <div class="planner-card-head">
+            <div>
+                <span>PRIMA DELLA PARTENZA</span>
+                <h2>✨ Smart Planner</h2>
+            </div>
+            <div id="planner-current-day-label" class="planner-current-day"></div>
+        </div>
+
+        <div id="planner-flight-note" class="planner-flight-note"></div>
+
+        <span class="planner-section-label">TIPOLOGIA · clicca più volte per dare peso ★ / ★★ / ★★★</span>
+        <div class="planner-chip-grid">
+            <button class="planner-theme-chip" data-planner-theme="sea">🌊 Mare / Relax <span class="planner-theme-stars">＋</span></button>
+            <button class="planner-theme-chip" data-planner-theme="trekking">🥾 Trekking <span class="planner-theme-stars">＋</span></button>
+            <button class="planner-theme-chip" data-planner-theme="nature">🌿 Natura <span class="planner-theme-stars">＋</span></button>
+            <button class="planner-theme-chip" data-planner-theme="geology">🪨 Geologia <span class="planner-theme-stars">＋</span></button>
+            <button class="planner-theme-chip" data-planner-theme="culture">🏛️ Cultura / Storia <span class="planner-theme-stars">＋</span></button>
+            <button class="planner-theme-chip" data-planner-theme="food">🍛 Food / Street food <span class="planner-theme-stars">＋</span></button>
+            <button class="planner-theme-chip" data-planner-theme="photography">📸 Fotografia <span class="planner-theme-stars">＋</span></button>
+            <button class="planner-theme-chip" data-planner-theme="adventure">🧗 Avventura <span class="planner-theme-stars">＋</span></button>
+            <button class="planner-theme-chip" data-planner-theme="local">💎 Very Local <span class="planner-theme-stars">＋</span></button>
+            <button class="planner-theme-chip" data-planner-theme="market">🛍️ Mercati / Shopping <span class="planner-theme-stars">＋</span></button>
+            <button class="planner-theme-chip" data-planner-theme="experience">🍹 Rum / Tè / Esperienze <span class="planner-theme-stars">＋</span></button>
+        </div>
+
+        <span class="planner-section-label">ZONA DELL'ISOLA · selezione multipla</span>
+        <div class="planner-chip-grid">
+            <button class="planner-zone-chip" data-planner-zone="west">Ovest / Tamarin</button>
+            <button class="planner-zone-chip" data-planner-zone="southwest">Sud-Ovest / Le Morne-Chamarel</button>
+            <button class="planner-zone-chip" data-planner-zone="south">Sud / Souillac-Gris Gris</button>
+            <button class="planner-zone-chip" data-planner-zone="southeast">Sud-Est / Mahébourg-Blue Bay</button>
+            <button class="planner-zone-chip" data-planner-zone="east">Est / Flacq-Belle Mare</button>
+            <button class="planner-zone-chip" data-planner-zone="north">Nord / Grand Baie-Cap Malheureux</button>
+            <button class="planner-zone-chip" data-planner-zone="portlouis">Port Louis / Centro-Nord</button>
+            <button class="planner-zone-chip" data-planner-zone="center">Centro / Ganga Talao-Curepipe</button>
+        </div>
+
+        <div class="planner-fields">
+            <div class="planner-field">
+                <label>Intensità</label>
+                <select id="planner-intensity">
+                    <option value="relaxed">Rilassata</option>
+                    <option value="balanced">Equilibrata</option>
+                    <option value="intense">Intensa</option>
+                </select>
+            </div>
+
+            <div class="planner-field">
+                <label>Partenza / avvio</label>
+                <input id="planner-start" type="time">
+            </div>
+
+            <div class="planner-field">
+                <label id="planner-end-label">Rientro a Veranda Tamarin</label>
+                <input id="planner-end" type="time">
+            </div>
+
+            <div class="planner-field">
+                <label>Libreria</label>
+                <button id="planner-open-library" class="planner-secondary-button" type="button">📚 Giornate salvate</button>
+            </div>
+
+            <div class="planner-field full">
+                <label>Vincoli / desideri</label>
+                <textarea id="planner-constraints" placeholder="Es. voglio il tramonto, pranzo locale, niente trekking lungo, includere assolutamente Ganga Talao..."></textarea>
+            </div>
+        </div>
+
+        <div class="planner-actions">
+            <button id="planner-generate" class="planner-primary-button" type="button">✨ Proponi giornata</button>
+        </div>
+
+        <div id="planner-status" class="planner-status">Scegli tipologie, zona e intensità. Puoi combinare più temi e più aree.</div>
+        <div id="planner-day-health" class="planner-day-health"></div>
+        <div id="planner-preview" class="planner-preview"></div>
+    </section>
+
+    <section class="planner-workbench">
+        <div class="planner-workbench-head">
+            <div>
+                <span>GIORNATA IN LAVORAZIONE</span>
+                <h2>🧩 Costruisci, modifica e ricalcola</h2>
+            </div>
+            <div id="planner-map-note" class="planner-map-note">Percorso della giornata corrente</div>
+        </div>
+
+        <div class="planner-smart-toolbar">
+            <button id="add-stop" class="toolbar-button">＋ Aggiungi tappa</button>
+            <button id="planner-recalculate" class="toolbar-button primary">🔄 Ricalcola giornata</button>
+            <button id="planner-optimize" class="toolbar-button primary">✨ Ottimizza</button>
+            <button id="planner-save" class="toolbar-button">💾 Salva giornata</button>
+            <button id="reset-day" class="toolbar-button warning">↺ Ripristina giorno</button>
+        </div>
+
+        <div id="planner-route-map"></div>
+
+        <div class="planner-workbench-timeline">
+            <h3>Timeline modificabile</h3>
+            <div id="planner-working-timeline" class="timeline"></div>
+        </div>
+    </section>
+
+    </div>
+
+    <div id="planner-final-view" class="planner-view-panel final-readonly" hidden>
+
+        <div class="edit-toolbar final-toolbar">
+            <button id="planner-edit-in-smart" class="toolbar-button primary">✏️ Modifica nello Smart Planner</button>
+            <button id="recalculate-ai" class="toolbar-button">🌦️ Adatta a oggi</button>
+            <a href="here.html" class="toolbar-button" style="display:flex;align-items:center;justify-content:center;text-decoration:none;">📍 Sono qui</a>
+        </div>
+
+        <section id="day-overview" class="day-card"></section>
 
     <section id="live-day-card" class="day-card live-day-card">
         <div class="live-day-head">
@@ -790,6 +1488,8 @@
         <div class="day-complete-note">
             Lo stato viene salvato sul dispositivo e resta anche riaprendo l'app.
         </div>
+    </div>
+
     </div>
 
 </div>
@@ -868,11 +1568,83 @@
     </div>
 </div>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="live-data.js"></script>
-<script src="travel-store.js"></script>
-<script src="itinerary.js"></script>
-<script src="itinerary-flex.js"></script>
 
+<div id="planner-library-modal" class="planner-modal-backdrop">
+    <div class="planner-modal-sheet">
+        <h2>📚 Libreria giornate</h2>
+        <p class="planner-modal-note">Travel Explorer e Dede restano sempre originali. Quando li usi in un giorno lavori su una copia modificabile. Le tue giornate salvate sono invece personali.</p>
+        <div id="planner-library-list"></div>
+        <div class="planner-actions">
+            <button class="planner-secondary-button" data-close-planner-modal="planner-library-modal">Chiudi</button>
+        </div>
+    </div>
+</div>
+
+<div id="planner-save-modal" class="planner-modal-backdrop">
+    <div class="planner-modal-sheet">
+        <h2>💾 Salva giornata</h2>
+        <p class="planner-modal-note">Salva la giornata corrente come template personale riutilizzabile.</p>
+        <div class="planner-field">
+            <label>Nome giornata</label>
+            <input id="planner-save-name" type="text" placeholder="Es. Sud-Ovest geologia + food">
+        </div>
+        <div class="planner-actions">
+            <button id="planner-confirm-save" class="planner-primary-button">Salva</button>
+            <button class="planner-secondary-button" data-close-planner-modal="planner-save-modal">Annulla</button>
+        </div>
+    </div>
+</div>
+
+<div id="planner-edit-modal" class="planner-modal-backdrop">
+    <div class="planner-modal-sheet">
+        <h2>✏️ Modifica tappa</h2>
+        <input id="planner-edit-index" type="hidden">
+        <div class="planner-fields">
+            <div class="planner-field full">
+                <label>Titolo</label>
+                <input id="planner-edit-title" type="text">
+            </div>
+            <div class="planner-field">
+                <label>Durata (min)</label>
+                <input id="planner-edit-duration" type="number" min="0" step="5">
+            </div>
+            <div class="planner-field">
+                <label>Orario vincolato (facoltativo)</label>
+                <input id="planner-edit-fixed-time" type="time">
+            </div>
+            <div class="planner-field full">
+                <label>Sposta in un'altra giornata</label>
+                <select id="planner-edit-move-day"></select>
+            </div>
+            <div class="planner-field full">
+                <label>Nota</label>
+                <textarea id="planner-edit-description"></textarea>
+            </div>
+        </div>
+        <div class="planner-actions">
+            <button id="planner-edit-save" class="planner-primary-button">Salva modifica</button>
+            <button class="planner-secondary-button" data-close-planner-modal="planner-edit-modal">Annulla</button>
+        </div>
+    </div>
+</div>
+
+<div id="planner-optimize-modal" class="planner-modal-backdrop">
+    <div class="planner-modal-sheet">
+        <h2>✨ Ottimizzazione giornata</h2>
+        <p class="planner-modal-note">Questa funzione può cambiare l'ordine delle tappe. Il nuovo piano viene solo proposto: decidi tu se applicarlo.</p>
+        <div id="planner-optimize-result"></div>
+        <div class="planner-actions">
+            <button id="planner-apply-optimization" class="planner-primary-button">Applica proposta</button>
+            <button class="planner-secondary-button" data-close-planner-modal="planner-optimize-modal">Mantieni il mio ordine</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" onerror="this.onerror=null;this.src='https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js'"></script>
+<script src="live-data.js?v=v12-stable"></script>
+<script src="travel-store.js?v=v12-stable"></script>
+<script src="itinerary-v12.js?v=v12-stable"></script>
+
+<script src="pwa-register.js"></script>
 </body>
 </html>

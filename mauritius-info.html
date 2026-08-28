@@ -2,10 +2,18 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0c6ea8">
     <title>Cose da sapere | Travel Explorer</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="icon" href="icons/favicon-64.png">
+
     <link rel="stylesheet" href="style.css">
+
     <style>
+        * { box-sizing: border-box; }
+
         body {
             margin: 0;
             background: #f5f5f7;
@@ -14,7 +22,7 @@
         }
 
         .page {
-            max-width: 820px;
+            max-width: 860px;
             margin: 0 auto;
             padding: 20px 16px 80px;
         }
@@ -23,7 +31,7 @@
             display: flex;
             align-items: center;
             gap: 14px;
-            margin-bottom: 16px;
+            margin-bottom: 14px;
         }
 
         .header h1 {
@@ -31,34 +39,63 @@
             font-size: 28px;
         }
 
-        .card {
-            padding: 16px;
-            margin-bottom: 12px;
-            border-radius: 22px;
-            background: white;
-            box-shadow: 0 5px 20px rgba(0,0,0,.05);
+        .hero {
+            padding: 18px;
+            margin-bottom: 13px;
+            border-radius: 24px;
+            background:
+                linear-gradient(
+                    145deg,
+                    #eaf7ff 0%,
+                    #f0fbf2 55%,
+                    #fff8ec 100%
+                );
+            box-shadow: 0 6px 22px rgba(0,0,0,.05);
         }
 
-        .card h2 {
-            margin: 0 0 10px;
-            font-size: 18px;
+        .hero-kicker {
+            color: #6f7a82;
+            font-size: 9px;
+            font-weight: 800;
+            letter-spacing: .8px;
+            text-transform: uppercase;
         }
 
-        .card h3 {
-            margin: 14px 0 6px;
-            font-size: 14px;
+        .hero h2 {
+            margin: 5px 0 8px;
+            font-size: 23px;
+            letter-spacing: -.4px;
         }
 
-        .card p,
-        .card li {
-            color: #626267;
+        .hero p {
+            margin: 0;
+            color: #5f666b;
             font-size: 11px;
             line-height: 1.55;
         }
 
-        .card ul {
-            margin: 7px 0 0;
-            padding-left: 20px;
+        .quick-nav {
+            display: flex;
+            gap: 7px;
+            overflow-x: auto;
+            padding: 2px 0 12px;
+            scrollbar-width: none;
+        }
+
+        .quick-nav::-webkit-scrollbar {
+            display: none;
+        }
+
+        .quick-nav a {
+            flex: 0 0 auto;
+            padding: 8px 10px;
+            border-radius: 12px;
+            background: white;
+            color: #414147;
+            text-decoration: none;
+            font-size: 9px;
+            font-weight: 800;
+            box-shadow: 0 3px 12px rgba(0,0,0,.045);
         }
 
         .note {
@@ -71,27 +108,142 @@
             margin-bottom: 13px;
         }
 
-        .link-card {
-            display: block;
-            padding: 12px;
-            margin-top: 7px;
+        .verified {
+            background: #edf8f1;
+            color: #2c6840;
+        }
+
+        .card {
+            padding: 16px;
+            margin-bottom: 12px;
+            border-radius: 22px;
+            background: white;
+            box-shadow: 0 5px 20px rgba(0,0,0,.05);
+            scroll-margin-top: 14px;
+        }
+
+        .card h2 {
+            margin: 0 0 9px;
+            font-size: 18px;
+        }
+
+        .card h3 {
+            margin: 14px 0 6px;
+            font-size: 14px;
+        }
+
+        .card p,
+        .card li {
+            color: #626267;
+            font-size: 11px;
+            line-height: 1.58;
+        }
+
+        .card ul {
+            margin: 7px 0 0;
+            padding-left: 20px;
+        }
+
+        .card li + li {
+            margin-top: 5px;
+        }
+
+        .facts-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0,1fr));
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .fact {
+            padding: 11px;
             border-radius: 14px;
             background: #f5f5f7;
-            color: #1d1d1f;
-            text-decoration: none;
-            font-size: 11px;
-            font-weight: 700;
         }
 
-        .day {
-            padding: 13px;
-            margin-top: 9px;
-            border-radius: 16px;
+        .fact span {
+            display: block;
+            color: #8b8b90;
+            font-size: 8px;
+            font-weight: 800;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+        }
+
+        .fact strong {
+            display: block;
+            font-size: 13px;
+        }
+
+        .timeline {
+            display: grid;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .timeline-item {
+            display: grid;
+            grid-template-columns: 74px 1fr;
+            gap: 10px;
+            padding: 11px;
+            border-radius: 14px;
             background: #f5f5f7;
         }
 
-        .day strong {
+        .timeline-item strong {
+            font-size: 10px;
+        }
+
+        .timeline-item p {
+            margin: 0;
+            font-size: 10px;
+        }
+
+        .coast-grid {
+            display: grid;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .coast {
+            padding: 12px;
+            border-radius: 15px;
+            background: #f5f5f7;
+        }
+
+        .coast strong {
+            display: block;
             font-size: 12px;
+            margin-bottom: 4px;
+        }
+
+        .coast p {
+            margin: 0;
+            font-size: 10px;
+        }
+
+        .weather-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0,1fr));
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .weather-box {
+            padding: 11px;
+            border-radius: 14px;
+            background: #f5f5f7;
+        }
+
+        .weather-box span {
+            display: block;
+            color: #8a8a90;
+            font-size: 8px;
+            margin-bottom: 3px;
+        }
+
+        .weather-box strong {
+            font-size: 13px;
         }
 
         .pill-row {
@@ -104,13 +256,64 @@
         .pill {
             padding: 6px 8px;
             border-radius: 10px;
-            background: white;
+            background: #f5f5f7;
             font-size: 9px;
             font-weight: 700;
             color: #5d5d62;
         }
-</style>
+
+        .link-grid {
+            display: grid;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .link-card {
+            display: block;
+            padding: 13px;
+            border-radius: 15px;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            text-decoration: none;
+        }
+
+        .link-card strong {
+            display: block;
+            font-size: 11px;
+            margin-bottom: 3px;
+        }
+
+        .link-card span {
+            display: block;
+            color: #747479;
+            font-size: 9px;
+            line-height: 1.4;
+        }
+
+        .source-note {
+            margin-top: 12px;
+            color: #8b8b90;
+            font-size: 8.5px;
+            line-height: 1.45;
+        }
+
+        @media (min-width: 680px) {
+            .facts-grid {
+                grid-template-columns: repeat(4, minmax(0,1fr));
+            }
+
+            .weather-grid {
+                grid-template-columns: repeat(5, minmax(0,1fr));
+            }
+
+            .coast-grid,
+            .link-grid {
+                grid-template-columns: repeat(2, minmax(0,1fr));
+            }
+        }
+    </style>
 </head>
+
 <body>
 <div class="page">
 
@@ -119,100 +322,586 @@
         <h1>🇲🇺 Cose da sapere</h1>
     </header>
 
-    <div class="note">
-        Questa pagina raccoglie soprattutto gli appunti del Dede File.
-        Trattali come promemoria di viaggio: prezzi, regole, servizi e orari vanno ricontrollati se diventano decisivi.
+
+    <section class="hero">
+        <div class="hero-kicker">Mauritius · guida rapida</div>
+        <h2>Capire l’isola prima di esplorarla</h2>
+        <p>
+            Una mini-guida dentro Travel Explorer: storia, geologia, natura, spiagge,
+            clima, cultura e informazioni pratiche. I dati generali sono ricavati da fonti
+            governative e turistiche ufficiali; le note personali restano separate e riconoscibili.
+        </p>
+    </section>
+
+
+    <nav class="quick-nav">
+        <a href="#isola">🌍 Isola</a>
+        <a href="#storia">📖 Storia</a>
+        <a href="#geologia">🌋 Geologia</a>
+        <a href="#natura">🌿 Natura</a>
+        <a href="#spiagge">🌊 Spiagge</a>
+        <a href="#meteo">🌦️ Meteo</a>
+        <a href="#cultura">🛕 Cultura</a>
+        <a href="#pratico">🧭 Pratico</a>
+        <a href="#link">🔗 Link</a>
+    </nav>
+
+
+    <div class="note verified">
+        ✓ Contenuti generali verificati con fonti ufficiali/istituzionali.
+        Per meteo, mare, voli, prezzi e servizi usa sempre i link live in fondo alla pagina.
     </div>
 
-    <section id="guida" class="card">
-        <h2>🚗 Guida & rotonde</h2>
+
+    <!-- ISOLA ================================================= -->
+
+    <section id="isola" class="card">
+        <h2>🌍 Mauritius in breve</h2>
+
+        <p>
+            Mauritius si trova nell’Oceano Indiano sud-occidentale, poco a nord del Tropico del
+            Capricorno, e fa parte delle Mascarene insieme a Réunion e Rodrigues. L’isola principale
+            è di origine vulcanica ed è quasi interamente circondata da barriera corallina:
+            all’interno si sviluppano lagune relativamente protette, mentre il settore meridionale
+            presenta tratti più rocciosi ed esposti.
+        </p>
+
+        <div class="facts-grid">
+            <div class="fact">
+                <span>Superficie isola</span>
+                <strong>≈ 1.864 km²</strong>
+            </div>
+
+            <div class="fact">
+                <span>Origine</span>
+                <strong>Vulcanica</strong>
+            </div>
+
+            <div class="fact">
+                <span>Quota massima</span>
+                <strong>828 m</strong>
+            </div>
+
+            <div class="fact">
+                <span>Clima</span>
+                <strong>Tropicale marittimo</strong>
+            </div>
+        </div>
+
+        <p class="source-note">
+            Fonti: Government of Mauritius · Mauritius Now · National Parks and Conservation Service.
+        </p>
+    </section>
+
+
+    <!-- STORIA ================================================= -->
+
+    <section id="storia" class="card">
+        <h2>📖 Storia dell’isola</h2>
+
+        <p>
+            La storia mauriziana spiega molto di ciò che si vede oggi: lingue, religioni,
+            cucina, architettura, piantagioni di canna da zucchero e distribuzione dei luoghi
+            di culto. La popolazione attuale è il risultato dell’incontro tra Africa, India,
+            Cina ed Europa.
+        </p>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <strong>1500–1598</strong>
+                <p>
+                    Marinai arabi e malesi conoscevano probabilmente l’isola già prima dei
+                    portoghesi. I portoghesi la visitarono nel XVI secolo ma non vi crearono
+                    insediamenti permanenti.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <strong>1598–1710</strong>
+                <p>
+                    Periodo olandese. L’isola viene chiamata Mauritius in onore di Maurizio di Nassau.
+                    Gli olandesi introducono tra l’altro canna da zucchero, cervi e animali domestici.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <strong>1715–1810</strong>
+                <p>
+                    Periodo francese. L’isola diventa Isle de France e Port Louis cresce come
+                    base navale e commerciale dell’Oceano Indiano.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <strong>1810–1968</strong>
+                <p>
+                    Dominazione britannica. La schiavitù viene abolita nel 1835; successivamente
+                    arrivano centinaia di migliaia di lavoratori a contratto, in gran parte dall’India.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <strong>12 mar 1968</strong>
+                <p>
+                    Mauritius ottiene l’indipendenza dal Regno Unito.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <strong>12 mar 1992</strong>
+                <p>
+                    Mauritius diventa una repubblica.
+                </p>
+            </div>
+        </div>
+
+        <h3>Luoghi che raccontano questa storia</h3>
+        <div class="pill-row">
+            <span class="pill">Aapravasi Ghat</span>
+            <span class="pill">Le Morne Cultural Landscape</span>
+            <span class="pill">Frederik Hendrik Museum</span>
+            <span class="pill">Mahébourg Museum</span>
+            <span class="pill">Martello Tower La Preneuse</span>
+            <span class="pill">Port Louis</span>
+        </div>
+
+        <p class="source-note">
+            Fonte principale: Mauritius Now – History of Mauritius.
+        </p>
+    </section>
+
+
+    <!-- GEOLOGIA =============================================== -->
+
+    <section id="geologia" class="card">
+        <h2>🌋 Geologia — occhio del geologo</h2>
+
+        <p>
+            Mauritius è il prodotto di attività vulcanica sottomarina legata alla storia delle
+            Mascarene. La struttura dell’isola è prevalentemente basaltica e il paesaggio attuale
+            deriva dalla sovrapposizione di diverse fasi vulcaniche e da milioni di anni di erosione.
+            Le montagne più spettacolari sono in gran parte resti profondamente erosi dell’antico
+            edificio vulcanico.
+        </p>
+
+        <ul>
+            <li>
+                La formazione dell’isola risale a circa 8–10 milioni di anni fa secondo
+                l’Observatoire de l’Environnement del Governo di Mauritius.
+            </li>
+            <li>
+                Il vulcanismo che ha costruito Mauritius è oggi inattivo; le ultime attività
+                vulcaniche dell’isola sono stimate nell’ordine di decine di migliaia di anni fa.
+            </li>
+            <li>
+                Il substrato dell’isola è dominato da rocce basaltiche; il rilievo comprende
+                plateau centrali, antichi apparati, gole, valli fluviali, cascate e pianure costiere.
+            </li>
+            <li>
+                Trou aux Cerfs è uno dei coni vulcanici più leggibili sul terreno.
+            </li>
+            <li>
+                Le profonde incisioni di Black River Gorges mostrano bene l’effetto dell’erosione
+                sull’edificio basaltico.
+            </li>
+            <li>
+                La costa sud espone un paesaggio molto diverso dalle lagune protette:
+                falesie, promontori e onde oceaniche rendono più evidente il rapporto tra
+                lava, erosione marina e morfologia costiera.
+            </li>
+        </ul>
+
+        <h3>Da guardare sul terreno</h3>
+        <div class="pill-row">
+            <span class="pill">Trou aux Cerfs</span>
+            <span class="pill">Le Morne Brabant</span>
+            <span class="pill">Black River Gorges</span>
+            <span class="pill">Chamarel</span>
+            <span class="pill">Gris Gris</span>
+            <span class="pill">Rochester Falls</span>
+            <span class="pill">Pont Naturel</span>
+        </div>
+
+        <p class="source-note">
+            Fonti: Government of Mauritius – Landforms; Observatoire de l’Environnement – Volcanoes/Mainland Mauritius.
+        </p>
+    </section>
+
+
+    <!-- NATURA ================================================= -->
+
+    <section id="natura" class="card">
+        <h2>🌿 Natura e biodiversità</h2>
+
+        <p>
+            L’isolamento oceanico ha favorito un’elevata endemizzazione. Molte specie originarie
+            sono oggi concentrate nelle aree protette e nei progetti di conservazione, perché
+            l’introduzione di specie aliene ha modificato profondamente gli ecosistemi terrestri.
+        </p>
+
+        <div class="facts-grid">
+            <div class="fact">
+                <span>Specie vegetali</span>
+                <strong>≈ 900</strong>
+            </div>
+
+            <div class="fact">
+                <span>Endemiche</span>
+                <strong>311</strong>
+            </div>
+
+            <div class="fact">
+                <span>Black River Gorges</span>
+                <strong>≈ 6.574 ha</strong>
+            </div>
+
+            <div class="fact">
+                <span>Sentieri BRG</span>
+                <strong>≈ 60 km</strong>
+            </div>
+        </div>
+
+        <h3>Tre ambienti da non confondere</h3>
+        <ul>
+            <li>
+                <strong>Foreste umide dell’altopiano:</strong> più fresche e piovose,
+                soprattutto verso Black River Gorges e le quote centrali.
+            </li>
+            <li>
+                <strong>Foreste più secche / bassopiano:</strong> clima e vegetazione cambiano
+                rapidamente scendendo verso la costa occidentale.
+            </li>
+            <li>
+                <strong>Lagune e barriera corallina:</strong> ecosistemi completamente diversi,
+                con coralli, pesci di barriera, fanerogame marine e zone protette.
+            </li>
+        </ul>
+
+        <h3>Aree naturali chiave</h3>
+        <div class="pill-row">
+            <span class="pill">Black River Gorges NP</span>
+            <span class="pill">Bras d’Eau NP</span>
+            <span class="pill">Blue Bay Marine Park</span>
+            <span class="pill">Île aux Aigrettes</span>
+            <span class="pill">Pointe d’Esny</span>
+            <span class="pill">Vallée de Ferney</span>
+        </div>
+
+        <p class="source-note">
+            Fonti: National Parks and Conservation Service; Government of Mauritius – Flora;
+            Marine Conservation Division.
+        </p>
+    </section>
+
+
+    <!-- SPIAGGE ================================================ -->
+
+    <section id="spiagge" class="card">
+        <h2>🌊 Spiagge e coste: come leggerle</h2>
+
+        <p>
+            Mauritius non ha una costa uniforme. La barriera corallina protegge molte lagune,
+            ma esposizione agli alisei, orientazione della costa e presenza/assenza di reef
+            cambiano molto l’esperienza del mare.
+        </p>
+
+        <div class="coast-grid">
+            <div class="coast">
+                <strong>🌅 Ovest</strong>
+                <p>
+                    Tamarin, La Preneuse, Flic en Flac e parte del settore di Le Morne.
+                    Costa perfetta per tramonti, snorkeling e giornate combinate con attività
+                    dell’interno. Flic en Flac ha una lunga laguna; Le Morne è però più esposto al vento.
+                </p>
+            </div>
+
+            <div class="coast">
+                <strong>🌬️ Est</strong>
+                <p>
+                    Belle Mare, Palmar e Trou d’Eau Douce. Spiagge lunghe, acque molto chiare
+                    e lagune ampie. La brezza è frequente durante gran parte dell’anno:
+                    ottima per sport d’acqua, meno ideale se cerchi una giornata completamente calma.
+                </p>
+            </div>
+
+            <div class="coast">
+                <strong>🏖️ Nord</strong>
+                <p>
+                    Mont Choisy e Trou aux Biches sono tra le zone classiche per bagno,
+                    acque più tranquille e atmosfera più vivace, con ristoranti e servizi nelle vicinanze.
+                </p>
+            </div>
+
+            <div class="coast">
+                <strong>🌊 Sud / Sud-Est</strong>
+                <p>
+                    Blue Bay e Pointe d’Esny offrono lagune e ambienti marini importanti.
+                    Più a sud la costa diventa selvaggia, rocciosa ed esposta: Gris Gris e Roche Qui Pleure
+                    sono soprattutto luoghi da osservare, non da trattare come normali spiagge balneabili.
+                </p>
+            </div>
+        </div>
+
+        <h3>Le nostre priorità mare</h3>
+        <div class="pill-row">
+            <span class="pill">Blue Bay → snorkeling</span>
+            <span class="pill">Flic en Flac → tramonto + mare</span>
+            <span class="pill">Le Morne → paesaggio + vento/kite</span>
+            <span class="pill">Belle Mare → lunga spiaggia est</span>
+            <span class="pill">Pointe d’Esny → laguna</span>
+        </div>
+
+        <p class="source-note">
+            Fonti: Mauritius Now – Best Beaches, Le Morne Beach, Belle Mare Beach, Blue Bay;
+            Government of Mauritius – Blue Bay Marine Park.
+        </p>
+    </section>
+
+
+    <!-- METEO ================================================== -->
+
+    <section id="meteo" class="card">
+        <h2>🌦️ Meteo e settembre 2026</h2>
+
+        <p>
+            Mauritius ha un clima tropicale marittimo con due stagioni principali.
+            Settembre cade nel periodo relativamente fresco e più secco dell’inverno australe.
+            La costa è generalmente più calda dell’altopiano centrale.
+        </p>
+
+        <h3>Medie previste per settembre 2026</h3>
+
+        <div class="weather-grid">
+            <div class="weather-box">
+                <span>OVEST</span>
+                <strong>27.7 / 17.9 °C</strong>
+            </div>
+
+            <div class="weather-box">
+                <span>NORD</span>
+                <strong>26.9 / 17.2 °C</strong>
+            </div>
+
+            <div class="weather-box">
+                <span>EST</span>
+                <strong>24.8 / 18.0 °C</strong>
+            </div>
+
+            <div class="weather-box">
+                <span>SUD</span>
+                <strong>25.8 / 19.4 °C</strong>
+            </div>
+
+            <div class="weather-box">
+                <span>CENTRO</span>
+                <strong>23.4 / 16.6 °C</strong>
+            </div>
+        </div>
+
+        <p>
+            Il Winter Outlook 2026 dei Mauritius Meteorological Services prevede per l’inverno
+            2026 precipitazioni complessivamente leggermente sotto la norma, ma più frequenti
+            sull’altopiano centrale, a est e a sud. I venti dominanti sono previsti da est-sud-est,
+            generalmente nell’ordine di 20–30 km/h, con episodi più intensi in presenza di anticicloni.
+        </p>
+
+        <div class="note">
+            Queste sono medie e indicazioni stagionali, non una previsione giorno per giorno.
+            Per decidere Le Morne, est, snorkeling o trekking useremo sempre il meteo live dell’app
+            e i bollettini ufficiali nei giorni del viaggio.
+        </div>
+
+        <h3>Tradotto per il nostro viaggio</h3>
+        <ul>
+            <li>
+                <strong>Ovest/Tamarin:</strong> in settembre è statisticamente più caldo dell’est
+                ed è una buona base per giornate flessibili.
+            </li>
+            <li>
+                <strong>Est:</strong> controllare sempre vento e nuvolosità prima di dedicarci
+                una giornata mare completa.
+            </li>
+            <li>
+                <strong>Centro/Black River Gorges:</strong> portare sempre uno strato leggero
+                e qualcosa per la pioggia anche se sulla costa c’è sole.
+            </li>
+            <li>
+                <strong>Le Morne:</strong> gli alisei possono essere significativi;
+                Mauritius Now indica il periodo aprile–novembre come particolarmente favorevole al kitesurf.
+            </li>
+            <li>
+                <strong>Mare aperto:</strong> durante l’inverno possono verificarsi episodi di forte swell,
+                soprattutto sui litorali esposti.
+            </li>
+        </ul>
+
+        <p class="source-note">
+            Fonte principale: Mauritius Meteorological Services – Climate of Mauritius e Winter Outlook 2026.
+        </p>
+    </section>
+
+
+    <!-- CULTURA ================================================= -->
+
+    <section id="cultura" class="card">
+        <h2>🛕 Cultura e identità</h2>
+
+        <p>
+            Mauritius è una società fortemente multiculturale: influenze indiane, africane,
+            cinesi ed europee sono visibili contemporaneamente in religione, lingua, cucina,
+            musica e architettura. È normale incontrare templi hindu, moschee, chiese e pagode
+            nella stessa giornata.
+        </p>
+
+        <div class="pill-row">
+            <span class="pill">Ganga Talao</span>
+            <span class="pill">Aapravasi Ghat</span>
+            <span class="pill">Le Morne UNESCO</span>
+            <span class="pill">Chinatown Port Louis</span>
+            <span class="pill">Mercati locali</span>
+            <span class="pill">Sega</span>
+            <span class="pill">Creolo mauriziano</span>
+        </div>
+
+        <h3>Una chiave per capire la cucina</h3>
+        <p>
+            Anche il cibo è il risultato della stessa stratificazione culturale:
+            curry, biryani, noodles, rougaille, street food indo-mauriziano,
+            influenze creole e francesi convivono nello stesso territorio.
+        </p>
+    </section>
+
+
+    <!-- PRATICO ================================================= -->
+
+    <section id="pratico" class="card">
+        <h2>🧭 Informazioni pratiche</h2>
+
+        <h3>🚗 Guida</h3>
         <ul>
             <li>A Mauritius si guida a sinistra.</li>
-            <li>Le rotonde girano in senso orario; chi è già dentro ha la precedenza.</li>
-            <li>Nel Dede File è annotato di prestare attenzione a sorpassi, autobus, scooter, pedoni e cani soprattutto nei villaggi.</li>
-            <li>Il clacson breve viene spesso usato come segnale di attenzione o cortesia.</li>
-            <li>Porta la patente fisica e scarica una mappa offline prima di entrare nelle zone interne.</li>
+            <li>Le rotonde si percorrono in senso orario; presta attenzione a chi è già impegnato nella rotatoria.</li>
+            <li>Nei villaggi aspettati scooter, autobus, pedoni, cani e manovre meno prevedibili rispetto alle strade europee.</li>
+            <li>Porta con te la patente fisica e scarica mappe offline.</li>
         </ul>
-    </section>
 
-    <section id="parcheggi" class="card">
-        <h2>🅿️ Parcheggi</h2>
+        <h3>🅿️ Parcheggi</h3>
         <ul>
-            <li>Il Dede File segnala parcheggi gratuiti presso molte attrazioni naturali e parchi.</li>
-            <li>In alcune aree urbane vengono indicati i “parking coupons” acquistabili in anticipo.</li>
+            <li>Molte attrazioni naturali dispongono di aree di sosta gratuite o informali.</li>
+            <li>In alcune aree urbane possono essere presenti sistemi di parking coupon.</li>
             <li>Evita le strisce gialle e non lasciare oggetti visibili in auto.</li>
-            <li>Al Veranda Tamarin è annotato un parcheggio per gli ospiti.</li>
         </ul>
-    </section>
 
-    <section id="cash" class="card">
-        <h2>💵 Cash, cambio & ATM</h2>
+        <h3>💵 Cash, cambio e ATM</h3>
         <ul>
-            <li>Tieni contanti per street food, piccoli venditori, parcheggi e mance.</li>
-            <li>Quando prelevi, scegli l'addebito in valuta locale MUR invece della conversione proposta dal terminale.</li>
-            <li>Il Dede File segnala ATM MCB/SBM e un ATM vicino al London Way di Tamarin.</li>
-            <li>È annotato che il cambio in hotel tende a essere meno conveniente rispetto ad altre opzioni.</li>
+            <li>Tieni contanti per street food, piccoli venditori e servizi informali.</li>
+            <li>Quando un ATM o POS propone la conversione in euro, in genere è preferibile pagare/prelevare in MUR e lasciare la conversione alla propria banca/carta.</li>
+            <li>Il convertitore EUR ⇄ MUR è disponibile direttamente nella sezione Budget dell’app.</li>
         </ul>
-    </section>
 
-    <section id="carburante" class="card">
-        <h2>⛽ Carburante</h2>
+        <h3>📶 SIM & Internet</h3>
         <ul>
-            <li>Il Dede File consiglia di fare rifornimento prima di entrare nelle zone montuose e interne.</li>
-            <li>È annotato che molti distributori accettano Visa/Mastercard e che spesso il rifornimento viene effettuato dal personale.</li>
-            <li>I prezzi annotati nel file sono da considerare storici/promemoria e non come dato live.</li>
+            <li>my.t ed Emtel sono tra gli operatori locali più noti.</li>
+            <li>Scarica le mappe offline prima di entrare in zone montuose o remote.</li>
+            <li>Per offerte e prezzi della SIM controlla le condizioni aggiornate al momento dell’arrivo.</li>
         </ul>
-    </section>
 
-    <section id="sim" class="card">
-        <h2>📶 SIM & Internet</h2>
-        <ul>
-            <li>Nel Dede File sono citati my.t ed Emtel come operatori principali.</li>
-            <li>È suggerito l'acquisto della SIM in aeroporto e il test della connessione prima di partire.</li>
-            <li>Scarica Google Maps/Waze offline perché nelle zone montuose il segnale può essere discontinuo.</li>
-            <li>Il Veranda Tamarin è annotato come dotato di Wi-Fi.</li>
-        </ul>
-    </section>
-
-    <section id="food" class="card">
-        <h2>🍛 Mangiare local</h2>
-
-        <h3>Frasi appuntate da Denise</h3>
+        <h3>🍛 Frasi utili per mangiare local</h3>
         <div class="pill-row">
             <span class="pill">Pa met piman → niente peperoncino</span>
             <span class="pill">En ti-pe piman → poco peperoncino</span>
             <span class="pill">Piman a part → peperoncino a parte</span>
-            <span class="pill">No piman → utile per roti/dholl puri</span>
         </div>
 
-        <h3>Dolci e bevande da cercare</h3>
-        <ul>
-            <li>Gato Patate.</li>
-            <li>Alouda.</li>
-            <li>Napolitaine.</li>
-            <li>Pudding di manioca.</li>
-            <li>Poutou.</li>
-        </ul>
-    </section>
-
-    <section id="hotel" class="card">
-        <h2>🏨 Veranda Tamarin</h2>
-        <ul>
-            <li>Nel file è annotato l’Explorer Programme con escursioni, trekking guidati, uscite in mare, kayak ed esperienze culturali/culinarie.</li>
-            <li>È consigliato chiedere al desk già al check-in quali attività e crediti siano effettivamente inclusi nella vostra tariffa.</li>
-            <li>Il file cita anche una possibile navetta per Flic en Flac.</li>
-        </ul>
-    </section>
-
-    <section id="trekking" class="card">
-        <h2>🥾 Trekking</h2>
+        <h3>🥾 Trekking</h3>
         <p>
-            Denise ha raccolto alcuni modelli Decathlon come riferimento:
-            Evadict TR2, Kiprun MT3, Evadict XT8, Quechua MH500 basse e MH500 Light.
-            La nota generale è privilegiare grip su terreno umido, protezione sulla roccia vulcanica e buona traspirazione.
+            Anche quando in costa fa caldo, i sentieri interni possono essere bagnati,
+            fangosi e più freschi. Grip, suola stabile, acqua e protezione da pioggia/vento
+            sono più importanti di una scarpa pesante.
+        </p>
+    </section>
+
+
+    <!-- LINK ==================================================== -->
+
+    <section id="link" class="card">
+        <h2>🔗 Link utili</h2>
+
+        <div class="link-grid">
+
+            <a class="link-card"
+               href="https://mauritiusnow.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+                <strong>🇲🇺 Mauritius Now</strong>
+                <span>Sito turistico ufficiale: zone dell’isola, spiagge, cultura, eventi, food e idee di viaggio.</span>
+            </a>
+
+            <a class="link-card"
+               href="https://metservice.intnet.mu/"
+               target="_blank"
+               rel="noopener noreferrer">
+                <strong>🌦️ Mauritius Meteorological Services</strong>
+                <span>Previsioni, allerte, cicloni, onde, vento, maree e bollettini ufficiali.</span>
+            </a>
+
+            <a class="link-card"
+               href="https://www.tourismauthority.mu/"
+               target="_blank"
+               rel="noopener noreferrer">
+                <strong>🧭 Mauritius Tourism Authority</strong>
+                <span>Autorità turistica, operatori, comunicati e informazioni istituzionali.</span>
+            </a>
+
+            <a class="link-card"
+               href="https://www.govmu.org/EN/Pages/exploremauritius.aspx"
+               target="_blank"
+               rel="noopener noreferrer">
+                <strong>🏛️ Government of Mauritius — Explore Mauritius</strong>
+                <span>Geografia, clima, storia, ambiente e informazioni generali sull’isola.</span>
+            </a>
+
+            <a class="link-card"
+               href="https://npcs.govmu.org/"
+               target="_blank"
+               rel="noopener noreferrer">
+                <strong>🌿 National Parks & Conservation Service</strong>
+                <span>Black River Gorges, Bras d’Eau, biodiversità, sentieri e aree protette.</span>
+            </a>
+
+            <a class="link-card"
+               href="https://ode.govmu.org/volcanoes"
+               target="_blank"
+               rel="noopener noreferrer">
+                <strong>🌋 Observatoire de l’Environnement — Volcanoes</strong>
+                <span>Origine vulcanica e stato dell’attività vulcanica di Mauritius.</span>
+            </a>
+
+            <a class="link-card"
+               href="https://blueconomy.govmu.org/Pages/Departments/Albion%20Fisheries%20Research%20Centre%20%28AFRC%29/Marine%20Conservation%20Division/Marine-Conservation-Division.aspx"
+               target="_blank"
+               rel="noopener noreferrer">
+                <strong>🐠 Marine Conservation Division</strong>
+                <span>Blue Bay Marine Park e aree marine protette.</span>
+            </a>
+
+            <a class="link-card"
+               href="https://mauritius-airport.atol.aero/passengers/flights/flight-schedule"
+               target="_blank"
+               rel="noopener noreferrer">
+                <strong>✈️ Mauritius Airport — Flight Schedule</strong>
+                <span>Orari indicativi di arrivi e partenze; da ricontrollare sempre con la compagnia aerea.</span>
+            </a>
+
+        </div>
+
+        <p class="source-note">
+            Ultimo aggiornamento contenuti: agosto 2026. Le informazioni dinamiche
+            (meteo, voli, prezzi, aperture, operatori) vanno sempre verificate sui link ufficiali.
         </p>
     </section>
 
 </div>
+<script src="pwa-register.js"></script>
 </body>
 </html>

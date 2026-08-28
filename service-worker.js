@@ -1,10 +1,10 @@
 // ======================================================
-// TRAVEL EXPLORER - SERVICE WORKER V6
+// TRAVEL EXPLORER - SERVICE WORKER — V1 STABILE
 // Offline-first per app shell e dati editoriali
 // Runtime cache per mappe/API/risorse esterne già viste
 // ======================================================
 
-const VERSION = "travel-explorer-v6.0";
+const VERSION = "travel-explorer-v1.0.0-stable";
 
 const CORE_CACHE =
     VERSION + "-core";
@@ -45,11 +45,11 @@ const OPTIONAL_ASSETS = [
     "./diary.html",
     "./dede.html",
     "./mauritius-info.html",
+    "./backup.html",
     "./pages/place.html",
 
     "./script.js",
-    "./itinerary.js",
-    "./itinerary-flex.js",
+    "./itinerary-v12.js",
     "./here.js",
     "./live-data.js",
     "./travel-store.js",
@@ -57,6 +57,7 @@ const OPTIONAL_ASSETS = [
     "./documents.js",
     "./checklist.js",
     "./diary.js",
+    "./backup.js",
 
     "./data/places.json",
     "./data/culture.json",
@@ -149,7 +150,9 @@ self.addEventListener(
         if (
             url.hostname.includes(
                 "open-meteo.com"
-            )
+            ) ||
+            url.hostname ===
+                "api.frankfurter.dev"
         ) {
 
             event.respondWith(

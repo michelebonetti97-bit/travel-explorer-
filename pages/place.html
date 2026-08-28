@@ -3,23 +3,171 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    >
+
+    <meta
+        name="theme-color"
+        content="#0c6ea8"
+    >
 
     <title>Travel Explorer</title>
+    <link rel="manifest" href="../manifest.json">
+    <link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+    <link rel="icon" href="../icons/favicon-64.png">
 
-    <link rel="stylesheet" href="../style.css">
+    <link
+        rel="stylesheet"
+        href="../style.css"
+    >
+
+    <style>
+        .place-photo-section {
+            position: relative;
+            overflow: hidden;
+            min-height: 220px;
+            margin: 8px 0 14px;
+            border-radius: 24px;
+            background:
+                linear-gradient(
+                    145deg,
+                    #dceef7 0%,
+                    #edf6ee 55%,
+                    #f7efe0 100%
+                );
+            box-shadow: 0 8px 28px rgba(0,0,0,.08);
+        }
+
+        .place-photo-image {
+            display: none;
+            width: 100%;
+            height: clamp(220px, 52vw, 390px);
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .place-photo-section.has-photo
+        .place-photo-image {
+            display: block;
+        }
+
+        .place-photo-fallback {
+            display: grid;
+            place-content: center;
+            gap: 6px;
+            min-height: 220px;
+            padding: 24px;
+            text-align: center;
+            color: #4f5960;
+        }
+
+        .place-photo-section.has-photo
+        .place-photo-fallback {
+            display: none;
+        }
+
+        .place-photo-fallback-icon {
+            display: block;
+            margin-bottom: 2px;
+            font-size: 38px;
+        }
+
+        .place-photo-fallback strong {
+            font-size: 15px;
+        }
+
+        .place-photo-fallback small {
+            color: #7e878c;
+            font-size: 9px;
+        }
+
+        .place-photo-meta {
+            position: absolute;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            display: none;
+            justify-content: flex-end;
+            pointer-events: none;
+        }
+
+        .place-photo-section.has-photo
+        .place-photo-meta {
+            display: flex;
+        }
+
+        .place-photo-section.no-photo
+        .place-photo-meta {
+            position: static;
+            display: flex;
+            justify-content: center;
+            padding: 0 14px 12px;
+        }
+
+        .place-photo-meta span {
+            max-width: 100%;
+            padding: 6px 8px;
+            border-radius: 9px;
+            background: rgba(20,20,22,.68);
+            color: rgba(255,255,255,.94);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            font-size: 8px;
+            line-height: 1.35;
+            pointer-events: auto;
+        }
+
+        .place-photo-section.no-photo
+        .place-photo-meta span {
+            background: rgba(255,255,255,.62);
+            color: #7b7b80;
+        }
+
+        .place-photo-meta a {
+            color: inherit;
+            font-weight: 800;
+        }
+
+        .place-photo-section.loading::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            transform: translateX(-100%);
+            background:
+                linear-gradient(
+                    90deg,
+                    transparent,
+                    rgba(255,255,255,.34),
+                    transparent
+                );
+            animation:
+                place-photo-loading 1.35s infinite;
+        }
+
+        @keyframes place-photo-loading {
+            100% {
+                transform: translateX(100%);
+            }
+        }
+    </style>
 </head>
+
 
 <body class="detail-body">
 
-<div id="place-page" class="place-page">
-
-
-    <!-- HEADER ================================================= -->
+<div
+    id="place-page"
+    class="place-page"
+>
 
     <header class="detail-header">
 
-        <a href="../map.html" class="back-button">
+        <a
+            href="../map.html"
+            class="back-button"
+        >
             ←
         </a>
 
@@ -38,315 +186,263 @@
     </header>
 
 
-    <!-- TAG ==================================================== -->
+    <!-- FOTO DEL LUOGO ======================================== -->
+
+    <section
+        id="place-photo-section"
+        class="place-photo-section loading"
+        aria-label="Anteprima fotografica del luogo"
+    >
+
+        <img
+            id="place-photo-image"
+            class="place-photo-image"
+            alt=""
+        >
+
+        <div
+            id="place-photo-fallback"
+            class="place-photo-fallback"
+        >
+            <span class="place-photo-fallback-icon">📷</span>
+            <strong>Cerco una foto del luogo…</strong>
+            <small>Wikimedia / Wikipedia</small>
+        </div>
+
+        <div
+            id="place-photo-meta"
+            class="place-photo-meta"
+        ></div>
+
+    </section>
+
 
     <div
         id="place-categories"
-        class="place-tags">
-    </div>
+        class="place-tags"
+    ></div>
 
-
-    <!-- DATI RAPIDI ============================================ -->
 
     <section
         id="quick-info-section"
-        class="quick-info-grid">
+        class="quick-info-grid"
+    >
 
         <div
             id="rating-box"
-            class="quick-info-box">
-
+            class="quick-info-box"
+        >
             <span class="quick-icon">⭐</span>
-
             <strong id="quick-rating">—</strong>
-
             <small id="quick-reviews"></small>
-
         </div>
 
-
         <div class="quick-info-box">
-
             <span class="quick-icon">📍</span>
-
             <strong id="place-area">—</strong>
-
             <small>Zona</small>
-
         </div>
-
 
         <div class="quick-info-box">
-
             <span class="quick-icon">⏱️</span>
-
             <strong id="place-duration">—</strong>
-
             <small>Durata</small>
-
         </div>
-
 
         <div
             id="price-box"
-            class="quick-info-box">
-
+            class="quick-info-box"
+        >
             <span class="quick-icon">💰</span>
-
             <strong id="quick-price">—</strong>
-
             <small>Costo</small>
-
         </div>
 
     </section>
 
 
-    <!-- DESCRIZIONE ============================================ -->
-
     <section
         id="description-section"
-        class="info-card">
-
+        class="info-card"
+    >
         <h2>✨ Scopri il luogo</h2>
-
         <p id="place-description"></p>
 
         <div
             id="why-go-container"
-            class="highlight-box">
-
+            class="highlight-box"
+        >
             <strong>Perché andarci</strong>
-
             <p id="place-why-go"></p>
-
         </div>
-
     </section>
 
-
-    <!-- STORIA ================================================= -->
 
     <section
         id="history-section"
-        class="info-card">
-
+        class="info-card"
+    >
         <h2>📖 Storia e cultura</h2>
-
         <p id="place-history"></p>
-
     </section>
 
 
-    <!-- COSA PROVARE =========================================== -->
-
     <section
         id="must-try-section"
-        class="info-card">
-
+        class="info-card"
+    >
         <h2>🍴 Cosa provare</h2>
 
         <div
             id="must-try-list"
-            class="chip-list">
-        </div>
-
+            class="chip-list"
+        ></div>
     </section>
 
-
-    <!-- ATTIVITÀ =============================================== -->
 
     <section
         id="activities-section"
-        class="info-card">
-
+        class="info-card"
+    >
         <h2>🧗 Attività disponibili</h2>
-
         <div id="activity-options"></div>
-
     </section>
 
-
-    <!-- INTERESSI ============================================== -->
 
     <section
         id="interest-section"
-        class="info-card">
-
+        class="info-card"
+    >
         <h2>⭐ Interesse</h2>
-
         <div id="place-interests"></div>
-
     </section>
 
-
-    <!-- ESPERIENZA ============================================= -->
 
     <section
         id="experience-section"
-        class="info-card">
-
+        class="info-card"
+    >
         <h2>🌴 Esperienza</h2>
-
         <div id="experience-content"></div>
-
     </section>
 
-
-    <!-- RECENSIONI ============================================= -->
 
     <section
         id="reviews-section"
-        class="info-card">
-
+        class="info-card"
+    >
         <h2>💬 Recensioni</h2>
-
         <div id="reviews-content"></div>
-
     </section>
 
 
-    <!-- INFORMAZIONI PRATICHE ================================= -->
-
     <section
         id="practical-section"
-        class="info-card">
-
+        class="info-card"
+    >
         <h2>ℹ️ Informazioni pratiche</h2>
 
         <div
             id="practical-content"
-            class="detail-list">
-        </div>
-
+            class="detail-list"
+        ></div>
     </section>
 
-
-    <!-- RISTORANTE ============================================= -->
 
     <section
         id="restaurant-section"
-        class="info-card">
-
+        class="info-card"
+    >
         <h2>🍽️ Ristorante</h2>
-
         <div id="restaurant-content"></div>
-
     </section>
 
-
-    <!-- GEOLOGIA =============================================== -->
 
     <section
         id="geology-section"
-        class="info-card geology-card">
-
+        class="info-card geology-card"
+    >
         <h2>🌋 Occhio del geologo</h2>
-
         <div id="geology-content"></div>
-
     </section>
 
 
-    <!-- CONDIZIONI ============================================= -->
-
     <section
         id="conditions-section"
-        class="info-card">
-
+        class="info-card"
+    >
         <h2>🌦️ Condizioni</h2>
 
         <div
             id="conditions-content"
-            class="detail-list">
-        </div>
-
+            class="detail-list"
+        ></div>
     </section>
 
 
-    <!-- FOTOGRAFIA ============================================= -->
-
     <section
         id="photography-section"
-        class="info-card">
-
+        class="info-card"
+    >
         <h2>📷 Fotografia</h2>
 
         <div
             id="photography-content"
-            class="detail-list">
-        </div>
-
+            class="detail-list"
+        ></div>
     </section>
 
-
-    <!-- VICINO ================================================ -->
 
     <section
         id="nearby-section"
-        class="info-card">
-
+        class="info-card"
+    >
         <h2>📍 Nelle vicinanze</h2>
-
         <div id="nearby-content"></div>
-
     </section>
 
-
-    <!-- NOTE =================================================== -->
 
     <section
         id="notes-section"
-        class="info-card">
-
+        class="info-card"
+    >
         <h2>📝 Note</h2>
-
         <p id="place-notes"></p>
-
     </section>
 
-
-    <!-- APPROFONDIMENTI ======================================= -->
 
     <section
         id="links-section"
-        class="info-card">
-
+        class="info-card"
+    >
         <h2>🔗 Approfondimenti</h2>
-
         <div id="place-links"></div>
-
     </section>
 
-
-    <!-- AZIONI ================================================= -->
 
     <div class="place-actions">
 
         <button
             id="add-itinerary-button"
-            class="primary-action">
-
+            class="primary-action"
+        >
             ＋ Aggiungi all'itinerario
-
         </button>
-
 
         <button
             id="navigate-button"
-            class="secondary-action">
-
+            class="secondary-action"
+        >
             🚗 Portami qui
-
         </button>
 
     </div>
 
-
 </div>
+
 
 <script src="../script.js"></script>
 
+<script src="../pwa-register.js"></script>
 </body>
-
 </html>

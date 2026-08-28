@@ -53,8 +53,8 @@ async function initHere() {
 
     await loadAllHerePOIs();
 
-    initHereMap();
     bindHereControls();
+    initHereMap();
 
 }
 
@@ -1565,6 +1565,15 @@ function renderMiniTour(
 
 function initHereMap() {
 
+    if (typeof L === "undefined") {
+        console.warn("Leaflet non disponibile: Sono qui resta operativo senza mappa.");
+        const map = document.getElementById("here-map");
+        if (map) {
+            map.innerHTML = `<div class="empty-state">🗺️ Mappa non disponibile al momento. Ricerca e consigli restano utilizzabili.</div>`;
+        }
+        return;
+    }
+
     hereMap =
         L.map(
             "here-map",
@@ -1591,6 +1600,10 @@ function initHereMap() {
 
 
 function renderHereMap() {
+
+    if (!hereMap || typeof L === "undefined") {
+        return;
+    }
 
     hereLayers
         .forEach(

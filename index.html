@@ -2,109 +2,56 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Explorer</title>
-
     <meta name="theme-color" content="#0c6ea8">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Travel Explorer">
-
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="64x64" href="icons/favicon-64.png">
+    <link rel="icon" href="icons/favicon-64.png">
     <link rel="stylesheet" href="style.css">
 
     <style>
-        .quick-here {
-            grid-column: 1 / -1;
-            min-height: 92px;
-            background: #1d1d1f;
-            color: white;
+        :root {
+            --soft-blue: #eaf7ff;
+            --soft-green: #f0fbf2;
+            --soft-cream: #fff8ec;
+            --surface: rgba(255,255,255,.90);
+            --surface-strong: #ffffff;
+            --text: #1d1d1f;
+            --muted: #77777c;
+            --shadow: 0 6px 22px rgba(0,0,0,.055);
         }
 
-        .quick-here span {
-            color: white;
+        * {
+            box-sizing: border-box;
         }
 
-        .quick-here small {
-            display: block;
-            margin-top: 5px;
-            color: rgba(255,255,255,.65);
-            font-size: 11px;
-            font-weight: 500;
-        }
-
-        .module-card {
-            text-decoration: none;
-            color: inherit;
-        }
-
-        .home-guide {
-            margin-top: 22px;
-            padding: 18px;
-            border-radius: 24px;
-            background: white;
-            box-shadow: 0 5px 20px rgba(0,0,0,.05);
-        }
-
-        .home-guide h3 {
-            margin: 0 0 5px;
-            font-size: 20px;
-        }
-
-        .home-guide > p {
-            margin: 0 0 13px;
-            color: #77777c;
-            font-size: 11px;
-            line-height: 1.45;
-        }
-
-        .guide-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 8px;
-        }
-
-        .guide-chip {
-            display: block;
-            padding: 12px;
-            border-radius: 15px;
+        html {
             background: #f5f5f7;
-            color: #1d1d1f;
-            text-decoration: none;
-            font-size: 11px;
-            font-weight: 750;
         }
 
-        .guide-footer {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 8px;
-            margin-top: 10px;
+        body {
+            min-height: 100vh;
+            margin: 0;
+            color: var(--text);
+            background:
+                radial-gradient(circle at 12% 4%, rgba(222,243,255,.78), transparent 31%),
+                radial-gradient(circle at 88% 28%, rgba(238,250,239,.76), transparent 30%),
+                linear-gradient(
+                    180deg,
+                    #f8fbfd 0%,
+                    #f6faf7 48%,
+                    #fffaf4 100%
+                );
+            background-attachment: fixed;
         }
 
-        .guide-button {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 48px;
-            border-radius: 15px;
-            text-decoration: none;
-            font-size: 12px;
-            font-weight: 800;
+        .app {
+            padding-bottom: 42px;
         }
 
-        .guide-button.primary {
-            background: #1d1d1f;
-            color: white;
-        }
+        /* HERO ------------------------------------------------ */
 
-        .guide-button.dede {
-            background: #fff1f5;
-            color: #9d3157;
-        }
-    
         .home-hero {
             position: relative;
             width: 100%;
@@ -124,9 +71,9 @@
             background:
                 linear-gradient(
                     180deg,
-                    rgba(0,0,0,.08) 0%,
+                    rgba(0,0,0,.06) 0%,
                     rgba(0,0,0,.12) 38%,
-                    rgba(0,0,0,.48) 100%
+                    rgba(0,0,0,.50) 100%
                 );
         }
 
@@ -163,6 +110,152 @@
             font-weight: 600;
         }
 
+        /* MENU ------------------------------------------------ */
+
+        .menu {
+            gap: 10px;
+        }
+
+        .menu .card {
+            min-height: 94px;
+            border: 1px solid rgba(255,255,255,.70);
+            background: rgba(255,255,255,.92);
+            box-shadow: 0 8px 24px rgba(0,0,0,.055);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            transition:
+                transform .18s ease,
+                box-shadow .18s ease;
+        }
+
+        .menu .card:active {
+            transform: scale(.985);
+        }
+
+        .module-card {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .module-card span {
+            color: var(--text);
+        }
+
+        /* Card importanti con la stessa palette della guida */
+        .quick-here {
+            background:
+                linear-gradient(
+                    145deg,
+                    var(--soft-blue) 0%,
+                    var(--soft-green) 55%,
+                    var(--soft-cream) 100%
+                ) !important;
+            border: 1px solid rgba(255,255,255,.82) !important;
+        }
+
+        .quick-here {
+            grid-column: 1 / -1;
+            min-height: 102px !important;
+            color: var(--text);
+        }
+
+        .quick-here span {
+            color: var(--text);
+        }
+
+        .quick-here small {
+            display: block;
+            margin-top: 5px;
+            color: #71777a;
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        /* GUIDA HOME ----------------------------------------- */
+
+        .home-guide {
+            margin-top: 22px;
+            padding: 19px;
+            border: 1px solid rgba(255,255,255,.76);
+            border-radius: 24px;
+            background:
+                linear-gradient(
+                    145deg,
+                    rgba(234,247,255,.96) 0%,
+                    rgba(240,251,242,.96) 55%,
+                    rgba(255,248,236,.96) 100%
+                );
+            box-shadow: 0 8px 26px rgba(48,86,76,.07);
+        }
+
+        .home-guide h3 {
+            margin: 0 0 5px;
+            font-size: 20px;
+        }
+
+        .home-guide > p {
+            margin: 0 0 13px;
+            color: #687174;
+            font-size: 11px;
+            line-height: 1.48;
+        }
+
+        .guide-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+
+        .guide-chip {
+            display: block;
+            padding: 12px;
+            border: 1px solid rgba(255,255,255,.78);
+            border-radius: 15px;
+            background: rgba(255,255,255,.86);
+            color: #1d1d1f;
+            text-decoration: none;
+            font-size: 11px;
+            font-weight: 750;
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+
+        .guide-footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .guide-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 48px;
+            border-radius: 15px;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 800;
+        }
+
+        .guide-button.primary {
+            background: #1d1d1f;
+            color: white;
+        }
+
+        .guide-button.dede {
+            background: rgba(255,255,255,.86);
+            color: #9d3157;
+            border: 1px solid rgba(255,255,255,.72);
+        }
+        .guide-button.backup {
+            margin-top: 8px;
+            background: rgba(255,255,255,.86);
+            color: #355b55;
+            border: 1px solid rgba(255,255,255,.72);
+        }
+
+
         @media (min-width: 650px) {
             .home-hero {
                 min-height: 310px;
@@ -172,61 +265,11 @@
                 left: 30px;
                 bottom: 28px;
             }
-        }
 
-    
-        .pwa-install-card {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 12px;
-            margin: -4px 0 16px;
-            padding: 12px 14px;
-            border-radius: 17px;
-            background: rgba(255,255,255,.95);
-            box-shadow: 0 5px 18px rgba(0,0,0,.06);
-        }
-
-        .pwa-install-copy {
-            min-width: 0;
-        }
-
-        .pwa-install-copy strong {
-            display: block;
-            margin-bottom: 3px;
-            font-size: 11px;
-        }
-
-        #pwa-install-status {
-            display: block;
-            color: #77777c;
-            font-size: 9px;
-            line-height: 1.35;
-        }
-
-        .pwa-install-button {
-            flex: 0 0 auto;
-            min-height: 38px;
-            padding: 0 11px;
-            border: 0;
-            border-radius: 12px;
-            background: #1d1d1f;
-            color: white;
-            font-size: 10px;
-            font-weight: 800;
-            cursor: pointer;
-        }
-
-        .pwa-install-button[hidden] {
-            display: none;
-        }
-
-        @media (display-mode: standalone) {
-            .pwa-install-card {
-                display: none;
+            .home-guide {
+                padding: 22px;
             }
         }
-
     </style>
 </head>
 
@@ -242,22 +285,6 @@
             <h1>Travel Explorer</h1>
             <p>Il nostro viaggio, tutto in un posto.</p>
         </div>
-    </section>
-
-    <section class="pwa-install-card">
-        <div class="pwa-install-copy">
-            <strong>📲 Travel Explorer come app</strong>
-            <span id="pwa-install-status">Preparazione installazione…</span>
-        </div>
-
-        <button
-            id="install-app-button"
-            class="pwa-install-button"
-            type="button"
-            hidden
-        >
-            Installa
-        </button>
     </section>
 
     <div class="menu">
@@ -301,21 +328,21 @@
     </div>
 
     <section class="home-guide">
-        <h3>🇲🇺 Cose da sapere alle Mauritius</h3>
+        <h3>🇲🇺 Cose da sapere</h3>
         <p>
-            Guida pratica da tenere sotto mano durante il viaggio.
-            Le note raccolte da Denise sono riportate come promemoria: prezzi, orari e regole possono cambiare.
+            Una mini-guida dell’isola da consultare prima e durante il viaggio:
+            storia, geologia, natura, coste, meteo e informazioni pratiche.
         </p>
 
         <div class="guide-grid">
-            <a href="mauritius-info.html#guida" class="guide-chip">🚗 Guida & rotonde</a>
-            <a href="mauritius-info.html#parcheggi" class="guide-chip">🅿️ Parcheggi</a>
-            <a href="mauritius-info.html#cash" class="guide-chip">💵 Cash & ATM</a>
-            <a href="mauritius-info.html#sim" class="guide-chip">📶 SIM & Internet</a>
-            <a href="mauritius-info.html#food" class="guide-chip">🍛 Mangiare local</a>
-            <a href="mauritius-info.html#hotel" class="guide-chip">🏨 Veranda Tamarin</a>
-            <a href="mauritius-info.html#trekking" class="guide-chip">🥾 Trekking</a>
-            <a href="mauritius-info.html#carburante" class="guide-chip">⛽ Carburante</a>
+            <a href="mauritius-info.html#storia" class="guide-chip">📖 Storia</a>
+            <a href="mauritius-info.html#geologia" class="guide-chip">🌋 Geologia</a>
+            <a href="mauritius-info.html#natura" class="guide-chip">🌿 Natura</a>
+            <a href="mauritius-info.html#spiagge" class="guide-chip">🌊 Spiagge</a>
+            <a href="mauritius-info.html#meteo" class="guide-chip">🌦️ Meteo</a>
+            <a href="mauritius-info.html#cultura" class="guide-chip">🛕 Cultura</a>
+            <a href="mauritius-info.html#pratico" class="guide-chip">🧭 Info pratiche</a>
+            <a href="mauritius-info.html#link" class="guide-chip">🔗 Link utili</a>
         </div>
 
         <div class="guide-footer">
@@ -327,10 +354,14 @@
                 💛 Dede File
             </a>
         </div>
+
+        <a href="backup.html" class="guide-button backup">
+            💾 Backup viaggio
+        </a>
     </section>
 
 </div>
 
-    <script src="pwa-register.js"></script>
+<script src="pwa-register.js"></script>
 </body>
 </html>

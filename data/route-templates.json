@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "notes": "Il 13 e il 20 settembre restano fissi. I template sono assegnabili liberamente ai sei giorni centrali. I 6 originali Travel Explorer sono mantenuti; si aggiungono 7 template dal Dede File.",
+  "version": 2,
+  "notes": "Libreria Smart Planner. I template Travel Explorer e Dede sono basi riutilizzabili e non vengono modificati direttamente. Il 13 e il 20 settembre sono giornate modificabili: restano fissi soltanto gli orari dei voli, gestiti dal planner.",
   "templates": [
     {
       "title": "Le Morne + Chamarel",
